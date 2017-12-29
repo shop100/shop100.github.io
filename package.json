@@ -1,0 +1,23 @@
+{
+  "name": "shop100.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shop100/shop100.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shop100/shop100.github.io/issues"
+  },
+  "homepage": "https://github.com/shop100/shop100.github.io#readme",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
+}
