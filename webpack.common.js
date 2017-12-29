@@ -8,7 +8,10 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(['dist']),
         new HtmlWebpackPlugin({
-            title: 'Production'
+            title: 'Shop100.vn',
+            hash: true,
+            template: 'src/index.html',
+            filename: '../index.html'
         })
     ],
     output: {
