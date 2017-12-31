@@ -1,0 +1,62 @@
+[
+  {
+    "icon": "https://www.sololearn.com/Icons/Courses/1051.png",
+    "title": "C++ Tutorial",
+    "description": "Our C++ tutorial covers basic concepts, data types, arrays, pointers, conditional statements, loops, functions, classes, objects, inheritance, and polymorphism."
+  },
+  {
+    "icon": "https://www.sololearn.com/Icons/Courses/1068.png",
+    "title": "Java Tutorial",
+    "description": "With our interactive Java course, you’ll learn object-oriented Java programming and have the ability to write clear and valid code in almost no time at all."
+  },
+  {
+    "icon": "https://www.sololearn.com/Icons/Courses/1073.png",
+    "title": "Python 3 Tutorial",
+    "description": "Learn Python, one of today's most in-demand programming languages on-the-go! Practice writing Python code, collect points, & show off your skills now!"
+  },
+  {
+    "icon": "https://www.sololearn.com/Icons/Courses/1024.png",
+    "title": "JavaScript Tutorial",
+    "description": "Learn all the basic features of JavaScript, including making your website more interactive, changing website content, validating forms, and so much more."
+  },
+  {
+    "icon": "https://www.sololearn.com/Icons/Courses/1080.png",
+    "title": "C# Tutorial",
+    "description": "With our interactive C# Tutorial, you will learn C# programming on-the-go! Practice writing C# code, collect points, & show off your skills."
+  },
+  {
+    "icon": "https://www.sololearn.com/Icons/Courses/1059.png",
+    "title": "PHP Tutorial",
+    "description": "PHP enables you to create dynamic web pages, develop websites, and generate dynamic content. Learn the most widely used web programming language!"
+  },
+  {
+    "icon": "https://www.sololearn.com/Icons/Courses/1075.png",
+    "title": "Swift Fundamentals",
+    "description": "Learn all the main concepts of Swift programming and apply your newly gained knowledge to create your own, fully functioning iOS app!"
+  },
+  {
+    "icon": "https://www.sololearn.com/Icons/Courses/1081.png",
+    "title": "Ruby Tutorial",
+    "description": "Learn Ruby, one of the most beautiful, artful and yet handy programming languages. Practice writing Ruby code, collect points, & show off your skills now!"
+  },
+  {
+    "icon": "https://www.sololearn.com/Icons/Courses/1082.png",
+    "title": "jQuery Tutorial",
+    "description": "Learn all the core features of jQuery, including making your website more interactive, creating effects and animations, handling events, and more!"
+  },
+  {
+    "icon": "https://www.sololearn.com/Icons/Courses/1014.png",
+    "title": "HTML Fundamentals",
+    "description": "This FREE course will teach you how to design a web page using HTML. Complete a series of hands-on exercises and practice while writing real HTML code."
+  },
+  {
+    "icon": "https://www.sololearn.com/Icons/Courses/1023.png",
+    "title": "CSS Fundamentals",
+    "description": "Our CSS course will teach you how to control the style & layout of websites. Complete a series of exercises and practice while filling out actual CSS templates."
+  },
+  {
+    "icon": "https://www.sololearn.com/Icons/Courses/1060.png",
+    "title": "SQL Fundamentals",
+    "description": "This course covers an array of SQL-related topics, such as retrieving, updating and filtering data; functions and subqueries; creating & updating tables; & many more!"
+  }
+]
