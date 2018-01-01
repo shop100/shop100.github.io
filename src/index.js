@@ -1,3 +1,4 @@
+require("./app.scss");
 var RESOURCES = 'https://shop100.github.io/';
 var CourseService = require("./services/CourseService");
 angular
