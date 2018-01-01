@@ -10,6 +10,7 @@ angular
 
 angular
     .module("App", [
+        "ngMaterial",
         "AppServices",
         "AppControllers"
     ])
