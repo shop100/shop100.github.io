@@ -20,12 +20,21 @@
   &.md-whiteframe-z2 {
 
     .nav-header {
-
+      background-color: #106CC8;
+      background: -webkit-linear-gradient(#185694, #106cc8);
+      background: linear-gradient(#185694, #106cc8);
+      border-bottom: 1px solid #267ED5;
+      -webkit-flex-shrink: 0;
+      flex-shrink: 0;
+      z-index: 2;
       .docs-logo {
-
+        text-decoration: unset;
         .docs-logotype {
           &.md-heading {
-
+            color: white;
+            text-align: center;
+            font-weight: 400;
+            font-size: 26px;
           }
         }
       }
