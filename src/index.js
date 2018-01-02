@@ -1,24 +1,2 @@
 require("./app.scss");
-var RESOURCES = 'https://shop100.github.io/';
-var CourseService = require("./services/CourseService");
-angular
-    .module("AppServices", [])
-    .constant("RESOURCES_URL", RESOURCES)
-    .service("CourseService", CourseService)
-;
-angular
-    .module("AppControllers", []);
-
-angular
-    .module("App", [
-        "ngMaterial",
-        "AppServices",
-        "AppControllers"
-    ])
-    .run(["$rootScope",function ($rootScope, $mdSidenav, $mdMedia) {
-        $rootScope.openMenu = function () {
-            $mdSidenav('left').toggle();
-        }
-    }])
-;
-
+require('./app.js');
