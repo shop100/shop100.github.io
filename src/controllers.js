@@ -18,7 +18,7 @@ angular
         var coursesState = {
             name: 'courses',
             url: '/courses',
-            template: ''
+            template: require('./pages/courses.html')
         };
 
         $stateProvider.state(homeState);

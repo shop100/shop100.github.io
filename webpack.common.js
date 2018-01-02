@@ -12,7 +12,13 @@ module.exports = {
             }, {
                 loader: "sass-loader" // compiles Sass to CSS
             }]
-        }]
+        },
+            {
+                test: /\.html$/,
+                use: [
+                    {loader: 'html-loader'}
+                ]
+            }]
     },
     entry: {
         app: './src/index.js'
