@@ -18,6 +18,7 @@ angular
         var coursesState = {
             name: 'courses',
             url: '/courses',
+            controller: require('./controllers/CoursesController.js'),
             template: require('./pages/courses.html')
         };
 

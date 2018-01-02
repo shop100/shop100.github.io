@@ -1,0 +1,20 @@
+<div class="md-padding" layout-xs="column" layout="row" id="courses">
+    <div flex-xs flex-gt-xs="50" layout="column" ng-repeat="course in courses">
+        <md-card class="course">
+            <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">{{course.title}}</span>
+                    <span class="md-subhead">{{course.description}}</span>
+                </md-card-title-text>
+                <md-card-title-media>
+                    <div class="md-media-xs card-media">
+                        <img ng-src="{{course.icon}}" alt="">
+                    </div>
+                </md-card-title-media>
+            </md-card-title>
+            <md-card-actions layout="row" layout-align="end center">
+                <md-button>Bắt đầu học</md-button>
+            </md-card-actions>
+        </md-card>
+    </div>
+</div>
