@@ -1,1 +1,699 @@
-{"course":{"id":1059,"version":460,"languageName":"PHP","language":"php","alias":"PHP","name":"PHP Tutorial","tags":"php","groups":null,"modules":[{"id":1158,"name":"Basic Syntax","hintPrice":5,"skipPrice":10,"alignment":1,"groupID":null,"allowShortcut":false,"lessons":[{"quizCount":2,"videoDuration":183,"id":1801,"name":"Introduction","type":0,"mode":1,"videoID":"iCUV3iv9xOs","tags":null},{"quizCount":1,"videoDuration":234,"id":1810,"name":"Installing PHP","type":0,"mode":1,"videoID":"EwJujkxYLZs","tags":null},{"quizCount":3,"videoDuration":137,"id":1793,"name":"PHP Tags","type":0,"mode":1,"videoID":"dzVfqUFnRsA","tags":null},{"quizCount":3,"videoDuration":166,"id":1794,"name":"Echo","type":0,"mode":1,"videoID":"7Dwsa7aWfN8","tags":null},{"quizCount":2,"videoDuration":215,"id":1795,"name":"Comments","type":0,"mode":1,"videoID":"OVyMffqb32k","tags":null},{"quizCount":3,"videoDuration":0,"id":1819,"name":"Module 1 Quiz","type":1,"mode":0,"videoID":null,"tags":null}]},{"id":1159,"name":"Variables","hintPrice":5,"skipPrice":10,"alignment":0,"groupID":null,"allowShortcut":false,"lessons":[{"quizCount":1,"videoDuration":145,"id":1797,"name":"Variables","type":0,"mode":1,"videoID":"6MxUGGEcDB4","tags":null},{"quizCount":1,"videoDuration":127,"id":2331,"name":"Constants","type":0,"mode":1,"videoID":"caHa189l37U","tags":null},{"quizCount":2,"videoDuration":174,"id":1796,"name":"Data Types","type":0,"mode":1,"videoID":"CJcgSUBMH1s","tags":null},{"quizCount":2,"videoDuration":174,"id":1800,"name":"Variable Scope","type":0,"mode":1,"videoID":"0p6YgVpU6OU","tags":null},{"quizCount":1,"videoDuration":94,"id":1802,"name":"Variable Variables","type":0,"mode":1,"videoID":"Mv8LGL9Ua7o","tags":null},{"quizCount":3,"videoDuration":0,"id":1820,"name":"Module 2 Quiz","type":1,"mode":0,"videoID":null,"tags":null}]},{"id":1160,"name":"Operators","hintPrice":5,"skipPrice":10,"alignment":0,"groupID":null,"allowShortcut":false,"lessons":[{"quizCount":3,"videoDuration":273,"id":1803,"name":"Arithmetic Operators","type":0,"mode":1,"videoID":"d3BTJ5ByKAo","tags":null},{"quizCount":1,"videoDuration":127,"id":1804,"name":"Assignment Operators","type":0,"mode":1,"videoID":"d3BTJ5ByKAo","tags":null},{"quizCount":2,"videoDuration":244,"id":1805,"name":"Comparison Operators","type":0,"mode":1,"videoID":"d3BTJ5ByKAo","tags":null},{"quizCount":1,"videoDuration":222,"id":1806,"name":"Logical Operators","type":0,"mode":1,"videoID":"d3BTJ5ByKAo","tags":null},{"quizCount":3,"videoDuration":0,"id":1821,"name":"Module 3 Quiz","type":1,"mode":0,"videoID":null,"tags":null}]},{"id":1161,"name":"Arrays","hintPrice":10,"skipPrice":20,"alignment":0,"groupID":null,"allowShortcut":true,"lessons":[{"quizCount":2,"videoDuration":520,"id":1807,"name":"Numeric Arrays","type":0,"mode":1,"videoID":"1NIigXgghgQ","tags":null},{"quizCount":2,"videoDuration":269,"id":1808,"name":"Associative Arrays","type":0,"mode":1,"videoID":"0S10VOdez3g","tags":null},{"quizCount":2,"videoDuration":352,"id":1809,"name":"Multi-Dimensional Arrays","type":0,"mode":1,"videoID":"TFDALOr-JKg","tags":null},{"quizCount":3,"videoDuration":0,"id":1822,"name":"Module 4 Quiz","type":1,"mode":0,"videoID":null,"tags":null}]},{"id":1162,"name":"Control Structures","hintPrice":10,"skipPrice":20,"alignment":0,"groupID":null,"allowShortcut":false,"lessons":[{"quizCount":2,"videoDuration":177,"id":1823,"name":"The If Else Statement","type":0,"mode":1,"videoID":"9taxtnYSvEU","tags":null},{"quizCount":2,"videoDuration":198,"id":1824,"name":"The Elseif Statement","type":0,"mode":1,"videoID":"YuQZDiawu3A","tags":null},{"quizCount":2,"videoDuration":262,"id":1825,"name":"The while Loop","type":0,"mode":1,"videoID":"0HBLrQe2Ack","tags":null},{"quizCount":2,"videoDuration":176,"id":1828,"name":"The Do While Loop","type":0,"mode":1,"videoID":"MxPVNaArOSk","tags":null},{"quizCount":2,"videoDuration":202,"id":1826,"name":"The For Loop","type":0,"mode":1,"videoID":"EFjiuTicHns","tags":null},{"quizCount":1,"videoDuration":130,"id":1827,"name":"The Foreach Loop","type":0,"mode":1,"videoID":"SG728V5lD0g","tags":null},{"quizCount":4,"videoDuration":417,"id":1829,"name":"The Switch Statement","type":0,"mode":1,"videoID":"VbiPMsBpJ7w","tags":null},{"quizCount":1,"videoDuration":173,"id":1830,"name":"The Break Statement","type":0,"mode":1,"videoID":"j1ci9QC3XrQ","tags":null},{"quizCount":1,"videoDuration":171,"id":1831,"name":"The Continue Statement","type":0,"mode":1,"videoID":"j1ci9QC3XrQ","tags":null},{"quizCount":3,"videoDuration":556,"id":1832,"name":"Include & Require","type":0,"mode":1,"videoID":"7TkWocNqHU0","tags":null},{"quizCount":4,"videoDuration":0,"id":1833,"name":"Module 5 Quiz","type":1,"mode":0,"videoID":null,"tags":null}]},{"id":1164,"name":"Functions","hintPrice":10,"skipPrice":20,"alignment":1,"groupID":null,"allowShortcut":true,"lessons":[{"quizCount":2,"videoDuration":245,"id":1834,"name":"User-Defined Functions","type":0,"mode":1,"videoID":"cARUoiBxHoQ","tags":null},{"quizCount":2,"videoDuration":348,"id":1835,"name":"Function Parameters","type":0,"mode":1,"videoID":"cARUoiBxHoQ","tags":null},{"quizCount":1,"videoDuration":136,"id":1836,"name":"The Return Statement","type":0,"mode":1,"videoID":"yU0Z8sVGBx0","tags":null},{"quizCount":3,"videoDuration":0,"id":1837,"name":"Module 6 Quiz","type":1,"mode":0,"videoID":null,"tags":null}]},{"id":1165,"name":"Predefined Variables","hintPrice":10,"skipPrice":20,"alignment":0,"groupID":null,"allowShortcut":false,"lessons":[{"quizCount":1,"videoDuration":145,"id":1838,"name":"$_SERVER Variables: Script Name","type":0,"mode":1,"videoID":"k-toXiaTV0k","tags":null},{"quizCount":1,"videoDuration":258,"id":1839,"name":"$_SERVER Variables: Host Name","type":0,"mode":1,"videoID":"CFKEnbPBAKc","tags":null},{"quizCount":3,"videoDuration":415,"id":1840,"name":"PHP Forms","type":0,"mode":1,"videoID":"eNH6j68L71E","tags":null},{"quizCount":2,"videoDuration":345,"id":1841,"name":"GET and POST","type":0,"mode":1,"videoID":"G3OiiIVR3Mc","tags":null},{"quizCount":2,"videoDuration":170,"id":1842,"name":"$_SESSION","type":0,"mode":1,"videoID":"WuZBQ706thI","tags":null},{"quizCount":2,"videoDuration":415,"id":1843,"name":"$_COOKIE","type":0,"mode":1,"videoID":"tOuym4a7XjY","tags":null},{"quizCount":4,"videoDuration":0,"id":1844,"name":"Module 7 Quiz","type":1,"mode":0,"videoID":null,"tags":null}]},{"id":1166,"name":"Working with Files","hintPrice":10,"skipPrice":20,"alignment":0,"groupID":null,"allowShortcut":false,"lessons":[{"quizCount":3,"videoDuration":326,"id":1845,"name":"Writing to a File","type":0,"mode":1,"videoID":"gC8sLGB8SSM","tags":null},{"quizCount":2,"videoDuration":326,"id":1846,"name":"Appending to a File","type":0,"mode":1,"videoID":"5i7NJHdYIno","tags":null},{"quizCount":2,"videoDuration":493,"id":1847,"name":"Reading a File","type":0,"mode":1,"videoID":"yBKwGXCJ6RU","tags":null},{"quizCount":3,"videoDuration":0,"id":1848,"name":"Module 8 Quiz","type":1,"mode":0,"videoID":null,"tags":null}]}],"glossary":[{"terms":[{"term":"echo","text":"output data to the screen","pattern":null},{"term":"string","text":"a sequence of characters","pattern":null},{"term":"integer","text":"a whole number","pattern":null},{"term":"float","text":"a number with a decimal point","pattern":null},{"term":"boolean","text":"represents two possible states: true or false","pattern":null},{"term":"array","text":"stores multiple values in one single variable","pattern":null},{"term":"associative array","text":"an array that uses named keys","pattern":null},{"term":"multidimensional array","text":"array containing one or more arrays","pattern":null},{"term":"null","text":"if a variable is created without a value, it is automatically assigned a value of NULL","pattern":null},{"term":"argument","text":"is used to pass information to functions. Arguments are specified after the function name, inside the parentheses.","pattern":null},{"term":"cookie","text":"a small file that the server embeds on the user's computer, which is used to identify the user","pattern":null}],"name":"General"},{"terms":[{"term":"$_SERVER","text":"holds information about headers, paths, and script locations","pattern":null},{"term":"$_GET","text":"is used to collect form data after submitting an HTML form with method=\"get\"","pattern":null},{"term":"$_POST","text":"is used to collect form data after submitting an HTML form with method=\"post\"","pattern":null},{"term":"$_SESSION","text":"holds values of all session variables","pattern":null},{"term":"$_COOKIE","text":"holds value of cookies","pattern":null},{"term":"$GLOBALS","text":"is used to access global variables from anywhere in the PHP script","pattern":null},{"term":"$_REQUEST","text":"is used to collect data after submitting an HTML form","pattern":null}],"name":"Superglobals"},{"terms":[{"term":"fopen()","text":"opens a file or URL","pattern":null},{"term":"fwrite()","text":"writes to an open file","pattern":null},{"term":"fclose()","text":"closes an open file","pattern":null},{"term":"fread()","text":"reads from an open file","pattern":null}],"name":"Working with Files"}]}}
+{
+  "course": {
+    "id": 1059,
+    "version": 460,
+    "languageName": "PHP",
+    "language": "php",
+    "alias": "PHP",
+    "name": "PHP Tutorial",
+    "tags": "php",
+    "groups": null,
+    "modules": [
+      {
+        "id": 1158,
+        "name": "Basic Syntax",
+        "hintPrice": 5,
+        "skipPrice": 10,
+        "alignment": 1,
+        "groupID": null,
+        "allowShortcut": false,
+        "lessons": [
+          {
+            "quizCount": 2,
+            "videoDuration": 183,
+            "id": 1801,
+            "name": "Introduction",
+            "type": 0,
+            "mode": 1,
+            "videoID": "iCUV3iv9xOs",
+            "tags": null
+          },
+          {
+            "quizCount": 1,
+            "videoDuration": 234,
+            "id": 1810,
+            "name": "Installing PHP",
+            "type": 0,
+            "mode": 1,
+            "videoID": "EwJujkxYLZs",
+            "tags": null
+          },
+          {
+            "quizCount": 3,
+            "videoDuration": 137,
+            "id": 1793,
+            "name": "PHP Tags",
+            "type": 0,
+            "mode": 1,
+            "videoID": "dzVfqUFnRsA",
+            "tags": null
+          },
+          {
+            "quizCount": 3,
+            "videoDuration": 166,
+            "id": 1794,
+            "name": "Echo",
+            "type": 0,
+            "mode": 1,
+            "videoID": "7Dwsa7aWfN8",
+            "tags": null
+          },
+          {
+            "quizCount": 2,
+            "videoDuration": 215,
+            "id": 1795,
+            "name": "Comments",
+            "type": 0,
+            "mode": 1,
+            "videoID": "OVyMffqb32k",
+            "tags": null
+          },
+          {
+            "quizCount": 3,
+            "videoDuration": 0,
+            "id": 1819,
+            "name": "Module 1 Quiz",
+            "type": 1,
+            "mode": 0,
+            "videoID": null,
+            "tags": null
+          }
+        ]
+      },
+      {
+        "id": 1159,
+        "name": "Variables",
+        "hintPrice": 5,
+        "skipPrice": 10,
+        "alignment": 0,
+        "groupID": null,
+        "allowShortcut": false,
+        "lessons": [
+          {
+            "quizCount": 1,
+            "videoDuration": 145,
+            "id": 1797,
+            "name": "Variables",
+            "type": 0,
+            "mode": 1,
+            "videoID": "6MxUGGEcDB4",
+            "tags": null
+          },
+          {
+            "quizCount": 1,
+            "videoDuration": 127,
+            "id": 2331,
+            "name": "Constants",
+            "type": 0,
+            "mode": 1,
+            "videoID": "caHa189l37U",
+            "tags": null
+          },
+          {
+            "quizCount": 2,
+            "videoDuration": 174,
+            "id": 1796,
+            "name": "Data Types",
+            "type": 0,
+            "mode": 1,
+            "videoID": "CJcgSUBMH1s",
+            "tags": null
+          },
+          {
+            "quizCount": 2,
+            "videoDuration": 174,
+            "id": 1800,
+            "name": "Variable Scope",
+            "type": 0,
+            "mode": 1,
+            "videoID": "0p6YgVpU6OU",
+            "tags": null
+          },
+          {
+            "quizCount": 1,
+            "videoDuration": 94,
+            "id": 1802,
+            "name": "Variable Variables",
+            "type": 0,
+            "mode": 1,
+            "videoID": "Mv8LGL9Ua7o",
+            "tags": null
+          },
+          {
+            "quizCount": 3,
+            "videoDuration": 0,
+            "id": 1820,
+            "name": "Module 2 Quiz",
+            "type": 1,
+            "mode": 0,
+            "videoID": null,
+            "tags": null
+          }
+        ]
+      },
+      {
+        "id": 1160,
+        "name": "Operators",
+        "hintPrice": 5,
+        "skipPrice": 10,
+        "alignment": 0,
+        "groupID": null,
+        "allowShortcut": false,
+        "lessons": [
+          {
+            "quizCount": 3,
+            "videoDuration": 273,
+            "id": 1803,
+            "name": "Arithmetic Operators",
+            "type": 0,
+            "mode": 1,
+            "videoID": "d3BTJ5ByKAo",
+            "tags": null
+          },
+          {
+            "quizCount": 1,
+            "videoDuration": 127,
+            "id": 1804,
+            "name": "Assignment Operators",
+            "type": 0,
+            "mode": 1,
+            "videoID": "d3BTJ5ByKAo",
+            "tags": null
+          },
+          {
+            "quizCount": 2,
+            "videoDuration": 244,
+            "id": 1805,
+            "name": "Comparison Operators",
+            "type": 0,
+            "mode": 1,
+            "videoID": "d3BTJ5ByKAo",
+            "tags": null
+          },
+          {
+            "quizCount": 1,
+            "videoDuration": 222,
+            "id": 1806,
+            "name": "Logical Operators",
+            "type": 0,
+            "mode": 1,
+            "videoID": "d3BTJ5ByKAo",
+            "tags": null
+          },
+          {
+            "quizCount": 3,
+            "videoDuration": 0,
+            "id": 1821,
+            "name": "Module 3 Quiz",
+            "type": 1,
+            "mode": 0,
+            "videoID": null,
+            "tags": null
+          }
+        ]
+      },
+      {
+        "id": 1161,
+        "name": "Arrays",
+        "hintPrice": 10,
+        "skipPrice": 20,
+        "alignment": 0,
+        "groupID": null,
+        "allowShortcut": true,
+        "lessons": [
+          {
+            "quizCount": 2,
+            "videoDuration": 520,
+            "id": 1807,
+            "name": "Numeric Arrays",
+            "type": 0,
+            "mode": 1,
+            "videoID": "1NIigXgghgQ",
+            "tags": null
+          },
+          {
+            "quizCount": 2,
+            "videoDuration": 269,
+            "id": 1808,
+            "name": "Associative Arrays",
+            "type": 0,
+            "mode": 1,
+            "videoID": "0S10VOdez3g",
+            "tags": null
+          },
+          {
+            "quizCount": 2,
+            "videoDuration": 352,
+            "id": 1809,
+            "name": "Multi-Dimensional Arrays",
+            "type": 0,
+            "mode": 1,
+            "videoID": "TFDALOr-JKg",
+            "tags": null
+          },
+          {
+            "quizCount": 3,
+            "videoDuration": 0,
+            "id": 1822,
+            "name": "Module 4 Quiz",
+            "type": 1,
+            "mode": 0,
+            "videoID": null,
+            "tags": null
+          }
+        ]
+      },
+      {
+        "id": 1162,
+        "name": "Control Structures",
+        "hintPrice": 10,
+        "skipPrice": 20,
+        "alignment": 0,
+        "groupID": null,
+        "allowShortcut": false,
+        "lessons": [
+          {
+            "quizCount": 2,
+            "videoDuration": 177,
+            "id": 1823,
+            "name": "The If Else Statement",
+            "type": 0,
+            "mode": 1,
+            "videoID": "9taxtnYSvEU",
+            "tags": null
+          },
+          {
+            "quizCount": 2,
+            "videoDuration": 198,
+            "id": 1824,
+            "name": "The Elseif Statement",
+            "type": 0,
+            "mode": 1,
+            "videoID": "YuQZDiawu3A",
+            "tags": null
+          },
+          {
+            "quizCount": 2,
+            "videoDuration": 262,
+            "id": 1825,
+            "name": "The while Loop",
+            "type": 0,
+            "mode": 1,
+            "videoID": "0HBLrQe2Ack",
+            "tags": null
+          },
+          {
+            "quizCount": 2,
+            "videoDuration": 176,
+            "id": 1828,
+            "name": "The Do While Loop",
+            "type": 0,
+            "mode": 1,
+            "videoID": "MxPVNaArOSk",
+            "tags": null
+          },
+          {
+            "quizCount": 2,
+            "videoDuration": 202,
+            "id": 1826,
+            "name": "The For Loop",
+            "type": 0,
+            "mode": 1,
+            "videoID": "EFjiuTicHns",
+            "tags": null
+          },
+          {
+            "quizCount": 1,
+            "videoDuration": 130,
+            "id": 1827,
+            "name": "The Foreach Loop",
+            "type": 0,
+            "mode": 1,
+            "videoID": "SG728V5lD0g",
+            "tags": null
+          },
+          {
+            "quizCount": 4,
+            "videoDuration": 417,
+            "id": 1829,
+            "name": "The Switch Statement",
+            "type": 0,
+            "mode": 1,
+            "videoID": "VbiPMsBpJ7w",
+            "tags": null
+          },
+          {
+            "quizCount": 1,
+            "videoDuration": 173,
+            "id": 1830,
+            "name": "The Break Statement",
+            "type": 0,
+            "mode": 1,
+            "videoID": "j1ci9QC3XrQ",
+            "tags": null
+          },
+          {
+            "quizCount": 1,
+            "videoDuration": 171,
+            "id": 1831,
+            "name": "The Continue Statement",
+            "type": 0,
+            "mode": 1,
+            "videoID": "j1ci9QC3XrQ",
+            "tags": null
+          },
+          {
+            "quizCount": 3,
+            "videoDuration": 556,
+            "id": 1832,
+            "name": "Include & Require",
+            "type": 0,
+            "mode": 1,
+            "videoID": "7TkWocNqHU0",
+            "tags": null
+          },
+          {
+            "quizCount": 4,
+            "videoDuration": 0,
+            "id": 1833,
+            "name": "Module 5 Quiz",
+            "type": 1,
+            "mode": 0,
+            "videoID": null,
+            "tags": null
+          }
+        ]
+      },
+      {
+        "id": 1164,
+        "name": "Functions",
+        "hintPrice": 10,
+        "skipPrice": 20,
+        "alignment": 1,
+        "groupID": null,
+        "allowShortcut": true,
+        "lessons": [
+          {
+            "quizCount": 2,
+            "videoDuration": 245,
+            "id": 1834,
+            "name": "User-Defined Functions",
+            "type": 0,
+            "mode": 1,
+            "videoID": "cARUoiBxHoQ",
+            "tags": null
+          },
+          {
+            "quizCount": 2,
+            "videoDuration": 348,
+            "id": 1835,
+            "name": "Function Parameters",
+            "type": 0,
+            "mode": 1,
+            "videoID": "cARUoiBxHoQ",
+            "tags": null
+          },
+          {
+            "quizCount": 1,
+            "videoDuration": 136,
+            "id": 1836,
+            "name": "The Return Statement",
+            "type": 0,
+            "mode": 1,
+            "videoID": "yU0Z8sVGBx0",
+            "tags": null
+          },
+          {
+            "quizCount": 3,
+            "videoDuration": 0,
+            "id": 1837,
+            "name": "Module 6 Quiz",
+            "type": 1,
+            "mode": 0,
+            "videoID": null,
+            "tags": null
+          }
+        ]
+      },
+      {
+        "id": 1165,
+        "name": "Predefined Variables",
+        "hintPrice": 10,
+        "skipPrice": 20,
+        "alignment": 0,
+        "groupID": null,
+        "allowShortcut": false,
+        "lessons": [
+          {
+            "quizCount": 1,
+            "videoDuration": 145,
+            "id": 1838,
+            "name": "$_SERVER Variables: Script Name",
+            "type": 0,
+            "mode": 1,
+            "videoID": "k-toXiaTV0k",
+            "tags": null
+          },
+          {
+            "quizCount": 1,
+            "videoDuration": 258,
+            "id": 1839,
+            "name": "$_SERVER Variables: Host Name",
+            "type": 0,
+            "mode": 1,
+            "videoID": "CFKEnbPBAKc",
+            "tags": null
+          },
+          {
+            "quizCount": 3,
+            "videoDuration": 415,
+            "id": 1840,
+            "name": "PHP Forms",
+            "type": 0,
+            "mode": 1,
+            "videoID": "eNH6j68L71E",
+            "tags": null
+          },
+          {
+            "quizCount": 2,
+            "videoDuration": 345,
+            "id": 1841,
+            "name": "GET and POST",
+            "type": 0,
+            "mode": 1,
+            "videoID": "G3OiiIVR3Mc",
+            "tags": null
+          },
+          {
+            "quizCount": 2,
+            "videoDuration": 170,
+            "id": 1842,
+            "name": "$_SESSION",
+            "type": 0,
+            "mode": 1,
+            "videoID": "WuZBQ706thI",
+            "tags": null
+          },
+          {
+            "quizCount": 2,
+            "videoDuration": 415,
+            "id": 1843,
+            "name": "$_COOKIE",
+            "type": 0,
+            "mode": 1,
+            "videoID": "tOuym4a7XjY",
+            "tags": null
+          },
+          {
+            "quizCount": 4,
+            "videoDuration": 0,
+            "id": 1844,
+            "name": "Module 7 Quiz",
+            "type": 1,
+            "mode": 0,
+            "videoID": null,
+            "tags": null
+          }
+        ]
+      },
+      {
+        "id": 1166,
+        "name": "Working with Files",
+        "hintPrice": 10,
+        "skipPrice": 20,
+        "alignment": 0,
+        "groupID": null,
+        "allowShortcut": false,
+        "lessons": [
+          {
+            "quizCount": 3,
+            "videoDuration": 326,
+            "id": 1845,
+            "name": "Writing to a File",
+            "type": 0,
+            "mode": 1,
+            "videoID": "gC8sLGB8SSM",
+            "tags": null
+          },
+          {
+            "quizCount": 2,
+            "videoDuration": 326,
+            "id": 1846,
+            "name": "Appending to a File",
+            "type": 0,
+            "mode": 1,
+            "videoID": "5i7NJHdYIno",
+            "tags": null
+          },
+          {
+            "quizCount": 2,
+            "videoDuration": 493,
+            "id": 1847,
+            "name": "Reading a File",
+            "type": 0,
+            "mode": 1,
+            "videoID": "yBKwGXCJ6RU",
+            "tags": null
+          },
+          {
+            "quizCount": 3,
+            "videoDuration": 0,
+            "id": 1848,
+            "name": "Module 8 Quiz",
+            "type": 1,
+            "mode": 0,
+            "videoID": null,
+            "tags": null
+          }
+        ]
+      }
+    ],
+    "glossary": [
+      {
+        "terms": [
+          {
+            "term": "echo",
+            "text": "output data to the screen",
+            "pattern": null
+          },
+          {
+            "term": "string",
+            "text": "a sequence of characters",
+            "pattern": null
+          },
+          {
+            "term": "integer",
+            "text": "a whole number",
+            "pattern": null
+          },
+          {
+            "term": "float",
+            "text": "a number with a decimal point",
+            "pattern": null
+          },
+          {
+            "term": "boolean",
+            "text": "represents two possible states: true or false",
+            "pattern": null
+          },
+          {
+            "term": "array",
+            "text": "stores multiple values in one single variable",
+            "pattern": null
+          },
+          {
+            "term": "associative array",
+            "text": "an array that uses named keys",
+            "pattern": null
+          },
+          {
+            "term": "multidimensional array",
+            "text": "array containing one or more arrays",
+            "pattern": null
+          },
+          {
+            "term": "null",
+            "text": "if a variable is created without a value, it is automatically assigned a value of NULL",
+            "pattern": null
+          },
+          {
+            "term": "argument",
+            "text": "is used to pass information to functions. Arguments are specified after the function name, inside the parentheses.",
+            "pattern": null
+          },
+          {
+            "term": "cookie",
+            "text": "a small file that the server embeds on the user's computer, which is used to identify the user",
+            "pattern": null
+          }
+        ],
+        "name": "General"
+      },
+      {
+        "terms": [
+          {
+            "term": "$_SERVER",
+            "text": "holds information about headers, paths, and script locations",
+            "pattern": null
+          },
+          {
+            "term": "$_GET",
+            "text": "is used to collect form data after submitting an HTML form with method=\"get\"",
+            "pattern": null
+          },
+          {
+            "term": "$_POST",
+            "text": "is used to collect form data after submitting an HTML form with method=\"post\"",
+            "pattern": null
+          },
+          {
+            "term": "$_SESSION",
+            "text": "holds values of all session variables",
+            "pattern": null
+          },
+          {
+            "term": "$_COOKIE",
+            "text": "holds value of cookies",
+            "pattern": null
+          },
+          {
+            "term": "$GLOBALS",
+            "text": "is used to access global variables from anywhere in the PHP script",
+            "pattern": null
+          },
+          {
+            "term": "$_REQUEST",
+            "text": "is used to collect data after submitting an HTML form",
+            "pattern": null
+          }
+        ],
+        "name": "Superglobals"
+      },
+      {
+        "terms": [
+          {
+            "term": "fopen()",
+            "text": "opens a file or URL",
+            "pattern": null
+          },
+          {
+            "term": "fwrite()",
+            "text": "writes to an open file",
+            "pattern": null
+          },
+          {
+            "term": "fclose()",
+            "text": "closes an open file",
+            "pattern": null
+          },
+          {
+            "term": "fread()",
+            "text": "reads from an open file",
+            "pattern": null
+          }
+        ],
+        "name": "Working with Files"
+      }
+    ]
+  }
+}
