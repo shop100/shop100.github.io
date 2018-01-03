@@ -22,6 +22,18 @@ angular
             template: require('./pages/courses.html')
         };
 
+        var courseState = {
+            name: 'courses.show',
+            url: '/courses/:id',
+            views:{
+                "@": {
+                    controller: require('./controllers/CoursesShowController.js'),
+                    template: require('./pages/course-show.html')
+                }
+            }
+        };
+
         $stateProvider.state(homeState);
         $stateProvider.state(coursesState);
+        $stateProvider.state(courseState);
     }]);
