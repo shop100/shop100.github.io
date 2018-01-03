@@ -29,7 +29,7 @@ module.exports = {
             title: 'Shop100.vn',
             hash: true,
             template: 'src/index.html',
-            filename: '../index.html'
+            filename: '../404.html'
         })
     ],
     output: {
