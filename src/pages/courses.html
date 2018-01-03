@@ -15,6 +15,11 @@
             <md-card-actions layout="row" layout-align="end center">
                 <md-button ui-sref="courses.show({id:course.id})">Tham gia ngay</md-button>
             </md-card-actions>
+            <md-card-content>
+                <ul>
+                    <li ng-repeat="module in course.modules">{{module.name}}</li>
+                </ul>
+            </md-card-content>
         </md-card>
     </div>
 </div>
