@@ -6,7 +6,7 @@ module.exports = [
             scope.courses = resp.data;
             scope.courses = scope.courses.map(function (course) {
                 CourseService.get(course).then(function (resp) {
-                    let respData = resp.data.course;
+                    var respData = resp.data.course;
                     course.alias = respData.alias;
                     course.glossary = respData.glossary;
                     course.groups = respData.groups;
