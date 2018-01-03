@@ -8,7 +8,10 @@ angular
             requireBase: false
         });
     }])
-    .config(["$stateProvider", function ($stateProvider) {
+    .config([
+        "$urlRouterProvider",
+        "$stateProvider",
+        function ($urlRouterProvider, $stateProvider) {
         var homeState = {
             name: 'home',
             url: '/',
@@ -36,4 +39,5 @@ angular
         $stateProvider.state(homeState);
         $stateProvider.state(coursesState);
         $stateProvider.state(courseState);
+        $urlRouterProvider.otherwise('/');
     }]);
