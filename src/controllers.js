@@ -9,7 +9,13 @@ angular
         var homeState = {
             name: 'home',
             url: '/',
-            template: ''
+            template: '',
+            controller:[
+                "$state",
+                function ($state) {
+                    $state.go('courses');
+                }
+            ]
         };
 
         var coursesState = {
@@ -21,7 +27,7 @@ angular
 
         var courseState = {
             name: 'courses.show',
-            url: '/courses/:id',
+            url: '/:slug',
             views:{
                 "@": {
                     controller: require('./controllers/CoursesShowController.js'),
