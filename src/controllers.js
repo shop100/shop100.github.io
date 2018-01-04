@@ -37,7 +37,7 @@ angular
         };
         var courseModuleShowState = {
             name: 'courses.show.module',
-            url: '/modules/:module_id',
+            url: '/:course_id/modules/:module_id',
             views:{
                 "@": {
                     controller: require('./controllers/CoursesModuleShowController.js'),
