@@ -1,0 +1,11 @@
+<div id="lessonsView" class="lessonPanel view" style="z-index: 108; display: block; opacity: 1;">
+    <div class="appLesson checkpoint normal" style="opacity: 1; transform: translateY(0px);" ng-repeat="lesson in module.lessons">
+        <div class="number">
+            <span>{{$index+1}}/{{module.lessons.length+1}}</span>
+        </div>
+        <div class="name">{{lesson.name}}</div>
+        <div class="info">
+            <i class="icon"></i>
+            <span>{{lesson.quizCount}} questions</span></div>
+    </div>
+</div>
