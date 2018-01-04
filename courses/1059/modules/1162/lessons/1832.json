@@ -1,1 +1,105 @@
-{"lesson":{"id":1832,"name":"Include & Require","type":0,"mode":1,"videoID":"7TkWocNqHU0","tags":"include require","quizzes":[{"id":3532,"number":1,"videoStart":37.5,"videoEnd":213.0,"linkedVideoID":null,"type":1,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":105250,"text":"include 'file.php';","isCorrect":true,"properties":{}},{"id":105251,"text":"include-file.php;","isCorrect":false,"properties":{}},{"id":105252,"text":"#include <file.php>","isCorrect":false,"properties":{}}],"question":"Which is the correct syntax for the include statement in PHP?","textContent":"[h1]include[/h1]\r\n\r\nThe [b]include[/b] and [b]require[/b] statements allow for the insertion of the content of one PHP file into another PHP file, before the server executes it.\r\nIncluding files saves quite a bit of work. You can create a standard header, footer, or menu file for all of your web pages. Then, when the header is requiring updating, you can update the header include file only.\r\n\r\nAssume that we have a standard header file called [b]header.php[/b].  [code format=\"php\" ]<?php\r\n  echo '<h1>Welcome</h1>';\r\n?>[/code]\r\nUse the [b]include[/b] statement to include the header file in a page.[code format=\"raw\" ]<html>\r\n  <body>\r\n\r\n  [b]<?php include 'header.php'; ?>[/b]\r\n\r\n  <p>Some text.</p>\r\n  <p>Some text.</p>\r\n  </body>\r\n</html>[/code]"},{"id":3533,"number":2,"videoStart":213.0,"videoEnd":373.0,"linkedVideoID":null,"type":2,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":105253,"text":"include","isCorrect":false,"properties":{"prefix":"","postfix":" 'header.php';"}}],"question":"Fill in the blank to include the file header.php","textContent":"[h1]include[/h1]\r\n\r\nUsing this approach, we have the ability to include the same[b] header.php[/b] file into multiple pages.[code format=\"raw\" ]<html>\r\n  <body>\r\n\r\n  [b]<?php include 'header.php'; ?>[/b]\r\n\r\n  <p>This is a paragraph</p>\r\n  </body>\r\n</html>[/code]\r\n[b]Result:[/b] [img id=\"2376\" width=\"100%\"]\r\n[note]Files are included based on the file [b]path[/b]. \r\nYou can use an [b]absolute[/b] or a [b]relative[/b] path to specify which file should be included.[/note]"},{"id":3534,"number":3,"videoStart":375.0,"videoEnd":596.0,"linkedVideoID":null,"type":1,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":71754,"text":"There is no difference","isCorrect":false,"properties":{}},{"id":71755,"text":"The syntax is different","isCorrect":false,"properties":{}},{"id":71756,"text":"The way they handle errors","isCorrect":true,"properties":{}}],"question":"What is the difference between include and require?","textContent":"[h1]include vs require[/h1]\r\n\r\nThe [b]require[/b] statement is identical to include, the exception being that, upon failure, it produces a fatal error. \r\nWhen a file is included using the [b]include[/b] statement, but PHP is unable to find it, the script continues to execute.\r\nIn the case of [b]require[/b], the script will cease execution and produce an error.\r\n[note]Use [b]require[/b] when the file is required for the application to run.\r\nUse [b]include[/b] when the file is not required. The application should continue, even when the file is not found.[/note]"}]}}
+{
+  "lesson": {
+    "id": 1832,
+    "name": "Include & Require",
+    "type": 0,
+    "mode": 1,
+    "videoID": "7TkWocNqHU0",
+    "tags": "include require",
+    "quizzes": [
+      {
+        "id": 3532,
+        "number": 1,
+        "videoStart": 37.5,
+        "videoEnd": 213.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 105250,
+            "text": "include 'file.php';",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 105251,
+            "text": "include-file.php;",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 105252,
+            "text": "#include <file.php>",
+            "isCorrect": false,
+            "properties": {}
+          }
+        ],
+        "question": "Which is the correct syntax for the include statement in PHP?",
+        "textContent": "[h1]include[/h1]\r\n\r\nThe [b]include[/b] and [b]require[/b] statements allow for the insertion of the content of one PHP file into another PHP file, before the server executes it.\r\nIncluding files saves quite a bit of work. You can create a standard header, footer, or menu file for all of your web pages. Then, when the header is requiring updating, you can update the header include file only.\r\n\r\nAssume that we have a standard header file called [b]header.php[/b].  [code format=\"php\" ]<?php\r\n  echo '<h1>Welcome</h1>';\r\n?>[/code]\r\nUse the [b]include[/b] statement to include the header file in a page.[code format=\"raw\" ]<html>\r\n  <body>\r\n\r\n  [b]<?php include 'header.php'; ?>[/b]\r\n\r\n  <p>Some text.</p>\r\n  <p>Some text.</p>\r\n  </body>\r\n</html>[/code]"
+      },
+      {
+        "id": 3533,
+        "number": 2,
+        "videoStart": 213.0,
+        "videoEnd": 373.0,
+        "linkedVideoID": null,
+        "type": 2,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 105253,
+            "text": "include",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": " 'header.php';"
+            }
+          }
+        ],
+        "question": "Fill in the blank to include the file header.php",
+        "textContent": "[h1]include[/h1]\r\n\r\nUsing this approach, we have the ability to include the same[b] header.php[/b] file into multiple pages.[code format=\"raw\" ]<html>\r\n  <body>\r\n\r\n  [b]<?php include 'header.php'; ?>[/b]\r\n\r\n  <p>This is a paragraph</p>\r\n  </body>\r\n</html>[/code]\r\n[b]Result:[/b] [img id=\"2376\" width=\"100%\"]\r\n[note]Files are included based on the file [b]path[/b]. \r\nYou can use an [b]absolute[/b] or a [b]relative[/b] path to specify which file should be included.[/note]"
+      },
+      {
+        "id": 3534,
+        "number": 3,
+        "videoStart": 375.0,
+        "videoEnd": 596.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 71754,
+            "text": "There is no difference",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 71755,
+            "text": "The syntax is different",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 71756,
+            "text": "The way they handle errors",
+            "isCorrect": true,
+            "properties": {}
+          }
+        ],
+        "question": "What is the difference between include and require?",
+        "textContent": "[h1]include vs require[/h1]\r\n\r\nThe [b]require[/b] statement is identical to include, the exception being that, upon failure, it produces a fatal error. \r\nWhen a file is included using the [b]include[/b] statement, but PHP is unable to find it, the script continues to execute.\r\nIn the case of [b]require[/b], the script will cease execution and produce an error.\r\n[note]Use [b]require[/b] when the file is required for the application to run.\r\nUse [b]include[/b] when the file is not required. The application should continue, even when the file is not found.[/note]"
+      }
+    ]
+  }
+}

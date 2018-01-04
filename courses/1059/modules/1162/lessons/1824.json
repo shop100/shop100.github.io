@@ -1,1 +1,98 @@
-{"lesson":{"id":1824,"name":"The Elseif Statement","type":0,"mode":1,"videoID":"YuQZDiawu3A","tags":"if-statements else-statements","quizzes":[{"id":3517,"number":1,"videoStart":10.0,"videoEnd":153.0,"linkedVideoID":null,"type":1,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":96855,"text":"One","isCorrect":false,"properties":{}},{"id":96856,"text":"None","isCorrect":false,"properties":{}},{"id":96857,"text":"As many as you want","isCorrect":true,"properties":{}}],"question":"How many times can an elseif statement be used?","textContent":"[h1]The Elseif Statement[/h1]\r\n\r\nUse the[b] if...elseif...else[/b] statement to specify a [b]new [/b]condition to test, if the first condition is [b]false[/b].\r\n[b]\r\nSyntax:[/b] [code format=\"php\"][b]if [/b](condition) {\r\n  code to be executed if condition is [b]true[/b];\r\n} [b]elseif [/b](condition) {\r\n  code to be executed if condition is [b]true[/b];\r\n} [b]else [/b]{\r\n   code to be executed if condition is [b]false[/b];\r\n}[/code]\r\n[note]You can add as many [b]elseif[/b] statements as you want. Just note, that the [b]elseif[/b] statement must begin with an [b]if[/b] statement.[/note]"},{"id":3518,"number":2,"videoStart":153.0,"videoEnd":208.5,"linkedVideoID":null,"type":3,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":105245,"text":"0","isCorrect":false,"properties":{"prefix":"","postfix":""}},{"id":105246,"text":"elseif","isCorrect":false,"properties":{"prefix":"","postfix":""}},{"id":105247,"text":"==","isCorrect":false,"properties":{"prefix":"","postfix":""}},{"id":105248,"text":"else","isCorrect":false,"properties":{"prefix":"","postfix":""}}],"question":"Fill in the blanks to print \"Male\" if the variable \"gender\" is equal to 0, \"Female\" if it is equal to 1, and \"Undefined\" in all other cases.\r\n[!raw!]\r\nif($gender == {0})\r\n   echo \"Male\";\r\n{1}($gender {2} 1)\r\n   echo \"Female\";\r\n{3}\r\n   echo \"Undefined\";","textContent":"[h1]The Elseif Statement [/h1]\r\n\r\n[b]For example:[/b] [code format=\"php\" codeId=\"477\"]<?php\r\n$age = 21;\r\n\r\n[b]if[/b] ($age<=13) {\r\n   echo \"Child.\";\r\n} [b]elseif [/b]($age>13 && $age<19) {\r\n   echo \"Teenager\";\r\n} [b]else [/b]{\r\n   echo \"Adult\";\r\n}\r\n\r\n//Outputs \"Adult\"\r\n?>[/code]\r\n[note]We used the [b]logical AND[/b] (&&) operator to combine the two conditions and check to determine whether $age is between 13 and 19.[/note]"}]}}
+{
+  "lesson": {
+    "id": 1824,
+    "name": "The Elseif Statement",
+    "type": 0,
+    "mode": 1,
+    "videoID": "YuQZDiawu3A",
+    "tags": "if-statements else-statements",
+    "quizzes": [
+      {
+        "id": 3517,
+        "number": 1,
+        "videoStart": 10.0,
+        "videoEnd": 153.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 96855,
+            "text": "One",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 96856,
+            "text": "None",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 96857,
+            "text": "As many as you want",
+            "isCorrect": true,
+            "properties": {}
+          }
+        ],
+        "question": "How many times can an elseif statement be used?",
+        "textContent": "[h1]The Elseif Statement[/h1]\r\n\r\nUse the[b] if...elseif...else[/b] statement to specify a [b]new [/b]condition to test, if the first condition is [b]false[/b].\r\n[b]\r\nSyntax:[/b] [code format=\"php\"][b]if [/b](condition) {\r\n  code to be executed if condition is [b]true[/b];\r\n} [b]elseif [/b](condition) {\r\n  code to be executed if condition is [b]true[/b];\r\n} [b]else [/b]{\r\n   code to be executed if condition is [b]false[/b];\r\n}[/code]\r\n[note]You can add as many [b]elseif[/b] statements as you want. Just note, that the [b]elseif[/b] statement must begin with an [b]if[/b] statement.[/note]"
+      },
+      {
+        "id": 3518,
+        "number": 2,
+        "videoStart": 153.0,
+        "videoEnd": 208.5,
+        "linkedVideoID": null,
+        "type": 3,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 105245,
+            "text": "0",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          },
+          {
+            "id": 105246,
+            "text": "elseif",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          },
+          {
+            "id": 105247,
+            "text": "==",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          },
+          {
+            "id": 105248,
+            "text": "else",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "Fill in the blanks to print \"Male\" if the variable \"gender\" is equal to 0, \"Female\" if it is equal to 1, and \"Undefined\" in all other cases.\r\n[!raw!]\r\nif($gender == {0})\r\n   echo \"Male\";\r\n{1}($gender {2} 1)\r\n   echo \"Female\";\r\n{3}\r\n   echo \"Undefined\";",
+        "textContent": "[h1]The Elseif Statement [/h1]\r\n\r\n[b]For example:[/b] [code format=\"php\" codeId=\"477\"]<?php\r\n$age = 21;\r\n\r\n[b]if[/b] ($age<=13) {\r\n   echo \"Child.\";\r\n} [b]elseif [/b]($age>13 && $age<19) {\r\n   echo \"Teenager\";\r\n} [b]else [/b]{\r\n   echo \"Adult\";\r\n}\r\n\r\n//Outputs \"Adult\"\r\n?>[/code]\r\n[note]We used the [b]logical AND[/b] (&&) operator to combine the two conditions and check to determine whether $age is between 13 and 19.[/note]"
+      }
+    ]
+  }
+}

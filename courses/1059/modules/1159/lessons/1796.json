@@ -1,1 +1,62 @@
-{"lesson":{"id":1796,"name":"Data Types","type":0,"mode":1,"videoID":"CJcgSUBMH1s","tags":"data-types","quizzes":[{"id":3501,"number":1,"videoStart":86.0,"videoEnd":161.5,"linkedVideoID":null,"type":3,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":96823,"text":"$","isCorrect":false,"properties":{"prefix":"","postfix":""}}],"question":"Fill in the blank to define the variable string:\r\n[!raw!]\r\n<?php\r\n  {0}string = \"I am learning PHP\";\r\n?>","textContent":"[h1]Data Types[/h1]\r\n\r\nVariables can store a variety of data types.\r\nData types supported by PHP: [b]String[/b], [b]Integer[/b], [b]Float[/b], [b]Boolean[/b], [b]Array[/b], [b]Object[/b], NULL, Resource.\r\n\r\n[h2]PHP String[/h2]\r\nA [b]string[/b] is a sequence of characters, like \"Hello world!\"\r\nA string can be any text within a set of single or double [b]quotes[/b]. [code format=\"php\"]<?php\r\n[b]  $string1[/b] = \"Hello world!\"; //double quotes\r\n[b]  $string2[/b] = 'Hello world!';  //single quotes\r\n?>[/code]\r\n[note]You can join two strings together using the dot ( .) concatenation operator.\r\nFor example: [b]echo $s1 . $s2[/b]\r\n[b][/b][/note]\r\n\r\n[h2]PHP Integer[/h2]\r\nAn [b]integer[/b] is a whole number (without decimals) that must fit the following criteria:\r\n- It cannot contain commas or blanks\r\n- It must not have a decimal point\r\n- It can be either positive or negative[code format=\"php\"]<?php\r\n[b]  $int1[/b] = 42; // positive number\r\n[b]  $int2[/b] = -42; // negative number\r\n?>[/code]"},{"id":3455,"number":2,"videoStart":161.5,"videoEnd":260.0,"linkedVideoID":null,"type":2,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":98415,"text":"1997","isCorrect":false,"properties":{"prefix":"","postfix":""}}],"question":"What output results from the following code?\r\n<?php\r\n $someString = \"15\";\r\n $birthyear = 1982;\r\n echo $someString + $birthyear;\r\n?>","textContent":"[h1]PHP Float[/h1]\r\n\r\nA [b]float[/b], or floating point number, is a number that includes a decimal point.[code format=\"php\" ]<?php\r\n  $x = 42.168;\r\n?>[/code]\r\n[h2]PHP Boolean[/h2]\r\n\r\nA [b]Boolean[/b] represents two possible states: TRUE or FALSE.[code format=\"php\" ]<?php\r\n  $x = true; $y = false;\r\n?>[/code]\r\n[note]Booleans are often used in conditional testing, which will be covered later on in the course.[/note]\r\nMost of the data types can be used in combination with one another. In this example, [b]string[/b] and [b]integer[/b] are put together to determine the sum of two numbers.[code format=\"php\" codeId=\"465\"]<?php\r\n  $str = \"10\";\r\n  $int = 20;\r\n  $sum = $str + $int;\r\n  echo ($sum);\r\n\r\n  // Outputs [b]30[/b]\r\n?>[/code]\r\n[note]PHP automatically converts each variable to the correct data type, according to its value. This is why the variable [b]$str[/b] is treated as a number in the addition.[/note]"}]}}
+{
+  "lesson": {
+    "id": 1796,
+    "name": "Data Types",
+    "type": 0,
+    "mode": 1,
+    "videoID": "CJcgSUBMH1s",
+    "tags": "data-types",
+    "quizzes": [
+      {
+        "id": 3501,
+        "number": 1,
+        "videoStart": 86.0,
+        "videoEnd": 161.5,
+        "linkedVideoID": null,
+        "type": 3,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 96823,
+            "text": "$",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "Fill in the blank to define the variable string:\r\n[!raw!]\r\n<?php\r\n  {0}string = \"I am learning PHP\";\r\n?>",
+        "textContent": "[h1]Data Types[/h1]\r\n\r\nVariables can store a variety of data types.\r\nData types supported by PHP: [b]String[/b], [b]Integer[/b], [b]Float[/b], [b]Boolean[/b], [b]Array[/b], [b]Object[/b], NULL, Resource.\r\n\r\n[h2]PHP String[/h2]\r\nA [b]string[/b] is a sequence of characters, like \"Hello world!\"\r\nA string can be any text within a set of single or double [b]quotes[/b]. [code format=\"php\"]<?php\r\n[b]  $string1[/b] = \"Hello world!\"; //double quotes\r\n[b]  $string2[/b] = 'Hello world!';  //single quotes\r\n?>[/code]\r\n[note]You can join two strings together using the dot ( .) concatenation operator.\r\nFor example: [b]echo $s1 . $s2[/b]\r\n[b][/b][/note]\r\n\r\n[h2]PHP Integer[/h2]\r\nAn [b]integer[/b] is a whole number (without decimals) that must fit the following criteria:\r\n- It cannot contain commas or blanks\r\n- It must not have a decimal point\r\n- It can be either positive or negative[code format=\"php\"]<?php\r\n[b]  $int1[/b] = 42; // positive number\r\n[b]  $int2[/b] = -42; // negative number\r\n?>[/code]"
+      },
+      {
+        "id": 3455,
+        "number": 2,
+        "videoStart": 161.5,
+        "videoEnd": 260.0,
+        "linkedVideoID": null,
+        "type": 2,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 98415,
+            "text": "1997",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "What output results from the following code?\r\n<?php\r\n $someString = \"15\";\r\n $birthyear = 1982;\r\n echo $someString + $birthyear;\r\n?>",
+        "textContent": "[h1]PHP Float[/h1]\r\n\r\nA [b]float[/b], or floating point number, is a number that includes a decimal point.[code format=\"php\" ]<?php\r\n  $x = 42.168;\r\n?>[/code]\r\n[h2]PHP Boolean[/h2]\r\n\r\nA [b]Boolean[/b] represents two possible states: TRUE or FALSE.[code format=\"php\" ]<?php\r\n  $x = true; $y = false;\r\n?>[/code]\r\n[note]Booleans are often used in conditional testing, which will be covered later on in the course.[/note]\r\nMost of the data types can be used in combination with one another. In this example, [b]string[/b] and [b]integer[/b] are put together to determine the sum of two numbers.[code format=\"php\" codeId=\"465\"]<?php\r\n  $str = \"10\";\r\n  $int = 20;\r\n  $sum = $str + $int;\r\n  echo ($sum);\r\n\r\n  // Outputs [b]30[/b]\r\n?>[/code]\r\n[note]PHP automatically converts each variable to the correct data type, according to its value. This is why the variable [b]$str[/b] is treated as a number in the addition.[/note]"
+      }
+    ]
+  }
+}

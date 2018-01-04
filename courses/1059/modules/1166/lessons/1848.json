@@ -1,1 +1,129 @@
-{"lesson":{"id":1848,"name":"Module 8 Quiz","type":1,"mode":0,"videoID":null,"tags":null,"quizzes":[{"id":3573,"number":1,"videoStart":0.0,"videoEnd":0.0,"linkedVideoID":null,"type":1,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":68296,"text":"fopen(\"time.txt\",\"r\");","isCorrect":true,"properties":{}},{"id":68297,"text":"open(\"time.txt\",\"read\");","isCorrect":false,"properties":{}},{"id":68298,"text":"open(\"time.txt\");","isCorrect":false,"properties":{}},{"id":68299,"text":"fopen(\"times.txt\", \"d\");","isCorrect":false,"properties":{}}],"question":"Which is the correct way to open the file \"time.txt\" as readable?\t","textContent":null},{"id":3574,"number":2,"videoStart":0.0,"videoEnd":0.0,"linkedVideoID":null,"type":3,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":68317,"text":"file","isCorrect":false,"properties":{"prefix":"","postfix":""}},{"id":68318,"text":"nums","isCorrect":false,"properties":{"prefix":"$","postfix":""}}],"question":"Fill in the blanks to read and output the content of the file \"nums.txt\".\r\n[!raw!]\r\n$nums = {0}(\"nums.txt\");\r\nforeach({1} as $num) {\r\n   echo $num.\"<br />\";\r\n}","textContent":null},{"id":3572,"number":3,"videoStart":0.0,"videoEnd":0.0,"linkedVideoID":null,"type":3,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":73472,"text":"fopen","isCorrect":false,"properties":{"prefix":"","postfix":""}},{"id":73473,"text":"fwrite","isCorrect":false,"properties":{"prefix":"","postfix":""}},{"id":73474,"text":"fclose","isCorrect":false,"properties":{"prefix":"","postfix":""}}],"question":"Fill in the blanks to write the numbers 1 to 10 to the file.\r\n[!raw!]\r\n$h = {0}('file.txt', 'a');\r\nfor($i=1;$i<=10; $i++) {\r\n   {1}($h, $i);\r\n}\r\n{2}($h);","textContent":null}]}}
+{
+  "lesson": {
+    "id": 1848,
+    "name": "Module 8 Quiz",
+    "type": 1,
+    "mode": 0,
+    "videoID": null,
+    "tags": null,
+    "quizzes": [
+      {
+        "id": 3573,
+        "number": 1,
+        "videoStart": 0.0,
+        "videoEnd": 0.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 68296,
+            "text": "fopen(\"time.txt\",\"r\");",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 68297,
+            "text": "open(\"time.txt\",\"read\");",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 68298,
+            "text": "open(\"time.txt\");",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 68299,
+            "text": "fopen(\"times.txt\", \"d\");",
+            "isCorrect": false,
+            "properties": {}
+          }
+        ],
+        "question": "Which is the correct way to open the file \"time.txt\" as readable?\t",
+        "textContent": null
+      },
+      {
+        "id": 3574,
+        "number": 2,
+        "videoStart": 0.0,
+        "videoEnd": 0.0,
+        "linkedVideoID": null,
+        "type": 3,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 68317,
+            "text": "file",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          },
+          {
+            "id": 68318,
+            "text": "nums",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "$",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "Fill in the blanks to read and output the content of the file \"nums.txt\".\r\n[!raw!]\r\n$nums = {0}(\"nums.txt\");\r\nforeach({1} as $num) {\r\n   echo $num.\"<br />\";\r\n}",
+        "textContent": null
+      },
+      {
+        "id": 3572,
+        "number": 3,
+        "videoStart": 0.0,
+        "videoEnd": 0.0,
+        "linkedVideoID": null,
+        "type": 3,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 73472,
+            "text": "fopen",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          },
+          {
+            "id": 73473,
+            "text": "fwrite",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          },
+          {
+            "id": 73474,
+            "text": "fclose",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "Fill in the blanks to write the numbers 1 to 10 to the file.\r\n[!raw!]\r\n$h = {0}('file.txt', 'a');\r\nfor($i=1;$i<=10; $i++) {\r\n   {1}($h, $i);\r\n}\r\n{2}($h);",
+        "textContent": null
+      }
+    ]
+  }
+}

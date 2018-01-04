@@ -1,1 +1,37 @@
-{"lesson":{"id":1810,"name":"Installing PHP","type":0,"mode":1,"videoID":"EwJujkxYLZs","tags":null,"quizzes":[{"id":3480,"number":1,"videoStart":48.0,"videoEnd":282.5,"linkedVideoID":null,"type":2,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":117516,"text":"php","isCorrect":false,"properties":{"prefix":".","postfix":""}}],"question":"What is the correct extension to use when saving PHP files?","textContent":"[h1]Getting Started[/h1]\r\n\r\nYou can run, save, and share your PHP codes on our [b]Code Playground[/b], without installing any additional software.\r\n[note]Reference this lesson if you need to install the software on your computer. [/note]\r\nTo start using PHP, your first step is to install a web server on your PC, and then install PHP. \r\nThe easiest way to get PHP is to install a tool called [b]XAMPP[/b]. It includes Apache, MySQL, and PHP, and it's available for free. Download and install XAMPP from www.xampp.org\r\nOpen the XAMPP Control Panel and start the Apache web server. [img id=\"2778\" width=\"100%\"]\r\nThe only thing you need to code PHP is a basic [b]text editor[/b]. We will use [b]NotePad++[/b], which is available for free.\r\nCreate a file, and write a sample PHP statement: [img id=\"2780\" width=\"100%\"]\r\nSave it as [b]someFile.php[/b] in the Apache root folder (In Windows, it is usually the folder [b]C:\\xampp\\htdocs[/b]).\r\nNow, open your web browser and go to [b]http://localhost/someFile.php[/b] [img id=\"2781\" width=\"100%\"]\r\n[note]Do not forget to save your PHP files with the [b].php[/b] extension.[/note]"}]}}
+{
+  "lesson": {
+    "id": 1810,
+    "name": "Installing PHP",
+    "type": 0,
+    "mode": 1,
+    "videoID": "EwJujkxYLZs",
+    "tags": null,
+    "quizzes": [
+      {
+        "id": 3480,
+        "number": 1,
+        "videoStart": 48.0,
+        "videoEnd": 282.5,
+        "linkedVideoID": null,
+        "type": 2,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 117516,
+            "text": "php",
+            "isCorrect": false,
+            "properties": {
+              "prefix": ".",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "What is the correct extension to use when saving PHP files?",
+        "textContent": "[h1]Getting Started[/h1]\r\n\r\nYou can run, save, and share your PHP codes on our [b]Code Playground[/b], without installing any additional software.\r\n[note]Reference this lesson if you need to install the software on your computer. [/note]\r\nTo start using PHP, your first step is to install a web server on your PC, and then install PHP. \r\nThe easiest way to get PHP is to install a tool called [b]XAMPP[/b]. It includes Apache, MySQL, and PHP, and it's available for free. Download and install XAMPP from www.xampp.org\r\nOpen the XAMPP Control Panel and start the Apache web server. [img id=\"2778\" width=\"100%\"]\r\nThe only thing you need to code PHP is a basic [b]text editor[/b]. We will use [b]NotePad++[/b], which is available for free.\r\nCreate a file, and write a sample PHP statement: [img id=\"2780\" width=\"100%\"]\r\nSave it as [b]someFile.php[/b] in the Apache root folder (In Windows, it is usually the folder [b]C:\\xampp\\htdocs[/b]).\r\nNow, open your web browser and go to [b]http://localhost/someFile.php[/b] [img id=\"2781\" width=\"100%\"]\r\n[note]Do not forget to save your PHP files with the [b].php[/b] extension.[/note]"
+      }
+    ]
+  }
+}

@@ -1,1 +1,105 @@
-{"lesson":{"id":1819,"name":"Module 1 Quiz","type":1,"mode":0,"videoID":null,"tags":null,"quizzes":[{"id":3499,"number":1,"videoStart":0.0,"videoEnd":0.0,"linkedVideoID":null,"type":1,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":87248,"text":"echo \"(<p> Hello.</p>);","isCorrect":false,"properties":{}},{"id":87249,"text":"echo \"<p> Hello.</p>\";","isCorrect":true,"properties":{}},{"id":87250,"text":"echo (<p>' Hello.'</p>);","isCorrect":false,"properties":{}}],"question":"Which of the following is the correct syntax?","textContent":null},{"id":3506,"number":2,"videoStart":0.0,"videoEnd":0.0,"linkedVideoID":null,"type":3,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":87251,"text":"//","isCorrect":false,"properties":{"prefix":"","postfix":""}}],"question":"Fill in the blank to make the text a comment:\r\n[!raw!]\r\n{0} This is a comment\r\necho 'This is a test';","textContent":null},{"id":3507,"number":3,"videoStart":0.0,"videoEnd":0.0,"linkedVideoID":null,"type":6,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":66871,"text":"<?php","isCorrect":true,"properties":{}},{"id":66872,"text":"echo","isCorrect":true,"properties":{}},{"id":66873,"text":"?>","isCorrect":true,"properties":{}}],"question":"Drag the commands to their corresponding places to form the correct PHP code:\r\n[!raw!]\r\n{0}\r\n  {1} \"Some text\";\r\n{2}","textContent":null}]}}
+{
+  "lesson": {
+    "id": 1819,
+    "name": "Module 1 Quiz",
+    "type": 1,
+    "mode": 0,
+    "videoID": null,
+    "tags": null,
+    "quizzes": [
+      {
+        "id": 3499,
+        "number": 1,
+        "videoStart": 0.0,
+        "videoEnd": 0.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 87248,
+            "text": "echo \"(<p> Hello.</p>);",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 87249,
+            "text": "echo \"<p> Hello.</p>\";",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 87250,
+            "text": "echo (<p>' Hello.'</p>);",
+            "isCorrect": false,
+            "properties": {}
+          }
+        ],
+        "question": "Which of the following is the correct syntax?",
+        "textContent": null
+      },
+      {
+        "id": 3506,
+        "number": 2,
+        "videoStart": 0.0,
+        "videoEnd": 0.0,
+        "linkedVideoID": null,
+        "type": 3,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 87251,
+            "text": "//",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "Fill in the blank to make the text a comment:\r\n[!raw!]\r\n{0} This is a comment\r\necho 'This is a test';",
+        "textContent": null
+      },
+      {
+        "id": 3507,
+        "number": 3,
+        "videoStart": 0.0,
+        "videoEnd": 0.0,
+        "linkedVideoID": null,
+        "type": 6,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 66871,
+            "text": "<?php",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 66872,
+            "text": "echo",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 66873,
+            "text": "?>",
+            "isCorrect": true,
+            "properties": {}
+          }
+        ],
+        "question": "Drag the commands to their corresponding places to form the correct PHP code:\r\n[!raw!]\r\n{0}\r\n  {1} \"Some text\";\r\n{2}",
+        "textContent": null
+      }
+    ]
+  }
+}

@@ -1,1 +1,80 @@
-{"lesson":{"id":1795,"name":"Comments","type":0,"mode":1,"videoID":"OVyMffqb32k","tags":"comments","quizzes":[{"id":3453,"number":1,"videoStart":6.0,"videoEnd":126.0,"linkedVideoID":null,"type":1,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":104515,"text":"//","isCorrect":true,"properties":{}},{"id":104516,"text":"<!----","isCorrect":false,"properties":{}},{"id":104517,"text":"***","isCorrect":false,"properties":{}}],"question":"Which of the following characters indicates comments in PHP?","textContent":"[h1]Comments[/h1]\r\n\r\nIn PHP code, a [b]comment[/b] is a line that is not executed as part of the program. You can use comments to communicate to others so they understand what you're doing, or as a reminder to yourself of what you did.\r\n\r\nA [b]single-line[/b] comment starts with //:[code format=\"php\" codeId=\"460\"]<?php   \r\n  echo \"<p>Hello World!</p>\";\r\n [b] // This is a single-line comment[/b]\r\n  echo \"<p>I am learning PHP!</p>\";\r\n  echo \"<p>This is my first program!</p>\";\r\n?>[/code]\r\n[b]Result: [/b][img id=\"2783\" width=\"100%\"]"},{"id":3454,"number":2,"videoStart":139.0,"videoEnd":234.0,"linkedVideoID":null,"type":3,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":104520,"text":"/*","isCorrect":false,"properties":{"prefix":"","postfix":""}},{"id":104521,"text":"*/","isCorrect":false,"properties":{"prefix":"","postfix":""}}],"question":"Fill in the blanks to make the text a comment.\r\n[!raw!]\r\n{0} Name: John\r\n    Age : 24\r\n    Date: 05/06/2014\r\n{1}","textContent":"[h1]Multi-Line Comments[/h1]\r\n\r\n[b]Multi-line[/b] comments are used for composing comments that take more than a single line. \r\nA multi-line comment begins with /* and ends with */. [code format=\"php\" codeId=\"461\"]<?php   \r\n  echo \"<p>Hello World!</p>\";\r\n   [b]/*\r\n   This is a multi-line comment block\r\n   that spans over\r\n   multiple lines\r\n   */[/b]\r\n   echo \"<p>I am learning PHP!</p>\";\r\n   echo \"<p>This is my first program!</p>\";\r\n?>[/code]\r\n[note]Adding comments as you write your code is a good practice. It helps others understand your thinking and makes it easier for you to recall your thought processes when you refer to your code later on.[/note]"}]}}
+{
+  "lesson": {
+    "id": 1795,
+    "name": "Comments",
+    "type": 0,
+    "mode": 1,
+    "videoID": "OVyMffqb32k",
+    "tags": "comments",
+    "quizzes": [
+      {
+        "id": 3453,
+        "number": 1,
+        "videoStart": 6.0,
+        "videoEnd": 126.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 104515,
+            "text": "//",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 104516,
+            "text": "<!----",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 104517,
+            "text": "***",
+            "isCorrect": false,
+            "properties": {}
+          }
+        ],
+        "question": "Which of the following characters indicates comments in PHP?",
+        "textContent": "[h1]Comments[/h1]\r\n\r\nIn PHP code, a [b]comment[/b] is a line that is not executed as part of the program. You can use comments to communicate to others so they understand what you're doing, or as a reminder to yourself of what you did.\r\n\r\nA [b]single-line[/b] comment starts with //:[code format=\"php\" codeId=\"460\"]<?php   \r\n  echo \"<p>Hello World!</p>\";\r\n [b] // This is a single-line comment[/b]\r\n  echo \"<p>I am learning PHP!</p>\";\r\n  echo \"<p>This is my first program!</p>\";\r\n?>[/code]\r\n[b]Result: [/b][img id=\"2783\" width=\"100%\"]"
+      },
+      {
+        "id": 3454,
+        "number": 2,
+        "videoStart": 139.0,
+        "videoEnd": 234.0,
+        "linkedVideoID": null,
+        "type": 3,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 104520,
+            "text": "/*",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          },
+          {
+            "id": 104521,
+            "text": "*/",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "Fill in the blanks to make the text a comment.\r\n[!raw!]\r\n{0} Name: John\r\n    Age : 24\r\n    Date: 05/06/2014\r\n{1}",
+        "textContent": "[h1]Multi-Line Comments[/h1]\r\n\r\n[b]Multi-line[/b] comments are used for composing comments that take more than a single line. \r\nA multi-line comment begins with /* and ends with */. [code format=\"php\" codeId=\"461\"]<?php   \r\n  echo \"<p>Hello World!</p>\";\r\n   [b]/*\r\n   This is a multi-line comment block\r\n   that spans over\r\n   multiple lines\r\n   */[/b]\r\n   echo \"<p>I am learning PHP!</p>\";\r\n   echo \"<p>This is my first program!</p>\";\r\n?>[/code]\r\n[note]Adding comments as you write your code is a good practice. It helps others understand your thinking and makes it easier for you to recall your thought processes when you refer to your code later on.[/note]"
+      }
+    ]
+  }
+}

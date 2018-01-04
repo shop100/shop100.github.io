@@ -1,1 +1,40 @@
-{"lesson":{"id":1806,"name":"Logical Operators","type":0,"mode":1,"videoID":"d3BTJ5ByKAo","tags":"operators","quizzes":[{"id":3474,"number":1,"videoStart":663.5,"videoEnd":886.0,"linkedVideoID":null,"type":1,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":85852,"text":"TRUE","isCorrect":true,"properties":{}},{"id":85853,"text":"FALSE","isCorrect":false,"properties":{}}],"question":"What is the return value of the following expression, if $num1 = 5 and $num2 = 3?\r\n($num1 >1 && $num2 < $num1)","textContent":"[h1]Logical Operators[/h1]\r\n\r\n[b]Logical[/b] operators are used to combine conditional statements. [img id=\"2368\" width=\"100%\"]"}]}}
+{
+  "lesson": {
+    "id": 1806,
+    "name": "Logical Operators",
+    "type": 0,
+    "mode": 1,
+    "videoID": "d3BTJ5ByKAo",
+    "tags": "operators",
+    "quizzes": [
+      {
+        "id": 3474,
+        "number": 1,
+        "videoStart": 663.5,
+        "videoEnd": 886.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 85852,
+            "text": "TRUE",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 85853,
+            "text": "FALSE",
+            "isCorrect": false,
+            "properties": {}
+          }
+        ],
+        "question": "What is the return value of the following expression, if $num1 = 5 and $num2 = 3?\r\n($num1 >1 && $num2 < $num1)",
+        "textContent": "[h1]Logical Operators[/h1]\r\n\r\n[b]Logical[/b] operators are used to combine conditional statements. [img id=\"2368\" width=\"100%\"]"
+      }
+    ]
+  }
+}

@@ -1,1 +1,37 @@
-{"lesson":{"id":1838,"name":"$_SERVER Variables: Script Name","type":0,"mode":1,"videoID":"k-toXiaTV0k","tags":"predefined-variables","quizzes":[{"id":3548,"number":1,"videoStart":12.0,"videoEnd":157.0,"linkedVideoID":null,"type":3,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":98495,"text":"_","isCorrect":false,"properties":{"prefix":"$","postfix":""}}],"question":"Fill in the blank to print the current script's file path to the screen.\r\n[!raw!]\r\n<?php\r\n  $addr = {0}SERVER['SCRIPT_NAME'];\r\n  echo $addr;\r\n?>","textContent":"[h1]Predefined Variables[/h1]\r\n\r\nA [b]superglobal[/b] is a predefined variable that is always accessible, regardless of scope. You can access the PHP superglobals through any function, class, or file.\r\n\r\nPHP's superglobal variables are $_SERVER, $GLOBALS, $_REQUEST, $_POST, $_GET, $_FILES, $_ENV, $_COOKIE, $_SESSION.\r\n\r\n[h2]$_SERVER[/h2]\r\n\r\n[b]$_SERVER[/b] is an array that includes information such as headers, paths, and script locations. The entries in this array are created by the web server.\r\n[b]$_SERVER['SCRIPT_NAME'][/b] returns the path of the current script: [code format=\"php\" codeId=\"493\"]<?php\r\necho $_SERVER['SCRIPT_NAME'];\r\n//Outputs \"/somefile.php\"\r\n?>[/code]\r\n[note]Our example was written in a file called [b]somefile.php[/b], which is located in the root of the web server.[/note]"}]}}
+{
+  "lesson": {
+    "id": 1838,
+    "name": "$_SERVER Variables: Script Name",
+    "type": 0,
+    "mode": 1,
+    "videoID": "k-toXiaTV0k",
+    "tags": "predefined-variables",
+    "quizzes": [
+      {
+        "id": 3548,
+        "number": 1,
+        "videoStart": 12.0,
+        "videoEnd": 157.0,
+        "linkedVideoID": null,
+        "type": 3,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 98495,
+            "text": "_",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "$",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "Fill in the blank to print the current script's file path to the screen.\r\n[!raw!]\r\n<?php\r\n  $addr = {0}SERVER['SCRIPT_NAME'];\r\n  echo $addr;\r\n?>",
+        "textContent": "[h1]Predefined Variables[/h1]\r\n\r\nA [b]superglobal[/b] is a predefined variable that is always accessible, regardless of scope. You can access the PHP superglobals through any function, class, or file.\r\n\r\nPHP's superglobal variables are $_SERVER, $GLOBALS, $_REQUEST, $_POST, $_GET, $_FILES, $_ENV, $_COOKIE, $_SESSION.\r\n\r\n[h2]$_SERVER[/h2]\r\n\r\n[b]$_SERVER[/b] is an array that includes information such as headers, paths, and script locations. The entries in this array are created by the web server.\r\n[b]$_SERVER['SCRIPT_NAME'][/b] returns the path of the current script: [code format=\"php\" codeId=\"493\"]<?php\r\necho $_SERVER['SCRIPT_NAME'];\r\n//Outputs \"/somefile.php\"\r\n?>[/code]\r\n[note]Our example was written in a file called [b]somefile.php[/b], which is located in the root of the web server.[/note]"
+      }
+    ]
+  }
+}

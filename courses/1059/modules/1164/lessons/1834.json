@@ -1,1 +1,86 @@
-{"lesson":{"id":1834,"name":"User-Defined Functions","type":0,"mode":1,"videoID":"cARUoiBxHoQ","tags":"functions","quizzes":[{"id":3540,"number":1,"videoStart":80.0,"videoEnd":176.0,"linkedVideoID":null,"type":1,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":96902,"text":"#hello()","isCorrect":false,"properties":{}},{"id":96903,"text":"_hello()","isCorrect":true,"properties":{}},{"id":96904,"text":"123()","isCorrect":false,"properties":{}},{"id":96905,"text":"11_hello()","isCorrect":false,"properties":{}}],"question":"Which of the following is a correct name for a function?","textContent":"[h1]Functions[/h1]\r\n\r\nA [b]function [/b]is a block of statements that can be used repeatedly in a program.\r\nA function will not execute immediately when a page loads. It will be executed by a call to the function.\r\nA user defined function declaration starts with the word [b]function[/b]: [code format=\"php\"][b]function [/b]functionName() {\u000b    \r\n   //code to be executed\u000b\r\n}[/code]\r\nA function name can start with a letter or an underscore, but not with a number or a special symbol.\r\n[note]Function names are NOT case-sensitive.[/note]"},{"id":3539,"number":2,"videoStart":176.0,"videoEnd":325.0,"linkedVideoID":null,"type":6,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":98482,"text":"function","isCorrect":true,"properties":{}},{"id":98483,"text":"myFunc","isCorrect":true,"properties":{}},{"id":98484,"text":"myFunc();","isCorrect":true,"properties":{}}],"question":"Fill in the blanks to create a function called myFunc and then call it:\r\n[!raw!]\r\n{0} {1}()  {\r\n   echo \"PHP is awesome!\";\r\n}\r\n{2}","textContent":"[h1]Functions[/h1]\r\n\r\nIn the example below, we create the function [b]sayHello()[/b]. The opening curly brace ({) indicates that this is the beginning of the function code, while the closing curly brace (}) indicates that this is the end.\r\nTo call the function, just write its name: [code format=\"php\" codeId=\"487\"][b]function [/b]sayHello() {\r\n  echo \"Hello!\";\r\n}\r\n\r\n[b]sayHello()[/b]; //call the function\r\n\r\n//Outputs \"Hello!\"[/code]"}]}}
+{
+  "lesson": {
+    "id": 1834,
+    "name": "User-Defined Functions",
+    "type": 0,
+    "mode": 1,
+    "videoID": "cARUoiBxHoQ",
+    "tags": "functions",
+    "quizzes": [
+      {
+        "id": 3540,
+        "number": 1,
+        "videoStart": 80.0,
+        "videoEnd": 176.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 96902,
+            "text": "#hello()",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 96903,
+            "text": "_hello()",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 96904,
+            "text": "123()",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 96905,
+            "text": "11_hello()",
+            "isCorrect": false,
+            "properties": {}
+          }
+        ],
+        "question": "Which of the following is a correct name for a function?",
+        "textContent": "[h1]Functions[/h1]\r\n\r\nA [b]function [/b]is a block of statements that can be used repeatedly in a program.\r\nA function will not execute immediately when a page loads. It will be executed by a call to the function.\r\nA user defined function declaration starts with the word [b]function[/b]: [code format=\"php\"][b]function [/b]functionName() {\u000b    \r\n   //code to be executed\u000b\r\n}[/code]\r\nA function name can start with a letter or an underscore, but not with a number or a special symbol.\r\n[note]Function names are NOT case-sensitive.[/note]"
+      },
+      {
+        "id": 3539,
+        "number": 2,
+        "videoStart": 176.0,
+        "videoEnd": 325.0,
+        "linkedVideoID": null,
+        "type": 6,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 98482,
+            "text": "function",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 98483,
+            "text": "myFunc",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 98484,
+            "text": "myFunc();",
+            "isCorrect": true,
+            "properties": {}
+          }
+        ],
+        "question": "Fill in the blanks to create a function called myFunc and then call it:\r\n[!raw!]\r\n{0} {1}()  {\r\n   echo \"PHP is awesome!\";\r\n}\r\n{2}",
+        "textContent": "[h1]Functions[/h1]\r\n\r\nIn the example below, we create the function [b]sayHello()[/b]. The opening curly brace ({) indicates that this is the beginning of the function code, while the closing curly brace (}) indicates that this is the end.\r\nTo call the function, just write its name: [code format=\"php\" codeId=\"487\"][b]function [/b]sayHello() {\r\n  echo \"Hello!\";\r\n}\r\n\r\n[b]sayHello()[/b]; //call the function\r\n\r\n//Outputs \"Hello!\"[/code]"
+      }
+    ]
+  }
+}

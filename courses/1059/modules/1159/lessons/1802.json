@@ -1,1 +1,37 @@
-{"lesson":{"id":1802,"name":"Variable Variables","type":0,"mode":1,"videoID":"Mv8LGL9Ua7o","tags":"variables","quizzes":[{"id":3467,"number":1,"videoStart":50.0,"videoEnd":144.5,"linkedVideoID":null,"type":3,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":98425,"text":"$$","isCorrect":false,"properties":{"prefix":"","postfix":""}}],"question":"Fill in the blank to print ''World'' to the screen.\r\n[!raw!]\r\n<?php \r\n  $Hello = \"World\";\r\n  $a = \"Hello\";\r\n  echo {0}a; \r\n?>","textContent":"[h1]Variable Variables[/h1]\r\n\r\nWith PHP, you can use one variable to specify another variable's name. \r\nSo, a [b]variable variable [/b]treats the value of another variable as its name.\r\n\r\n[b]For example:[/b] [code format=\"php\" codeId=\"468\"]<?php\r\n  $a = 'hello';\r\n  $hello = \"Hi!\";\r\n  echo [b]$$a[/b];\r\n\r\n  // Outputs '[b]Hi!'[/b]\r\n?>[/code]\r\n[note][b]$$a [/b]is a variable that is using the value of another variable, [b]$a[/b], as its name. The value of [b]$a[/b] is equal to \"hello\". The resulting variable is [b]$hello[/b], which holds the value \"Hi!\".[/note]"}]}}
+{
+  "lesson": {
+    "id": 1802,
+    "name": "Variable Variables",
+    "type": 0,
+    "mode": 1,
+    "videoID": "Mv8LGL9Ua7o",
+    "tags": "variables",
+    "quizzes": [
+      {
+        "id": 3467,
+        "number": 1,
+        "videoStart": 50.0,
+        "videoEnd": 144.5,
+        "linkedVideoID": null,
+        "type": 3,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 98425,
+            "text": "$$",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "Fill in the blank to print ''World'' to the screen.\r\n[!raw!]\r\n<?php \r\n  $Hello = \"World\";\r\n  $a = \"Hello\";\r\n  echo {0}a; \r\n?>",
+        "textContent": "[h1]Variable Variables[/h1]\r\n\r\nWith PHP, you can use one variable to specify another variable's name. \r\nSo, a [b]variable variable [/b]treats the value of another variable as its name.\r\n\r\n[b]For example:[/b] [code format=\"php\" codeId=\"468\"]<?php\r\n  $a = 'hello';\r\n  $hello = \"Hi!\";\r\n  echo [b]$$a[/b];\r\n\r\n  // Outputs '[b]Hi!'[/b]\r\n?>[/code]\r\n[note][b]$$a [/b]is a variable that is using the value of another variable, [b]$a[/b], as its name. The value of [b]$a[/b] is equal to \"hello\". The resulting variable is [b]$hello[/b], which holds the value \"Hi!\".[/note]"
+      }
+    ]
+  }
+}
