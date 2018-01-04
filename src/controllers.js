@@ -35,9 +35,20 @@ angular
                 }
             }
         };
+        var courseModuleShowState = {
+            name: 'courses.show.module',
+            url: '/modules/:module_id',
+            views:{
+                "@": {
+                    controller: require('./controllers/CoursesModuleShowController.js'),
+                    template: require('./pages/course-module-show.html')
+                }
+            }
+        };
 
         $stateProvider.state(homeState);
         $stateProvider.state(coursesState);
         $stateProvider.state(courseState);
+        $stateProvider.state(courseModuleShowState);
         $urlRouterProvider.otherwise('/');
     }]);
