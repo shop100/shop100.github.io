@@ -1,0 +1,56 @@
+.lessonPanel{
+  max-width: 802px;
+  margin: 34px auto;
+}
+.appLesson .name {
+  padding: 20px 10px;
+  text-align: left;
+  height: 115px;
+}
+.appLesson .number {
+  padding: 4px;
+  font-size: 12px;
+  float: right;
+}
+.appLesson .info {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #8bc34a;
+  color: #fff;
+}
+.appLesson {
+  position: relative;
+  height: 155px;
+  width: 155px;
+  margin: 4px;
+  float: left;
+  background: #fff;
+  color: #737373;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+  overflow: hidden;
+  transition: box-shadow ease-in 100ms;
+  cursor: pointer;
+}
+.appLesson.active .icon {
+  background-position: -40px 0;
+}
+.appLesson .icon {
+  display: block;
+  float: right;
+  width: 40px;
+  height: 40px;
+  background-image: url(https://www.sololearn.com/Images/appSprite.png);
+}
+.appLesson .info span {
+  white-space: nowrap;
+  font-size: 14px;
+  line-height: 40px;
+  margin: 0 10px;
+}
+.appLesson.active {
+  box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+}
+
