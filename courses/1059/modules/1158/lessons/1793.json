@@ -29,8 +29,8 @@
             }
           }
         ],
-        "question": "Fill in the correct character.\r\n[!raw!]\r\n{0}\r\n  echo 'Hello';\r\n?>",
-        "textContent": "[h1]PHP Syntax[/h1]\r\n\r\nA PHP script starts with [b]<?php[/b] and ends with [b]?>[/b]: [code format=\"php\" ][b]<?php[/b]\r\n  // PHP code goes here\r\n[b]?>[/b][/code]\r\nHere is an example of a simple PHP file. The PHP script uses a built in function called \"[b]echo[/b]\" to output the text \"Hello World!\" to a web page.[code format=\"raw\" codeId=\"454\"]<html>\r\n  <head>\r\n    <title>My First PHP Page</title>\r\n  </head>\r\n  <body>\r\n[b]  <?php   \r\n    echo \"Hello World!\";\r\n  ?>[/b]\r\n  </body>\r\n</html>[/code]\r\n[note]PHP statements end with [b]semicolons (;)[/b].[/note]"
+        "question": "Điền vào chỗ trống.\r\n[!raw!]\r\n{0}\r\n  echo 'Hello';\r\n?>",
+        "textContent": "[h1]PHP Cú pháp[/h1]\r\n\r\nPHP script bắt đầu với [b]<?php[/b] và kết thúc với [b]?>[/b]: [code format=\"php\" ][b]<?php[/b]\r\n  // PHP code đến đây \r\n[b]?>[/b][/code]\r\nĐây là ví dụ đơn giản về một file PHP. PHP script sử dụng chức năng gọi là \"[b]echo[/b]\" để xuất ra văn bản \"Hello World!\" cho trang web.[code format=\"raw\" codeId=\"454\"]<html>\r\n  <head>\r\n    <title>My First PHP Page</title>\r\n  </head>\r\n  <body>\r\n[b]  <?php   \r\n    echo \"Hello World!\";\r\n  ?>[/b]\r\n  </body>\r\n</html>[/code]\r\n[note]Câu lệnh php kết thúc với [b]dấu chấm phẩy (;)[/b].[/note]"
       },
       {
         "id": 3448,
@@ -63,8 +63,8 @@
             "properties": {}
           }
         ],
-        "question": "Which of the following is correct when using PHP with the script tag?",
-        "textContent": "[h1]PHP Syntax[/h1]\r\n\r\nAlternatively, we can include PHP in the HTML [b]<script>[/b] tag.[code format=\"raw\" ]<html>\r\n  <head>\r\n    <title>My First PHP Page</title>\r\n  </head>\r\n  <body>\r\n  [b]<script language=\"php\">[/b]\r\n    echo \"Hello World!\";\r\n  [b]</script>[/b]\r\n  </body>\r\n</html>[/code]\r\n[note]However, the latest version of PHP removes support for <script language=\"php\"> tags. As such, we recommend using [b]<?php ?>[/b] exclusively.[/note]"
+        "question": "Đáp án nào đúng khi sử dụng PHP trong script tag",
+        "textContent": "[h1]PHP Syntax[/h1]\r\n\r\nCách khác, chúng ta có thể chèn PHP vào HTML [b]<script>[/b] tag.[code format=\"raw\" ]<html>\r\n  <head>\r\n    <title>My First PHP Page</title>\r\n  </head>\r\n  <body>\r\n  [b]<script language=\"php\">[/b]\r\n    echo \"Hello World!\";\r\n  [b]</script>[/b]\r\n  </body>\r\n</html>[/code]\r\n[note]Tuy nhiên, phiên bản cuối cùng của PHP đã không còn hỗ trợ <script language=\"php\"> tags. Như vậy, chúng tôi khuyên các bạn nên dùng [b]<?php ?>[/b] tốt nhất.[/note]"
       },
       {
         "id": 3449,
@@ -97,8 +97,8 @@
             "properties": {}
           }
         ],
-        "question": "Which is the most widely recommended way to use PHP tags?",
-        "textContent": "[h1]PHP Syntax[/h1]\r\n\r\nYou can also use the shorthand PHP tags, <? ?>, as long as they're supported by the server.[code format=\"php\" codeId=\"456\"]<[b]?\r\n  echo \"Hello World!\";\r\n?>[/b][/code]  \r\n[note]However, [b]<?php ?>[/b], as the official standard, is the recommended way of defining PHP scripts.[/note]"
+        "question": "Đâu là cách tốt nhất để dùng PHP tags?",
+        "textContent": "[h1]PHP cú pháp[/h1]\r\n\r\nBạn có thể viết ngắn lại PHP tags, <? ?>, miễn là chúng được hỗ trợ.[code format=\"php\" codeId=\"456\"]<[b]?\r\n  echo \"Hello World!\";\r\n?>[/b][/code]  \r\n[note]Tuy nhiên, [b]<?php ?>[/b], như là tiêu chuẩn chính thức, là cách được đề nghị để định nghĩa PHP scripts.[/note]"
       }
     ]
   }

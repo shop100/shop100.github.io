@@ -38,8 +38,8 @@
             "properties": {}
           }
         ],
-        "question": "Which of the following characters indicates comments in PHP?",
-        "textContent": "[h1]Comments[/h1]\r\n\r\nIn PHP code, a [b]comment[/b] is a line that is not executed as part of the program. You can use comments to communicate to others so they understand what you're doing, or as a reminder to yourself of what you did.\r\n\r\nA [b]single-line[/b] comment starts with //:[code format=\"php\" codeId=\"460\"]<?php   \r\n  echo \"<p>Hello World!</p>\";\r\n [b] // This is a single-line comment[/b]\r\n  echo \"<p>I am learning PHP!</p>\";\r\n  echo \"<p>This is my first program!</p>\";\r\n?>[/code]\r\n[b]Result: [/b][img id=\"2783\" width=\"100%\"]"
+        "question": "Những ký hiệu nào sau đây chỉ ra phần comments trong PHP?",
+        "textContent": "[h1]Comments[/h1]\r\n\r\nTrong PHP code, một [b]comment[/b] là một dòng không thực hiện như là một phần của chương trình. Bạn có thể dùng comments để giao tiếp với người khác như vậy họ có thể hiểu được bạn đang làm gì, hoặc gợi nhớ lại bạn đã làm gì.\r\n\r\n [b]Một dòng[/b] comment bắt đầu với //:[code format=\"php\" codeId=\"460\"]<?php   \r\n  echo \"<p>Hello World!</p>\";\r\n [b] // This is a single-line comment[/b]\r\n  echo \"<p>I am learning PHP!</p>\";\r\n  echo \"<p>This is my first program!</p>\";\r\n?>[/code]\r\n[b]Result: [/b][img id=\"2783\" width=\"100%\"]"
       },
       {
         "id": 3454,
@@ -72,8 +72,8 @@
             }
           }
         ],
-        "question": "Fill in the blanks to make the text a comment.\r\n[!raw!]\r\n{0} Name: John\r\n    Age : 24\r\n    Date: 05/06/2014\r\n{1}",
-        "textContent": "[h1]Multi-Line Comments[/h1]\r\n\r\n[b]Multi-line[/b] comments are used for composing comments that take more than a single line. \r\nA multi-line comment begins with /* and ends with */. [code format=\"php\" codeId=\"461\"]<?php   \r\n  echo \"<p>Hello World!</p>\";\r\n   [b]/*\r\n   This is a multi-line comment block\r\n   that spans over\r\n   multiple lines\r\n   */[/b]\r\n   echo \"<p>I am learning PHP!</p>\";\r\n   echo \"<p>This is my first program!</p>\";\r\n?>[/code]\r\n[note]Adding comments as you write your code is a good practice. It helps others understand your thinking and makes it easier for you to recall your thought processes when you refer to your code later on.[/note]"
+        "question": "Điền vào chỗ trống để tạo ra phần comment.\r\n[!raw!]\r\n{0} Name: John\r\n    Age : 24\r\n    Date: 05/06/2014\r\n{1}",
+        "textContent": "[h1]Đoạn Comments[/h1]\r\n\r\n[b]Đoạn[/b] comments sử dụng nhiều hơn một dòng comment. \r\nMột đoạn comment bắt đầu với /* và kết thúc với */. [code format=\"php\" codeId=\"461\"]<?php   \r\n  echo \"<p>Hello World!</p>\";\r\n   [b]/*\r\n   This is a multi-line comment block\r\n   that spans over\r\n   multiple lines\r\n   */[/b]\r\n   echo \"<p>I am learning PHP!</p>\";\r\n   echo \"<p>This is my first program!</p>\";\r\n?>[/code]\r\n[note]Thêm comments vào code bạn viết là một hành động tốt. Nó giúp người khác hiểu bạn đang nghĩ gì và khiến việc nhớ lại dòng suy nghĩ khi bạn đề cập đến code của mình sau này.[/note]"
       }
     ]
   }

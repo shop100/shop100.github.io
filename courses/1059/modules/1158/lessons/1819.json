@@ -1,7 +1,7 @@
 {
   "lesson": {
     "id": 1819,
-    "name": "Làm trắc nghiệm",
+    "name": "Bài kiểm tra 1",
     "type": 1,
     "mode": 0,
     "videoID": null,
@@ -38,7 +38,7 @@
             "properties": {}
           }
         ],
-        "question": "Which of the following is the correct syntax?",
+        "question": "Đáp án nào dưới đây đúng cú pháp?",
         "textContent": null
       },
       {
@@ -63,7 +63,7 @@
             }
           }
         ],
-        "question": "Fill in the blank to make the text a comment:\r\n[!raw!]\r\n{0} This is a comment\r\necho 'This is a test';",
+        "question": "Điền vào chỗ trống để biến văn bản thành comment:\r\n[!raw!]\r\n{0} This is a comment\r\necho 'This is a test';",
         "textContent": null
       },
       {
@@ -97,7 +97,7 @@
             "properties": {}
           }
         ],
-        "question": "Drag the commands to their corresponding places to form the correct PHP code:\r\n[!raw!]\r\n{0}\r\n  {1} \"Some text\";\r\n{2}",
+        "question": "Kéo và thả các options dưới để có đoạn code PHP đúng:\r\n[!raw!]\r\n{0}\r\n  {1} \"Some text\";\r\n{2}",
         "textContent": null
       }
     ]
