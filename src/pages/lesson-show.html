@@ -23,6 +23,8 @@
 </div>
 
 <div id="quizView" ng-show="view=='quiz'" class="view elevated" style="display: block; z-index: 116; transform: translateX(0px) scaleX(1) scaleY(1);">
-    {{quizSelected.type}}
     {{quizSelected.question}}
+    <div ng-if="quizSelected.type === 1">
+        <single-choice-quiz answers="quizSelected.answers"></single-choice-quiz>
+    </div>
 </div>

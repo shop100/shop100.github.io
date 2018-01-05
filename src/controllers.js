@@ -1,6 +1,14 @@
+require("quiz-drag-drop/quiz-drag-drop.js");
+require("quiz-fill-in-blank/quiz-fill-in-blank.js");
+require("quiz-single-multiple-choice/quiz-single-choice.js");
+require("quiz-single-multiple-choice/quiz-multiple-choices.js");
 angular
     .module("AppControllers", [
-        'ui.router'
+        "ui.router",
+        "DragDropQuiz",
+        "FillInBlankQuiz",
+        "MultipleChoiceQuiz",
+        "SingleChoiceQuiz"
     ])
     .config([
         "$urlRouterProvider",

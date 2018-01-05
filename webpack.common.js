@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     module: {
         rules: [{
-            test: /\.scss$/,
+            test: /(\.css|\.scss)$/,
             use: [{
                 loader: "style-loader" // creates style nodes from JS strings
             }, {
