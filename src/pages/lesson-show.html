@@ -14,9 +14,15 @@
     </span>
     </div>
 </div>
-
-<div class="textContentContainer">
-    <div id="textContent" class="text">
-        <h1>Modulus </h1><br><br>
+<div id="textView" ng-show="view=='text'">
+    <div class="textContentContainer">
+        <div id="textContent" class="text">
+            <bb-decode content="quizSelected.textContent"></bb-decode>
+        </div>
     </div>
+</div>
+
+<div id="quizView" ng-show="view=='quiz'" class="view elevated" style="display: block; z-index: 116; transform: translateX(0px) scaleX(1) scaleY(1);">
+    {{quizSelected.type}}
+    {{quizSelected.question}}
 </div>
