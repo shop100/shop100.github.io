@@ -1,1 +1,80 @@
-{"lesson":{"id":1801,"name":"Introduction","type":0,"mode":1,"videoID":"iCUV3iv9xOs","tags":null,"quizzes":[{"id":3500,"number":1,"videoStart":9.0,"videoEnd":96.0,"linkedVideoID":null,"type":1,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":71540,"text":"Server side programming language","isCorrect":true,"properties":{}},{"id":71541,"text":"Markup language","isCorrect":false,"properties":{}},{"id":71542,"text":"Home page","isCorrect":false,"properties":{}},{"id":71543,"text":"Website","isCorrect":false,"properties":{}}],"question":"PHP is a...","textContent":"[h1]Welcome to PHP[/h1]\r\n\r\nPHP: Hypertext Preprocessor ([b]PHP[/b]) is a free, highly popular, open source scripting language. PHP scripts are executed on the [b]server[/b].\r\n\r\nJust a short list of what PHP is capable of:\r\n- Generating dynamic page content\r\n- Creating, opening, reading, writing, deleting, and closing files on the server\r\n- Collecting form data\r\n- Adding, deleting, and modifying information stored in your database\r\n- controlling user-access\r\n- encrypting data\r\n- and much more!\r\n\r\nBefore starting this tutorial, you should have a basic understanding of [b]HTML[/b].\r\n[note]PHP has enough power to work at the core of [b]WordPress[/b], the busiest blogging system on the web. It also has the degree of depth required to run [b]Facebook[/b], the web's largest social network![/note]"},{"id":3464,"number":2,"videoStart":96.0,"videoEnd":192.0,"linkedVideoID":null,"type":1,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":71538,"text":"Yes","isCorrect":true,"properties":{}},{"id":71539,"text":"No","isCorrect":false,"properties":{}}],"question":"Can you run PHP on Linux?","textContent":"[h1]Why PHP[/h1]\r\n\r\nPHP [b]runs [/b]on numerous, varying platforms, including Windows, Linux, Unix, Mac OS X, and so on.\r\nPHP is [b]compatible [/b]with almost any modern server, such as Apache, IIS, and more.\r\nPHP [b]supports [/b]a wide range of databases.\r\nPHP is [b]free[/b]!\r\n[note]PHP is easy to learn and runs efficiently on the server side.[/note]"}]}}
+{
+  "lesson": {
+    "id": 1801,
+    "name": "Introduction",
+    "type": 0,
+    "mode": 1,
+    "videoID": "iCUV3iv9xOs",
+    "tags": null,
+    "quizzes": [
+      {
+        "id": 3500,
+        "number": 1,
+        "videoStart": 9.0,
+        "videoEnd": 96.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 71540,
+            "text": "Server side programming language",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 71541,
+            "text": "Markup language",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 71542,
+            "text": "Home page",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 71543,
+            "text": "Website",
+            "isCorrect": false,
+            "properties": {}
+          }
+        ],
+        "question": "PHP is a...",
+        "textContent": "[h1]Welcome to PHP[/h1]\r\n\r\nPHP: Hypertext Preprocessor ([b]PHP[/b]) is a free, highly popular, open source scripting language. PHP scripts are executed on the [b]server[/b].\r\n\r\nJust a short list of what PHP is capable of:\r\n- Generating dynamic page content\r\n- Creating, opening, reading, writing, deleting, and closing files on the server\r\n- Collecting form data\r\n- Adding, deleting, and modifying information stored in your database\r\n- controlling user-access\r\n- encrypting data\r\n- and much more!\r\n\r\nBefore starting this tutorial, you should have a basic understanding of [b]HTML[/b].\r\n[note]PHP has enough power to work at the core of [b]WordPress[/b], the busiest blogging system on the web. It also has the degree of depth required to run [b]Facebook[/b], the web's largest social network![/note]"
+      },
+      {
+        "id": 3464,
+        "number": 2,
+        "videoStart": 96.0,
+        "videoEnd": 192.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 71538,
+            "text": "Yes",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 71539,
+            "text": "No",
+            "isCorrect": false,
+            "properties": {}
+          }
+        ],
+        "question": "Can you run PHP on Linux?",
+        "textContent": "[h1]Why PHP[/h1]\r\n\r\nPHP [b]runs [/b]on numerous, varying platforms, including Windows, Linux, Unix, Mac OS X, and so on.\r\nPHP is [b]compatible [/b]with almost any modern server, such as Apache, IIS, and more.\r\nPHP [b]supports [/b]a wide range of databases.\r\nPHP is [b]free[/b]!\r\n[note]PHP is easy to learn and runs efficiently on the server side.[/note]"
+      }
+    ]
+  }
+}
