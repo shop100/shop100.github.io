@@ -34,8 +34,8 @@
   "dependencies": {
     "@uirouter/angularjs": "^1.0.12",
     "angular": "^1.6.8",
-    "quiz-fill-in-blank": "https://github.com/haonx/quiz-fill-in-blank/tarball/master",
-    "quiz-single-multiple-choice": "https://github.com/haonx/quiz-single-multiple-choice/tarball/master",
-    "quiz-drag-drop": "https://github.com/haonx/quiz-drag-drop/tarball/master"
+    "quiz-fill-in-blank": "git+https://github.com/haonx/quiz-fill-in-blank.git",
+    "quiz-single-multiple-choice": "git+https://github.com/haonx/quiz-single-multiple-choice.git",
+    "quiz-drag-drop": "git+https://github.com/haonx/quiz-drag-drop.git"
   }
 }
