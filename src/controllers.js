@@ -45,10 +45,21 @@ angular
                     }
                 }
             };
+            var lessonShowState = {
+                name: 'courses.show.module.lesson',
+                url: '/lessons/:lesson_id',
+                views: {
+                    "@": {
+                        controller: require('./controllers/LessonShowController.js'),
+                        template: require('./pages/lesson-show.html')
+                    }
+                }
+            };
 
             $stateProvider.state(homeState);
             $stateProvider.state(coursesState);
             $stateProvider.state(courseState);
             $stateProvider.state(courseModuleShowState);
+            $stateProvider.state(lessonShowState);
             $urlRouterProvider.otherwise('/');
         }]);

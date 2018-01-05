@@ -1,5 +1,5 @@
 <div id="lessonsView" class="lessonPanel view" style="z-index: 108; display: block; opacity: 1;">
-    <div class="appLesson checkpoint normal" style="opacity: 1; transform: translateY(0px);" ng-repeat="lesson in module.lessons">
+    <div class="appLesson checkpoint normal" style="opacity: 1; transform: translateY(0px);" ng-repeat="lesson in module.lessons" ng-click="goto('courses.show.module.lesson',{ slug:course.alias, course_id:course.id, module_id:module.id, lesson_id:lesson.id})">
         <div class="number">
             <span>{{$index+1}}/{{module.lessons.length+1}}</span>
         </div>
