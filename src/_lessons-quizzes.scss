@@ -1,0 +1,74 @@
+.lessonOutline .video, .lessonOutline .quiz {
+  display: inline-block;
+  height: 30px;
+  width: 70px;
+  text-align: center;
+  margin: 0 -7px 0 -8px;
+  cursor: pointer;
+}
+.lessonOutline .left {
+  float: left;
+}
+.lessonOutline .video.passed i, .lessonOutline .video.active i {
+  background-position: -60px -150px;
+}
+
+.lessonOutline .video i {
+  background-position: -0 -150px;
+}
+.lessonOutline i {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url(https://www.sololearn.com/Images/appSprite.png);
+  position: relative;
+}
+.lessonOutline .right {
+  float: right;
+}
+.lessonOutline.text, .lessonOutline.video, #quizView .lessonOutline {
+  margin-left: 120px;
+}
+
+.lessonOutline {
+  text-align: center;
+  font-size: 0;
+}
+.lessonOutline .quiz.passed i, .lessonOutline .quiz.active i {
+  background-position: -90px -150px;
+}
+
+.lessonOutline .quiz i {
+  background-position: -30px -150px;
+}
+.lessonOutline i {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url(https://www.sololearn.com/Images/appSprite.png);
+  position: relative;
+}
+.lessonOutline .active {
+  background: url(https://www.sololearn.com/Images/appSprite.png) -160px -180px;
+}
+.lessonOutline .video, .lessonOutline .quiz {
+  display: inline-block;
+  height: 30px;
+  width: 70px;
+  text-align: center;
+  margin: 0 -7px 0 -8px;
+  cursor: pointer;
+}
+.lessonViewInfo .number {
+  padding: 0 20px;
+  float: right;
+  width: 80px;
+  text-align: right;
+}
+.lessonViewInfo {
+  height: 30px;
+  line-height: 30px;
+  color: rgb(212, 212, 212);
+  font-size: 20px;
+}
+
