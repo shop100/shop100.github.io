@@ -1,7 +1,7 @@
 {
   "lesson": {
     "id": 1801,
-    "name": "Introduction",
+    "name": "Giới Thiệu",
     "type": 0,
     "mode": 1,
     "videoID": "iCUV3iv9xOs",
@@ -21,19 +21,19 @@
         "answers": [
           {
             "id": 71540,
-            "text": "Server side programming language",
+            "text": "Ngôn ngữ lập trình phía máy chủ",
             "isCorrect": true,
             "properties": {}
           },
           {
             "id": 71541,
-            "text": "Markup language",
+            "text": "Ngôn ngữ đánh dấu",
             "isCorrect": false,
             "properties": {}
           },
           {
             "id": 71542,
-            "text": "Home page",
+            "text": "Trang chủ",
             "isCorrect": false,
             "properties": {}
           },
@@ -44,8 +44,8 @@
             "properties": {}
           }
         ],
-        "question": "PHP is a...",
-        "textContent": "[h1]Welcome to PHP[/h1]\r\n\r\nPHP: Hypertext Preprocessor ([b]PHP[/b]) is a free, highly popular, open source scripting language. PHP scripts are executed on the [b]server[/b].\r\n\r\nJust a short list of what PHP is capable of:\r\n- Generating dynamic page content\r\n- Creating, opening, reading, writing, deleting, and closing files on the server\r\n- Collecting form data\r\n- Adding, deleting, and modifying information stored in your database\r\n- controlling user-access\r\n- encrypting data\r\n- and much more!\r\n\r\nBefore starting this tutorial, you should have a basic understanding of [b]HTML[/b].\r\n[note]PHP has enough power to work at the core of [b]WordPress[/b], the busiest blogging system on the web. It also has the degree of depth required to run [b]Facebook[/b], the web's largest social network![/note]"
+        "question": "PHP là...",
+        "textContent": "[h1]Chào mừng đến với PHP[/h1]\r\n\r\nPHP: Hypertext Preprocessor ([b]PHP[/b]) miễn phí, rất phổ biến, mã nguồn mở. PHP scripts được thực hiện trên [b]máy chủ[/b].\r\n\r\nDanh sách ngắn những việc mà PHP có thể thực hiện:\r\n- Tạo nội dung trang động\r\n- Tạo, mở, đọc, viết, xóa, và đóng các file trên máy chủ\r\n- Thu thập dữ liệu biểu mẫu\r\n- Thêm, xóa, và sửa thông tin trong cơ sở dữ liệu của bạn\r\n- Kiểm soát người dùng truy cập\r\n- Mã hóa dữ liệu\r\n- và nhiều hơn nữa!\r\n\r\nTrước khi bắt đầu khóa học này, bạn nên hiểu cơ bản về [b]HTML[/b].\r\n[note]PHP có khả năng làm việc với [b]WordPress[/b]. Nó cũng là ngôn ngữ viết nên [b]Facebook[/b], mạng xã hội lớn nhất![/note]"
       },
       {
         "id": 3464,
@@ -61,19 +61,19 @@
         "answers": [
           {
             "id": 71538,
-            "text": "Yes",
+            "text": "Đúng",
             "isCorrect": true,
             "properties": {}
           },
           {
             "id": 71539,
-            "text": "No",
+            "text": "Sai",
             "isCorrect": false,
             "properties": {}
           }
         ],
-        "question": "Can you run PHP on Linux?",
-        "textContent": "[h1]Why PHP[/h1]\r\n\r\nPHP [b]runs [/b]on numerous, varying platforms, including Windows, Linux, Unix, Mac OS X, and so on.\r\nPHP is [b]compatible [/b]with almost any modern server, such as Apache, IIS, and more.\r\nPHP [b]supports [/b]a wide range of databases.\r\nPHP is [b]free[/b]!\r\n[note]PHP is easy to learn and runs efficiently on the server side.[/note]"
+        "question": "Bạn có thể sử dụng PHP trên Linux?",
+        "textContent": "[h1]Tại sao lại là PHP[/h1]\r\n\r\nPHP [b]chạy [/b]trên nhiều nền tảng, bao gồm Windows, Linux, Unix, Mac OS X,....\r\nPHP [b]tương thích [/b]với hầu hết các máy chủ hiện tại, như là Apache, IIS, và nữa.\r\nPHP [b]hỗ trợ [/b]một loạt các cơ sở dữ liệu.\r\nPHP [b]miễn phí[/b]!\r\n[note]PHP dễ học và sử dụng hiệu quả ở phía máy chủ.[/note]"
       }
     ]
   }
