@@ -1,7 +1,7 @@
 {
   "lesson": {
     "id": 1796,
-    "name": "Data Types",
+    "name": "Kiểu dữ liệu",
     "type": 0,
     "mode": 1,
     "videoID": "CJcgSUBMH1s",
@@ -29,8 +29,8 @@
             }
           }
         ],
-        "question": "Fill in the blank to define the variable string:\r\n[!raw!]\r\n<?php\r\n  {0}string = \"I am learning PHP\";\r\n?>",
-        "textContent": "[h1]Data Types[/h1]\r\n\r\nVariables can store a variety of data types.\r\nData types supported by PHP: [b]String[/b], [b]Integer[/b], [b]Float[/b], [b]Boolean[/b], [b]Array[/b], [b]Object[/b], NULL, Resource.\r\n\r\n[h2]PHP String[/h2]\r\nA [b]string[/b] is a sequence of characters, like \"Hello world!\"\r\nA string can be any text within a set of single or double [b]quotes[/b]. [code format=\"php\"]<?php\r\n[b]  $string1[/b] = \"Hello world!\"; //double quotes\r\n[b]  $string2[/b] = 'Hello world!';  //single quotes\r\n?>[/code]\r\n[note]You can join two strings together using the dot ( .) concatenation operator.\r\nFor example: [b]echo $s1 . $s2[/b]\r\n[b][/b][/note]\r\n\r\n[h2]PHP Integer[/h2]\r\nAn [b]integer[/b] is a whole number (without decimals) that must fit the following criteria:\r\n- It cannot contain commas or blanks\r\n- It must not have a decimal point\r\n- It can be either positive or negative[code format=\"php\"]<?php\r\n[b]  $int1[/b] = 42; // positive number\r\n[b]  $int2[/b] = -42; // negative number\r\n?>[/code]"
+        "question": "Điền vào chỗ trống để định nghĩa biến string:\r\n[!raw!]\r\n<?php\r\n  {0}string = \"I am learning PHP\";\r\n?>",
+        "textContent": "[h1]Kiểu dữ liệu[/h1]\r\n\r\nCác biến có thể lưu trữ ở nhiều kiểu dữ liệu khác nhau.\r\nCác kiểu dữ liệu được hỗ trợ bởi PHP: [b]String[/b], [b]Integer[/b], [b]Float[/b], [b]Boolean[/b], [b]Array[/b], [b]Object[/b], NULL, Resource.\r\n\r\n[h2]PHP String[/h2]\r\nMột [b]chuỗi[/b] là một dãy các ký tự, như \"Hello world!\"\r\nMột chỗi có thể là bất kỳ văn bản nào trong [b]dấu ngoặc đơn hoặc ngoặc kép[/b]. [code format=\"php\"]<?php\r\n[b]  $string1[/b] = \"Hello world!\"; //ngoặc kép\r\n[b]  $string2[/b] = 'Hello world!';  //ngoặc đơn\r\n?>[/code]\r\n[note]Bạn có thể kết hợp hai dãy với nhau bằng cách sử dụng dấu chấm ( .).\r\nVí dụ: [b]echo $s1 . $s2[/b]\r\n[b][/b][/note]\r\n\r\n[h2]PHP Integer[/h2]\r\n[b]Số nguyên[/b] (không phải số thập phân) phải thỏa mãn các chỉ tiêu sau:\r\n- Không thể chứa dấu phẩy hoặc khoảng trống.\r\n- Nó không được có điểm thập phân\r\n- Nó có thể là số âm hoặc số dương[code format=\"php\"]<?php\r\n[b]  $int1[/b] = 42; // Số dương\r\n[b]  $int2[/b] = -42; // Số âm\r\n?>[/code]"
       },
       {
         "id": 3455,
@@ -54,8 +54,8 @@
             }
           }
         ],
-        "question": "What output results from the following code?\r\n<?php\r\n $someString = \"15\";\r\n $birthyear = 1982;\r\n echo $someString + $birthyear;\r\n?>",
-        "textContent": "[h1]PHP Float[/h1]\r\n\r\nA [b]float[/b], or floating point number, is a number that includes a decimal point.[code format=\"php\" ]<?php\r\n  $x = 42.168;\r\n?>[/code]\r\n[h2]PHP Boolean[/h2]\r\n\r\nA [b]Boolean[/b] represents two possible states: TRUE or FALSE.[code format=\"php\" ]<?php\r\n  $x = true; $y = false;\r\n?>[/code]\r\n[note]Booleans are often used in conditional testing, which will be covered later on in the course.[/note]\r\nMost of the data types can be used in combination with one another. In this example, [b]string[/b] and [b]integer[/b] are put together to determine the sum of two numbers.[code format=\"php\" codeId=\"465\"]<?php\r\n  $str = \"10\";\r\n  $int = 20;\r\n  $sum = $str + $int;\r\n  echo ($sum);\r\n\r\n  // Outputs [b]30[/b]\r\n?>[/code]\r\n[note]PHP automatically converts each variable to the correct data type, according to its value. This is why the variable [b]$str[/b] is treated as a number in the addition.[/note]"
+        "question": "Kết quả của đoạn code sau?\r\n<?php\r\n $someString = \"15\";\r\n $birthyear = 1982;\r\n echo $someString + $birthyear;\r\n?>",
+        "textContent": "[h1]PHP Float[/h1]\r\n\r\nA [b]float[/b], or floating point number, is a number that includes a decimal point.[code format=\"php\" ]<?php\r\n  $x = 42.168;\r\n?>[/code]\r\n[h2]PHP Boolean[/h2]\r\n\r\n [b]Boolean[/b] thể hiện 2 trạng thái: TRUE hoặc FALSE.[code format=\"php\" ]<?php\r\n  $x = true; $y = false;\r\n?>[/code]\r\n[note]Booleans thường được sử dụng trong kiểm tra có điều kiện, sẽ dược đề cập sau trong khóa học.[/note]\r\nHầu hết các loại dữ liệu có thể sử dụng kết hợp với nhau. Trong ví dụ sau, [b]string[/b] và [b]integer[/b] được kết hợp để xác định tổng.[code format=\"php\" codeId=\"465\"]<?php\r\n  $str = \"10\";\r\n  $int = 20;\r\n  $sum = $str + $int;\r\n  echo ($sum);\r\n\r\n  // Outputs [b]30[/b]\r\n?>[/code]\r\n[note]PHP tự dộng   chuyển đổi từng biến thành kiểu dữ liệu chính xác, theo giá trị của nó.Đây là lý do vì sao biến $str được coi là một số trong phần bổ sung.[/note]"
       }
     ]
   }
