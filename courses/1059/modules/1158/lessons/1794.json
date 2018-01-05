@@ -38,8 +38,8 @@
             }
           }
         ],
-        "question": "Fill in the blanks to output \"Hi\" using echo:\r\n[!raw!]\r\n<?{0}\r\n   {1} \"Hi\";\r\n?>",
-        "textContent": "[h1]Echo[/h1]\r\n\r\nPHP has a built-in \"[b]echo[/b]\" function, which is used to output text. \r\nIn actuality, it's not a function; it's a[b] language construct[/b]. As such, it does not require parentheses.\r\n\r\nLet's output a text. [code format=\"php\" codeId=\"457\"]<?php\r\n  [b]echo[/b] \"I love PHP!\";\r\n?>[/code] \r\n[note]The text should be in single or double [b]quotation marks[/b].[/note]"
+        "question": "điền vào chỗ trống để xuất ra \"Hi\" sử dụng echo:\r\n[!raw!]\r\n<?{0}\r\n   {1} \"Hi\";\r\n?>",
+        "textContent": "[h1]Echo[/h1]\r\n\r\nPHP \"[b]echo[/b]\" có chức năng, xuất ra văn bản. \r\nTrong thực tế, nó không phải là  function; nó là [b] language construct[/b]. Như vậy, nó không yêu cầu ngoặc đơn.\r\n\r\nHãy xuất ra văn bản. [code format=\"php\" codeId=\"457\"]<?php\r\n  [b]echo[/b] \"I love PHP!\";\r\n?>[/code] \r\n[note]Văn bản nên ở trong [b]ngoặc đơn hoặc ngoặc kép[/b].[/note]"
       },
       {
         "id": 3451,
@@ -63,8 +63,8 @@
             }
           }
         ],
-        "question": "Which character has to be at the end of each statement?",
-        "textContent": "[h1]PHP Statements[/h1]\r\n\r\nEach PHP statement must end with a [b]semicolon[/b].[code format=\"php\" codeId=\"458\"]<?php\r\n  echo \"A\";\r\n  echo \"B\";\r\n  echo \"C\";\r\n?>[/code]\r\n[note]Forgetting to add a semicolon at the end of a statement results in an [b]error[/b].[/note]"
+        "question": "Thành phần nào phải ở cuối cùng của mỗi câu lệnh?",
+        "textContent": "[h1]Câu lệnh PHP [/h1]\r\n\r\nMỗi câu lệnh PHP phải được kết thúc bởi [b]dấu chấm phẩy[/b].[code format=\"php\" codeId=\"458\"]<?php\r\n  echo \"A\";\r\n  echo \"B\";\r\n  echo \"C\";\r\n?>[/code]\r\n[note]Quên không thêm dấu chấm phẩy ở cuối mỗi câu lệnh kết quả sẽ bị [b]lỗi[/b].[/note]"
       },
       {
         "id": 3452,
@@ -97,8 +97,8 @@
             }
           }
         ],
-        "question": "Fill in the blanks to output \"SoloLearn\" as a h1 heading:\r\n[!raw!]\r\n<?php\r\n  echo \"{0}SoloLearn{1}\";\r\n?>",
-        "textContent": "[h1]Echo[/h1]\r\n\r\nHTML markup can be added to the text in the [b]echo [/b]statement.[code format=\"php\" codeId=\"459\"]<?php\r\n   echo \"<strong>This is a bold text.</strong>\";\r\n?>[/code]\r\n[b]Result:[/b] [img id=\"2782\" width=\"100%\"]"
+        "question": "Điền vào chỗ trống để xuất ra \"SoloLearn\" như một tiêu đề h1:\r\n[!raw!]\r\n<?php\r\n  echo \"{0}SoloLearn{1}\";\r\n?>",
+        "textContent": "[h1]Echo[/h1]\r\n\r\nHTML có thể được thêm cho văn bản trong câu lệnh [b]echo [/b].[code format=\"php\" codeId=\"459\"]<?php\r\n   echo \"<strong>This is a bold text.</strong>\";\r\n?>[/code]\r\n[b]Result:[/b] [img id=\"2782\" width=\"100%\"]"
       }
     ]
   }
