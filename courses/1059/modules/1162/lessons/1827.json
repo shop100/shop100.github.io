@@ -1,1 +1,55 @@
-{"lesson":{"id":1827,"name":"The Foreach Loop","type":0,"mode":1,"videoID":"SG728V5lD0g","tags":"loops","quizzes":[{"id":3523,"number":1,"videoStart":17.0,"videoEnd":147.0,"linkedVideoID":null,"type":3,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":98461,"text":"foreach","isCorrect":false,"properties":{"prefix":"","postfix":""}},{"id":98462,"text":"as","isCorrect":false,"properties":{"prefix":"","postfix":""}},{"id":98463,"text":"item","isCorrect":false,"properties":{"prefix":"$","postfix":""}}],"question":"Fill in the blanks to print the elements of the array using the foreach loop.\r\n[!raw!]\r\n$items = array(\"one\", \"two\", \"three\");\r\n{0}($items {1} $item)   {\r\n   echo {2}.\"<br />\";\r\n}","textContent":"[h1]The foreach Loop[/h1]\r\n\r\nThe [b]foreach [/b]loop works only on arrays, and is used to loop through each key/value pair in an array.\r\n\r\nThere are two syntaxes: [code format=\"php\" ][b]foreach [/b](array as $value) {\r\n  code to be executed;\r\n}\r\n//or\r\n[b]foreach [/b](array as $key => $value) {\r\n   code to be executed;\r\n}[/code]\r\nThe first form loops over the array. On each iteration, the value of the current element is assigned to [b]$value[/b], and the array pointer is moved by one, until it reaches the last array element.\r\nThe second form will additionally assign the current element's key to the [b]$key[/b] variable on each iteration.\r\n\r\nThe following example demonstrates a loop that outputs the values of the [b]$names[/b] array.[code format=\"php\" codeId=\"481\"]$names = array(\"John\", \"David\", \"Amy\");\r\n[b]foreach[/b] ($names [b]as[/b] $name) {\r\n   echo $name.'<br />';\r\n}\r\n\r\n// John\r\n// David\r\n// Amy[/code]"}]}}
+{
+  "lesson": {
+    "id": 1827,
+    "name": "The Foreach Loop",
+    "type": 0,
+    "mode": 1,
+    "videoID": "SG728V5lD0g",
+    "tags": "loops",
+    "quizzes": [
+      {
+        "id": 3523,
+        "number": 1,
+        "videoStart": 17.0,
+        "videoEnd": 147.0,
+        "linkedVideoID": null,
+        "type": 3,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 98461,
+            "text": "foreach",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          },
+          {
+            "id": 98462,
+            "text": "as",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          },
+          {
+            "id": 98463,
+            "text": "item",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "$",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "Fill in the blanks to print the elements of the array using the foreach loop.\r\n[!raw!]\r\n$items = array(\"one\", \"two\", \"three\");\r\n{0}($items {1} $item)   {\r\n   echo {2}.\"<br />\";\r\n}",
+        "textContent": "[h1]The foreach Loop[/h1]\r\n\r\nThe [b]foreach [/b]loop works only on arrays, and is used to loop through each key/value pair in an array.\r\n\r\nThere are two syntaxes: [code format=\"php\" ][b]foreach [/b](array as $value) {\r\n  code to be executed;\r\n}\r\n//or\r\n[b]foreach [/b](array as $key => $value) {\r\n   code to be executed;\r\n}[/code]\r\nThe first form loops over the array. On each iteration, the value of the current element is assigned to [b]$value[/b], and the array pointer is moved by one, until it reaches the last array element.\r\nThe second form will additionally assign the current element's key to the [b]$key[/b] variable on each iteration.\r\n\r\nThe following example demonstrates a loop that outputs the values of the [b]$names[/b] array.[code format=\"php\" codeId=\"481\"]$names = array(\"John\", \"David\", \"Amy\");\r\n[b]foreach[/b] ($names [b]as[/b] $name) {\r\n   echo $name.'<br />';\r\n}\r\n\r\n// John\r\n// David\r\n// Amy[/code]"
+      }
+    ]
+  }
+}

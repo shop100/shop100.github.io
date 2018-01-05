@@ -1,7 +1,7 @@
 {
   "lesson": {
     "id": 1810,
-    "name": "Cài đặt PHP",
+    "name": "Cài đặt XAMPP",
     "type": 0,
     "mode": 1,
     "videoID": "EwJujkxYLZs",
@@ -29,8 +29,8 @@
             }
           }
         ],
-        "question": "What is the correct extension to use when saving PHP files?",
-        "textContent": "[h1]Getting Started[/h1]\r\n\r\nYou can run, save, and share your PHP codes on our [b]Code Playground[/b], without installing any additional software.\r\n[note]Reference this lesson if you need to install the software on your computer. [/note]\r\nTo start using PHP, your first step is to install a web server on your PC, and then install PHP. \r\nThe easiest way to get PHP is to install a tool called [b]XAMPP[/b]. It includes Apache, MySQL, and PHP, and it's available for free. Download and install XAMPP from www.xampp.org\r\nOpen the XAMPP Control Panel and start the Apache web server. [img id=\"2778\" width=\"100%\"]\r\nThe only thing you need to code PHP is a basic [b]text editor[/b]. We will use [b]NotePad++[/b], which is available for free.\r\nCreate a file, and write a sample PHP statement: [img id=\"2780\" width=\"100%\"]\r\nSave it as [b]someFile.php[/b] in the Apache root folder (In Windows, it is usually the folder [b]C:\\xampp\\htdocs[/b]).\r\nNow, open your web browser and go to [b]http://localhost/someFile.php[/b] [img id=\"2781\" width=\"100%\"]\r\n[note]Do not forget to save your PHP files with the [b].php[/b] extension.[/note]"
+        "question": "Lưu file PHP với đuôi file nào là hợp lệ?",
+        "textContent": "[h1]Bắt đầu[/h1]\r\n\r\n[note]Các ví dụ trong khóa học này yêu cầu bạn cài đặt XAMPP trên máy. [/note]\r\n Để bắt đầu sử dụng PHP, đơn giản nhất là cài XAMPP trên máy tính (XAMPP là bộ cài bao gồm WebServer và PHP). \r\nBạn có thể tải và cài đặt XAMPP từ trang chủ https://www.apachefriends.org/xampp-files/5.6.32/xampp-win32-5.6.32-0-VC11-installer.exe \r\nMở giao diện ControlPanel của phần mềm XAMPP và click Start module Apache. [img id=\"2778\" width=\"100%\"]\r\nVề [b]phần mềm sửa file PHP[/b]. Chúng ta sẽ dùng [b]PHPStorm[/b], một phần mềm miễn phí với chức năng PRO.\r\nBây giờ hãy download PHP https://gist.githubusercontent.com/haonx/e0891d9939eccd906e9771db25a3470d/raw/bd2b3ecfa4d9f213e69403d97e7b086e0e4a3336/someFile.php: [img id=\"2780\" width=\"100%\"]\r\nLưu vào thư mục Server (Thư mục [b]C:\\xampp\\htdocs[/b]).\r\nBây giờ hãy mở Chrome và tới trang [b]http://localhost/someFile.php[/b] [img id=\"2781\" width=\"100%\"]\r\n[note]Hãy nhớ rằng File PHP có đuôi file là [b].php[/b].[/note]"
       }
     ]
   }

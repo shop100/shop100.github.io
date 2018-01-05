@@ -1,1 +1,95 @@
-{"lesson":{"id":1823,"name":"The If Else Statement","type":0,"mode":1,"videoID":"9taxtnYSvEU","tags":"if-statements else-statements","quizzes":[{"id":3515,"number":1,"videoStart":31.5,"videoEnd":127.0,"linkedVideoID":null,"type":3,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":106629,"text":"if","isCorrect":false,"properties":{"prefix":"","postfix":""}},{"id":106630,"text":">","isCorrect":false,"properties":{"prefix":"","postfix":""}},{"id":106631,"text":"echo","isCorrect":false,"properties":{"prefix":"","postfix":""}}],"question":"Fill in the blanks to output \"Welcome\", if the variable 'age' is greater than 18.\r\n[!raw!]\r\n{0}($age {1} 18)\r\n{\r\n   {2} \"Welcome\";\r\n}","textContent":"[h1]Conditional Statements[/h1]\r\n\r\n[b]Conditional statements[/b] perform different actions for different decisions.\r\nThe [b]if else[/b] statement is used to execute a certain code if a condition is [b]true[/b], and another code if the condition is [b]false[/b].\r\n[b]Syntax:[/b][code format=\"php\" ][b]if[/b] (condition) {\r\n   code to be executed if condition is [b]true[/b];\r\n} [b]else [/b]{\r\n   code to be executed if condition is [b]false[/b];\r\n}[/code]\r\n[note]You can also use the[b] if[/b] statement without the [b]else [/b]statement, if you do not need to do anything, in case the condition is [b]false[/b].[/note]"},{"id":3516,"number":2,"videoStart":127.0,"videoEnd":209.0,"linkedVideoID":null,"type":6,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":98442,"text":"$num == 100","isCorrect":true,"properties":{}},{"id":98443,"text":"echo \"YES\";","isCorrect":true,"properties":{}},{"id":98444,"text":"else","isCorrect":true,"properties":{}},{"id":98445,"text":"echo \"NO\";","isCorrect":true,"properties":{}}],"question":"Drag the corresponding code blocks to print \"YES\" if the variable 'num' is equal to 100, \"NO\" if it is not.\r\n[!raw!]\r\nif({0})\r\n{\r\n    {1}\r\n} \r\n{2}\r\n{\r\n     {3}\r\n}","textContent":"[h1]If Else[/h1]\r\n\r\nThe example below will output the greatest number of the two.[code format=\"php\" codeId=\"476\"]<?php\r\n$x = 10;\r\n$y = 20;\r\n[b]if [/b]([b]$x >= $y[/b]) {\r\n   echo $x;\r\n} [b]else [/b]{\r\n   echo $y;\r\n}\r\n\r\n// Outputs \"20\"\r\n?>[/code]"}]}}
+{
+  "lesson": {
+    "id": 1823,
+    "name": "The If Else Statement",
+    "type": 0,
+    "mode": 1,
+    "videoID": "9taxtnYSvEU",
+    "tags": "if-statements else-statements",
+    "quizzes": [
+      {
+        "id": 3515,
+        "number": 1,
+        "videoStart": 31.5,
+        "videoEnd": 127.0,
+        "linkedVideoID": null,
+        "type": 3,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 106629,
+            "text": "if",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          },
+          {
+            "id": 106630,
+            "text": ">",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          },
+          {
+            "id": 106631,
+            "text": "echo",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "Fill in the blanks to output \"Welcome\", if the variable 'age' is greater than 18.\r\n[!raw!]\r\n{0}($age {1} 18)\r\n{\r\n   {2} \"Welcome\";\r\n}",
+        "textContent": "[h1]Conditional Statements[/h1]\r\n\r\n[b]Conditional statements[/b] perform different actions for different decisions.\r\nThe [b]if else[/b] statement is used to execute a certain code if a condition is [b]true[/b], and another code if the condition is [b]false[/b].\r\n[b]Syntax:[/b][code format=\"php\" ][b]if[/b] (condition) {\r\n   code to be executed if condition is [b]true[/b];\r\n} [b]else [/b]{\r\n   code to be executed if condition is [b]false[/b];\r\n}[/code]\r\n[note]You can also use the[b] if[/b] statement without the [b]else [/b]statement, if you do not need to do anything, in case the condition is [b]false[/b].[/note]"
+      },
+      {
+        "id": 3516,
+        "number": 2,
+        "videoStart": 127.0,
+        "videoEnd": 209.0,
+        "linkedVideoID": null,
+        "type": 6,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 98442,
+            "text": "$num == 100",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 98443,
+            "text": "echo \"YES\";",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 98444,
+            "text": "else",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 98445,
+            "text": "echo \"NO\";",
+            "isCorrect": true,
+            "properties": {}
+          }
+        ],
+        "question": "Drag the corresponding code blocks to print \"YES\" if the variable 'num' is equal to 100, \"NO\" if it is not.\r\n[!raw!]\r\nif({0})\r\n{\r\n    {1}\r\n} \r\n{2}\r\n{\r\n     {3}\r\n}",
+        "textContent": "[h1]If Else[/h1]\r\n\r\nThe example below will output the greatest number of the two.[code format=\"php\" codeId=\"476\"]<?php\r\n$x = 10;\r\n$y = 20;\r\n[b]if [/b]([b]$x >= $y[/b]) {\r\n   echo $x;\r\n} [b]else [/b]{\r\n   echo $y;\r\n}\r\n\r\n// Outputs \"20\"\r\n?>[/code]"
+      }
+    ]
+  }
+}

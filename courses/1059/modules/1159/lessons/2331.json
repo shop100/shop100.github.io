@@ -1,1 +1,46 @@
-{"lesson":{"id":2331,"name":"Constants","type":0,"mode":1,"videoID":"caHa189l37U","tags":"constants","quizzes":[{"id":4716,"number":1,"videoStart":16.0,"videoEnd":143.5,"linkedVideoID":null,"type":3,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":106489,"text":"define","isCorrect":false,"properties":{"prefix":"","postfix":""}},{"id":106490,"text":"28","isCorrect":false,"properties":{"prefix":"","postfix":""}}],"question":"Fill in the blanks to declare a case-sensitive constant called AGE and assign the value 28 to it.\r\n[!raw!]\r\n<?php\r\n  {0}(\"AGE\", {1});\r\n?>","textContent":"[h1]Constants[/h1]\r\n\r\n[b]Constants[/b] are similar to variables except that they cannot be changed or undefined after they've been defined.\r\nBegin the name of your constant with a letter or an underscore.\r\nTo create a constant, use the [b]define()[/b] function: [code format=\"raw\" ][b]define[/b](name, value, case-insensitive)[/code]\r\nParameters:\r\n[b]name[/b]: Specifies the name of the constant;\r\n[b]value[/b]: Specifies the value of the constant;\r\n[b]case-insensitive[/b]: Specifies whether the constant name should be case-insensitive. Default is [b]false;[/b]\r\n\r\nThe example below creates a constant with a [b]case-sensitive[/b] name: [code format=\"php\" codeId=\"463\"]<?php\r\n  define(\"MSG\", \"Hi SoloLearners!\");\r\n  echo MSG;\r\n\r\n   // Outputs \"Hi SoloLearners!\"\r\n?> [/code]\r\nThe example below creates a constant with a [b]case-insensitive[/b] name: [code format=\"php\" codeId=\"464\"]<?php\r\n  define(\"MSG\", \" Hi SoloLearners!\", [b]true[/b]);\r\n  echo msg;\r\n\r\n  // Outputs \"Hi SoloLearners!\"\r\n?>[/code]\r\n[note]No dollar sign ($) is necessary before the constant name.[/note]"}]}}
+{
+  "lesson": {
+    "id": 2331,
+    "name": "Constants",
+    "type": 0,
+    "mode": 1,
+    "videoID": "caHa189l37U",
+    "tags": "constants",
+    "quizzes": [
+      {
+        "id": 4716,
+        "number": 1,
+        "videoStart": 16.0,
+        "videoEnd": 143.5,
+        "linkedVideoID": null,
+        "type": 3,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 106489,
+            "text": "define",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          },
+          {
+            "id": 106490,
+            "text": "28",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "Fill in the blanks to declare a case-sensitive constant called AGE and assign the value 28 to it.\r\n[!raw!]\r\n<?php\r\n  {0}(\"AGE\", {1});\r\n?>",
+        "textContent": "[h1]Constants[/h1]\r\n\r\n[b]Constants[/b] are similar to variables except that they cannot be changed or undefined after they've been defined.\r\nBegin the name of your constant with a letter or an underscore.\r\nTo create a constant, use the [b]define()[/b] function: [code format=\"raw\" ][b]define[/b](name, value, case-insensitive)[/code]\r\nParameters:\r\n[b]name[/b]: Specifies the name of the constant;\r\n[b]value[/b]: Specifies the value of the constant;\r\n[b]case-insensitive[/b]: Specifies whether the constant name should be case-insensitive. Default is [b]false;[/b]\r\n\r\nThe example below creates a constant with a [b]case-sensitive[/b] name: [code format=\"php\" codeId=\"463\"]<?php\r\n  define(\"MSG\", \"Hi SoloLearners!\");\r\n  echo MSG;\r\n\r\n   // Outputs \"Hi SoloLearners!\"\r\n?> [/code]\r\nThe example below creates a constant with a [b]case-insensitive[/b] name: [code format=\"php\" codeId=\"464\"]<?php\r\n  define(\"MSG\", \" Hi SoloLearners!\", [b]true[/b]);\r\n  echo msg;\r\n\r\n  // Outputs \"Hi SoloLearners!\"\r\n?>[/code]\r\n[note]No dollar sign ($) is necessary before the constant name.[/note]"
+      }
+    ]
+  }
+}

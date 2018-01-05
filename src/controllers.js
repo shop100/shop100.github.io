@@ -2,17 +2,20 @@ angular
     .module("AppControllers", [
         'ui.router'
     ])
-    .config(["$locationProvider", function ($locationProvider) {
-        $locationProvider.html5Mode({
-            enabled: true,
-            requireBase: false
-        });
-    }])
-    .config(["$stateProvider", function ($stateProvider) {
+    .config([
+        "$urlRouterProvider",
+        "$stateProvider",
+        function ($urlRouterProvider, $stateProvider) {
         var homeState = {
             name: 'home',
             url: '/',
-            template: ''
+            template: '',
+            controller:[
+                "$state",
+                function ($state) {
+                    $state.go('courses');
+                }
+            ]
         };
 
         var coursesState = {
@@ -24,7 +27,7 @@ angular
 
         var courseState = {
             name: 'courses.show',
-            url: '/courses/:id',
+            url: '/:slug',
             views:{
                 "@": {
                     controller: require('./controllers/CoursesShowController.js'),
@@ -32,8 +35,20 @@ angular
                 }
             }
         };
+        var courseModuleShowState = {
+            name: 'courses.show.module',
+            url: '/:course_id/modules/:module_id',
+            views:{
+                "@": {
+                    controller: require('./controllers/CoursesModuleShowController.js'),
+                    template: require('./pages/course-module-show.html')
+                }
+            }
+        };
 
         $stateProvider.state(homeState);
         $stateProvider.state(coursesState);
         $stateProvider.state(courseState);
+        $stateProvider.state(courseModuleShowState);
+        $urlRouterProvider.otherwise('/');
     }]);

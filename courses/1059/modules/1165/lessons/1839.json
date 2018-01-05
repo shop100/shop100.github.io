@@ -1,1 +1,52 @@
-{"lesson":{"id":1839,"name":"$_SERVER Variables: Host Name","type":0,"mode":1,"videoID":"CFKEnbPBAKc","tags":"predefined-variables","quizzes":[{"id":3549,"number":1,"videoStart":6.5,"videoEnd":265.0,"linkedVideoID":null,"type":1,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":98500,"text":"An array","isCorrect":true,"properties":{}},{"id":98501,"text":"A string","isCorrect":false,"properties":{}},{"id":98502,"text":"An integer","isCorrect":false,"properties":{}},{"id":98503,"text":"A function","isCorrect":false,"properties":{}}],"question":"What is the $_SERVER variable?","textContent":"[h1]$_SERVER[/h1]\r\n\r\n$_SERVER['HTTP_HOST'] returns the Host header from the current request. [code format=\"php\"]<?php\r\necho $_SERVER['HTTP_HOST'];\r\n//Outputs \"localhost\"\r\n?>[/code]\r\nThis method can be useful when you have a lot of images on your server and need to transfer the website to another host. Instead of changing the path for each image, you can do the following:\r\nCreate a [b]config.php[/b] file, that holds the path to your images: [code format=\"php\" ]<?php\r\n$host = $_SERVER['HTTP_HOST'];\r\n$image_path = $host.'/images/';\r\n?>[/code]\r\nUse the [b]config.php[/b] file in your scripts:[code format=\"php\" ]<?php\r\nrequire 'config.php';\r\necho '<img src=\"'.$image_path.'header.png\" />';\r\n?>[/code]\r\n[note]The path to your images is now dynamic. It will change automatically, based on the Host header.[/note]\r\nThis graphic shows the main elements of $_SERVER. [img id=\"2378\" width=\"100%\"]"}]}}
+{
+  "lesson": {
+    "id": 1839,
+    "name": "$_SERVER Variables: Host Name",
+    "type": 0,
+    "mode": 1,
+    "videoID": "CFKEnbPBAKc",
+    "tags": "predefined-variables",
+    "quizzes": [
+      {
+        "id": 3549,
+        "number": 1,
+        "videoStart": 6.5,
+        "videoEnd": 265.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 98500,
+            "text": "An array",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 98501,
+            "text": "A string",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 98502,
+            "text": "An integer",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 98503,
+            "text": "A function",
+            "isCorrect": false,
+            "properties": {}
+          }
+        ],
+        "question": "What is the $_SERVER variable?",
+        "textContent": "[h1]$_SERVER[/h1]\r\n\r\n$_SERVER['HTTP_HOST'] returns the Host header from the current request. [code format=\"php\"]<?php\r\necho $_SERVER['HTTP_HOST'];\r\n//Outputs \"localhost\"\r\n?>[/code]\r\nThis method can be useful when you have a lot of images on your server and need to transfer the website to another host. Instead of changing the path for each image, you can do the following:\r\nCreate a [b]config.php[/b] file, that holds the path to your images: [code format=\"php\" ]<?php\r\n$host = $_SERVER['HTTP_HOST'];\r\n$image_path = $host.'/images/';\r\n?>[/code]\r\nUse the [b]config.php[/b] file in your scripts:[code format=\"php\" ]<?php\r\nrequire 'config.php';\r\necho '<img src=\"'.$image_path.'header.png\" />';\r\n?>[/code]\r\n[note]The path to your images is now dynamic. It will change automatically, based on the Host header.[/note]\r\nThis graphic shows the main elements of $_SERVER. [img id=\"2378\" width=\"100%\"]"
+      }
+    ]
+  }
+}

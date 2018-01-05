@@ -1,1 +1,108 @@
-{"lesson":{"id":1822,"name":"Module 4 Quiz","type":1,"mode":0,"videoID":null,"tags":null,"quizzes":[{"id":3512,"number":1,"videoStart":0.0,"videoEnd":0.0,"linkedVideoID":null,"type":1,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":19613,"text":"True","isCorrect":true,"properties":{}},{"id":19614,"text":"False","isCorrect":false,"properties":{}}],"question":"A numeric array stores each array element with a numeric index.","textContent":null},{"id":3514,"number":2,"videoStart":0.0,"videoEnd":0.0,"linkedVideoID":null,"type":1,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":44296,"text":"Rob went to the mall","isCorrect":false,"properties":{}},{"id":44297,"text":"David went to the mall","isCorrect":false,"properties":{}},{"id":44298,"text":"David went to the store","isCorrect":true,"properties":{}},{"id":44299,"text":"Rob went to the store","isCorrect":false,"properties":{}}],"question":"Which statement will be displayed in the browser?\r\n<?php \r\n$array[0] = \"the mall\";\r\n$array[1] = \"David\";\r\n$array[2] = \"brother\";\r\n$array[3] = \"the store\";\r\n$array[4] = \"Rob\";\r\necho \"$array[1] went to $array[3]\";\r\n?>","textContent":null},{"id":3513,"number":3,"videoStart":0.0,"videoEnd":0.0,"linkedVideoID":null,"type":1,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":19615,"text":"True","isCorrect":true,"properties":{}},{"id":19616,"text":"False","isCorrect":false,"properties":{}}],"question":"In the following example, the numeric index is automatically assigned.\r\n<?php \r\n$items = array(\"Ball\",\"Shoe\",\"Dress\");\r\n?>","textContent":null}]}}
+{
+  "lesson": {
+    "id": 1822,
+    "name": "Làm trắc nghiệm",
+    "type": 1,
+    "mode": 0,
+    "videoID": null,
+    "tags": null,
+    "quizzes": [
+      {
+        "id": 3512,
+        "number": 1,
+        "videoStart": 0.0,
+        "videoEnd": 0.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 19613,
+            "text": "True",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 19614,
+            "text": "False",
+            "isCorrect": false,
+            "properties": {}
+          }
+        ],
+        "question": "A numeric array stores each array element with a numeric index.",
+        "textContent": null
+      },
+      {
+        "id": 3514,
+        "number": 2,
+        "videoStart": 0.0,
+        "videoEnd": 0.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 44296,
+            "text": "Rob went to the mall",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 44297,
+            "text": "David went to the mall",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 44298,
+            "text": "David went to the store",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 44299,
+            "text": "Rob went to the store",
+            "isCorrect": false,
+            "properties": {}
+          }
+        ],
+        "question": "Which statement will be displayed in the browser?\r\n<?php \r\n$array[0] = \"the mall\";\r\n$array[1] = \"David\";\r\n$array[2] = \"brother\";\r\n$array[3] = \"the store\";\r\n$array[4] = \"Rob\";\r\necho \"$array[1] went to $array[3]\";\r\n?>",
+        "textContent": null
+      },
+      {
+        "id": 3513,
+        "number": 3,
+        "videoStart": 0.0,
+        "videoEnd": 0.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 19615,
+            "text": "True",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 19616,
+            "text": "False",
+            "isCorrect": false,
+            "properties": {}
+          }
+        ],
+        "question": "In the following example, the numeric index is automatically assigned.\r\n<?php \r\n$items = array(\"Ball\",\"Shoe\",\"Dress\");\r\n?>",
+        "textContent": null
+      }
+    ]
+  }
+}

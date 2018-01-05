@@ -1,1 +1,77 @@
-{"lesson":{"id":1842,"name":"$_SESSION","type":0,"mode":1,"videoID":"WuZBQ706thI","tags":"session","quizzes":[{"id":3556,"number":1,"videoStart":162.0,"videoEnd":238.0,"linkedVideoID":null,"type":2,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":96923,"text":"session_start","isCorrect":false,"properties":{"prefix":"","postfix":"();"}}],"question":"Type in the function that must be called before working with the session variables.","textContent":"[h1]Sessions[/h1]\r\n\r\nUsing a [b]session[/b], you can store information in variables, to be used across multiple pages.\r\nInformation is not stored on the user's computer, as it is with [b]cookies[/b].\r\nBy default, session variables last until the user closes the browser.\r\n\r\n[h2]Start a PHP Session[/h2]\r\n\r\nA session is started using the [b]session_start()[/b] function.\r\nUse the PHP global [b]$_SESSION[/b] to set session variables. [code format=\"php\"]<?php\r\n// Start the session\r\n[b]session_start();[/b]\r\n\r\n$_SESSION['color'] = \"red\";\r\n$_SESSION['name'] = \"John\";\r\n?>[/code]\r\nNow, the [b]color[/b] and [b]name[/b] session variables are accessible on multiple pages, throughout the entire session.\r\n[note]The [b]session_start()[/b] function must be the very first thing in your document. Before any HTML tags.[/note]"},{"id":3557,"number":2,"videoStart":238.0,"videoEnd":332.5,"linkedVideoID":null,"type":8,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":96924,"text":"session_start();","isCorrect":false,"properties":{}},{"id":96925,"text":"$name = \"Alex\";","isCorrect":false,"properties":{}},{"id":96926,"text":"$_SESSION['name'] = $name;","isCorrect":false,"properties":{}},{"id":96927,"text":"echo $_SESSION['name'];","isCorrect":false,"properties":{}}],"question":"Rearrange the code to declare the variable name, add it to the session, and then print it to the screen.","textContent":"[h1]Session Variables[/h1]\r\n\r\n[b]Another page[/b] can be created that can access the session variables we set in the previous page: [code format=\"php\"]<?php\r\n// Start the session\r\nsession_start();\r\n?>\r\n<!DOCTYPE html>\r\n<html>\r\n<body>\r\n<?php\r\necho \"Your name is \" . [b]$_SESSION['name'][/b];\r\n// Outputs \"Your name is John\"\r\n?>\r\n</body>\r\n</html>[/code]\r\n[note]Your session variables remain available in the [b]$_SESSION [/b]superglobal until you close your session.\r\nAll global session variables can be removed manually by using [b]session_unset()[/b]. You can also destroy the session with [b]session_destroy()[/b]. [/note]"}]}}
+{
+  "lesson": {
+    "id": 1842,
+    "name": "$_SESSION",
+    "type": 0,
+    "mode": 1,
+    "videoID": "WuZBQ706thI",
+    "tags": "session",
+    "quizzes": [
+      {
+        "id": 3556,
+        "number": 1,
+        "videoStart": 162.0,
+        "videoEnd": 238.0,
+        "linkedVideoID": null,
+        "type": 2,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 96923,
+            "text": "session_start",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": "();"
+            }
+          }
+        ],
+        "question": "Type in the function that must be called before working with the session variables.",
+        "textContent": "[h1]Sessions[/h1]\r\n\r\nUsing a [b]session[/b], you can store information in variables, to be used across multiple pages.\r\nInformation is not stored on the user's computer, as it is with [b]cookies[/b].\r\nBy default, session variables last until the user closes the browser.\r\n\r\n[h2]Start a PHP Session[/h2]\r\n\r\nA session is started using the [b]session_start()[/b] function.\r\nUse the PHP global [b]$_SESSION[/b] to set session variables. [code format=\"php\"]<?php\r\n// Start the session\r\n[b]session_start();[/b]\r\n\r\n$_SESSION['color'] = \"red\";\r\n$_SESSION['name'] = \"John\";\r\n?>[/code]\r\nNow, the [b]color[/b] and [b]name[/b] session variables are accessible on multiple pages, throughout the entire session.\r\n[note]The [b]session_start()[/b] function must be the very first thing in your document. Before any HTML tags.[/note]"
+      },
+      {
+        "id": 3557,
+        "number": 2,
+        "videoStart": 238.0,
+        "videoEnd": 332.5,
+        "linkedVideoID": null,
+        "type": 8,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 96924,
+            "text": "session_start();",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 96925,
+            "text": "$name = \"Alex\";",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 96926,
+            "text": "$_SESSION['name'] = $name;",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 96927,
+            "text": "echo $_SESSION['name'];",
+            "isCorrect": false,
+            "properties": {}
+          }
+        ],
+        "question": "Rearrange the code to declare the variable name, add it to the session, and then print it to the screen.",
+        "textContent": "[h1]Session Variables[/h1]\r\n\r\n[b]Another page[/b] can be created that can access the session variables we set in the previous page: [code format=\"php\"]<?php\r\n// Start the session\r\nsession_start();\r\n?>\r\n<!DOCTYPE html>\r\n<html>\r\n<body>\r\n<?php\r\necho \"Your name is \" . [b]$_SESSION['name'][/b];\r\n// Outputs \"Your name is John\"\r\n?>\r\n</body>\r\n</html>[/code]\r\n[note]Your session variables remain available in the [b]$_SESSION [/b]superglobal until you close your session.\r\nAll global session variables can be removed manually by using [b]session_unset()[/b]. You can also destroy the session with [b]session_destroy()[/b]. [/note]"
+      }
+    ]
+  }
+}

@@ -1,1 +1,139 @@
-{"lesson":{"id":1829,"name":"The Switch Statement","type":0,"mode":1,"videoID":"VbiPMsBpJ7w","tags":"switch","quizzes":[{"id":3526,"number":1,"videoStart":9.0,"videoEnd":119.0,"linkedVideoID":null,"type":1,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":96883,"text":"if elseif else statement","isCorrect":true,"properties":{}},{"id":96884,"text":"while loop","isCorrect":false,"properties":{}},{"id":96885,"text":"do while loop","isCorrect":false,"properties":{}}],"question":"The Switch statement is a replacement for...","textContent":"[h1]The switch Statement[/h1]\r\n\r\nThe [b]switch[/b] statement is an alternative to the[b] if-elseif-else[/b] statement. \r\nUse the [b]switch[/b] statement to select one of a number of blocks of code to be executed.\r\n\r\n[b]Syntax: [/b][code format=\"php\"][b]switch [/b](n) {\r\n  [b]case[/b] value1:\r\n    //code to be executed if n=value1\r\n    [b]break[/b];\r\n  [b]case[/b] value2:\r\n     //code to be executed if n=value2\r\n     [b]break[/b];\r\n  ...\r\n  [b]default[/b]:\r\n    // code to be executed if n is different from all labels\r\n}[/code]\r\nFirst, our single expression, [b]n[/b] (most often a variable), is evaluated once. Next, the value of the expression is compared with the value of each case in the structure. If there is a match, the block of code associated with that case is executed.\r\n[note]Using [b]nested if else statements[/b] results in similar behavior, but switch offers a more elegant and optimal solution.[/note]"},{"id":3527,"number":2,"videoStart":121.0,"videoEnd":212.0,"linkedVideoID":null,"type":3,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":98472,"text":"case","isCorrect":false,"properties":{"prefix":"","postfix":""}},{"id":98473,"text":"break","isCorrect":false,"properties":{"prefix":"","postfix":""}}],"question":"Fill in the blanks.\r\n[!raw!]\r\n$i = 1;\r\nswitch($i) {\r\n  {0} \"1\":\r\n    echo 'One';\r\n    {1};\r\n  case \"2\":\r\n    echo 'Two';\r\n    break;\r\n}","textContent":"[h1]Switch[/h1]\r\n\r\nConsider the following example, which displays the appropriate message for each day. [code format=\"php\" codeId=\"482\"]$today = 'Tue';\r\n\r\n[b]switch [/b]($today) {\r\n  [b]case [/b]\"Mon\":\r\n    echo \"Today is Monday.\";\r\n    [b]break[/b];\r\n  [b]case [/b]\"Tue\":\r\n    echo \"Today is Tuesday.\";\r\n    [b]break[/b];\r\n  [b]case [/b]\"Wed\":\r\n    echo \"Today is Wednesday.\";\r\n    [b]break[/b];\r\n  [b]case [/b]\"Thu\":\r\n    echo \"Today is Thursday.\";\r\n    [b]break[/b];\r\n  [b]case [/b]\"Fri\":\r\n     echo \"Today is Friday.\";\r\n     [b]break[/b];\r\n  [b]case [/b]\"Sat\":\r\n     echo \"Today is Saturday.\";\r\n     [b]break[/b];\r\n  [b]case [/b]\"Sun\":\r\n     echo \"Today is Sunday.\";\r\n     [b]break[/b];\r\n  [b]default[/b]:\r\n     echo \"Invalid day.\";\r\n}\r\n//Outputs \"Today is Tuesday.\"[/code]\r\n[note]The [b]break[/b] keyword that follows each case is used to keep the code from automatically running into the next case. If you forget the [b]break;[/b] statement, PHP will automatically continue through the next case statements, even when the case doesn't match.[/note]"},{"id":3528,"number":3,"videoStart":212.0,"videoEnd":274.0,"linkedVideoID":null,"type":2,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":98474,"text":"default","isCorrect":false,"properties":{"prefix":"","postfix":""}}],"question":"What keyword is used to handle cases that are not defined with the case keyword?","textContent":"[h1]default[/h1]\r\n\r\nThe [b]default [/b]statement is used if no match is found. [code format=\"php\" codeId=\"483\"]$x=5;\r\nswitch ($x) {\r\n  case 1:\r\n    echo \"One\";\r\n    break;\r\n  case 2:\r\n    echo \"Two\";\r\n    break;\r\n  [b]default:\r\n    [/b]echo \"No match\";\r\n}\r\n\r\n//Outputs \"No match\"[/code] \r\n[note]The [b]default[/b] statement is optional, so it can be omitted.[/note]"},{"id":3529,"number":4,"videoStart":274.0,"videoEnd":428.0,"linkedVideoID":null,"type":1,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":98475,"text":"Summer","isCorrect":false,"properties":{}},{"id":98476,"text":"Winter","isCorrect":false,"properties":{}},{"id":98477,"text":"Nothing","isCorrect":true,"properties":{}}],"question":"What output results from the following code?\r\n$mo = \"December\";\r\nswitch ($mo) {\r\ncase \"July\":\r\n    echo \"Summer\";\r\nbreak;\r\ncase \"January\":\r\ncase \"February\":\r\n    echo \"Winter\";\r\n}\r\n?>","textContent":"[h1]Switch[/h1]\r\n\r\nFailing to specify the [b]break[/b] statement causes PHP to continue to executing the statements that follow the [b]case[/b], until it finds a [b]break[/b]. You can use this behavior if you need to arrive at the same output for more than one case.[code format=\"php\" codeId=\"484\"]$day = 'Wed';\r\n\r\n[b]switch [/b]($day) {\r\n[b]  case [/b]'Mon':\r\n    echo 'First day of the week';\r\n[b]    break[/b];\r\n[b]  case [/b]'Tue':\r\n[b]  case [/b]'Wed':\r\n[b]  case [/b]'Thu':\r\n    echo 'Working day';\r\n[b]    break[/b];\r\n[b]  case [/b]'Fri':\r\n    echo 'Friday!';\r\n[b]    break[/b];\r\n[b]  default[/b]:\r\n    echo 'Weekend!';\r\n}\r\n\r\n//Outputs \"Working day\"[/code]\r\n[note]The example above will have the same output if[b] $day[/b] equals 'Tue', 'Wed', or 'Thu'. [/note]"}]}}
+{
+  "lesson": {
+    "id": 1829,
+    "name": "The Switch Statement",
+    "type": 0,
+    "mode": 1,
+    "videoID": "VbiPMsBpJ7w",
+    "tags": "switch",
+    "quizzes": [
+      {
+        "id": 3526,
+        "number": 1,
+        "videoStart": 9.0,
+        "videoEnd": 119.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 96883,
+            "text": "if elseif else statement",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 96884,
+            "text": "while loop",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 96885,
+            "text": "do while loop",
+            "isCorrect": false,
+            "properties": {}
+          }
+        ],
+        "question": "The Switch statement is a replacement for...",
+        "textContent": "[h1]The switch Statement[/h1]\r\n\r\nThe [b]switch[/b] statement is an alternative to the[b] if-elseif-else[/b] statement. \r\nUse the [b]switch[/b] statement to select one of a number of blocks of code to be executed.\r\n\r\n[b]Syntax: [/b][code format=\"php\"][b]switch [/b](n) {\r\n  [b]case[/b] value1:\r\n    //code to be executed if n=value1\r\n    [b]break[/b];\r\n  [b]case[/b] value2:\r\n     //code to be executed if n=value2\r\n     [b]break[/b];\r\n  ...\r\n  [b]default[/b]:\r\n    // code to be executed if n is different from all labels\r\n}[/code]\r\nFirst, our single expression, [b]n[/b] (most often a variable), is evaluated once. Next, the value of the expression is compared with the value of each case in the structure. If there is a match, the block of code associated with that case is executed.\r\n[note]Using [b]nested if else statements[/b] results in similar behavior, but switch offers a more elegant and optimal solution.[/note]"
+      },
+      {
+        "id": 3527,
+        "number": 2,
+        "videoStart": 121.0,
+        "videoEnd": 212.0,
+        "linkedVideoID": null,
+        "type": 3,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 98472,
+            "text": "case",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          },
+          {
+            "id": 98473,
+            "text": "break",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "Fill in the blanks.\r\n[!raw!]\r\n$i = 1;\r\nswitch($i) {\r\n  {0} \"1\":\r\n    echo 'One';\r\n    {1};\r\n  case \"2\":\r\n    echo 'Two';\r\n    break;\r\n}",
+        "textContent": "[h1]Switch[/h1]\r\n\r\nConsider the following example, which displays the appropriate message for each day. [code format=\"php\" codeId=\"482\"]$today = 'Tue';\r\n\r\n[b]switch [/b]($today) {\r\n  [b]case [/b]\"Mon\":\r\n    echo \"Today is Monday.\";\r\n    [b]break[/b];\r\n  [b]case [/b]\"Tue\":\r\n    echo \"Today is Tuesday.\";\r\n    [b]break[/b];\r\n  [b]case [/b]\"Wed\":\r\n    echo \"Today is Wednesday.\";\r\n    [b]break[/b];\r\n  [b]case [/b]\"Thu\":\r\n    echo \"Today is Thursday.\";\r\n    [b]break[/b];\r\n  [b]case [/b]\"Fri\":\r\n     echo \"Today is Friday.\";\r\n     [b]break[/b];\r\n  [b]case [/b]\"Sat\":\r\n     echo \"Today is Saturday.\";\r\n     [b]break[/b];\r\n  [b]case [/b]\"Sun\":\r\n     echo \"Today is Sunday.\";\r\n     [b]break[/b];\r\n  [b]default[/b]:\r\n     echo \"Invalid day.\";\r\n}\r\n//Outputs \"Today is Tuesday.\"[/code]\r\n[note]The [b]break[/b] keyword that follows each case is used to keep the code from automatically running into the next case. If you forget the [b]break;[/b] statement, PHP will automatically continue through the next case statements, even when the case doesn't match.[/note]"
+      },
+      {
+        "id": 3528,
+        "number": 3,
+        "videoStart": 212.0,
+        "videoEnd": 274.0,
+        "linkedVideoID": null,
+        "type": 2,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 98474,
+            "text": "default",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "What keyword is used to handle cases that are not defined with the case keyword?",
+        "textContent": "[h1]default[/h1]\r\n\r\nThe [b]default [/b]statement is used if no match is found. [code format=\"php\" codeId=\"483\"]$x=5;\r\nswitch ($x) {\r\n  case 1:\r\n    echo \"One\";\r\n    break;\r\n  case 2:\r\n    echo \"Two\";\r\n    break;\r\n  [b]default:\r\n    [/b]echo \"No match\";\r\n}\r\n\r\n//Outputs \"No match\"[/code] \r\n[note]The [b]default[/b] statement is optional, so it can be omitted.[/note]"
+      },
+      {
+        "id": 3529,
+        "number": 4,
+        "videoStart": 274.0,
+        "videoEnd": 428.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 98475,
+            "text": "Summer",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 98476,
+            "text": "Winter",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 98477,
+            "text": "Nothing",
+            "isCorrect": true,
+            "properties": {}
+          }
+        ],
+        "question": "What output results from the following code?\r\n$mo = \"December\";\r\nswitch ($mo) {\r\ncase \"July\":\r\n    echo \"Summer\";\r\nbreak;\r\ncase \"January\":\r\ncase \"February\":\r\n    echo \"Winter\";\r\n}\r\n?>",
+        "textContent": "[h1]Switch[/h1]\r\n\r\nFailing to specify the [b]break[/b] statement causes PHP to continue to executing the statements that follow the [b]case[/b], until it finds a [b]break[/b]. You can use this behavior if you need to arrive at the same output for more than one case.[code format=\"php\" codeId=\"484\"]$day = 'Wed';\r\n\r\n[b]switch [/b]($day) {\r\n[b]  case [/b]'Mon':\r\n    echo 'First day of the week';\r\n[b]    break[/b];\r\n[b]  case [/b]'Tue':\r\n[b]  case [/b]'Wed':\r\n[b]  case [/b]'Thu':\r\n    echo 'Working day';\r\n[b]    break[/b];\r\n[b]  case [/b]'Fri':\r\n    echo 'Friday!';\r\n[b]    break[/b];\r\n[b]  default[/b]:\r\n    echo 'Weekend!';\r\n}\r\n\r\n//Outputs \"Working day\"[/code]\r\n[note]The example above will have the same output if[b] $day[/b] equals 'Tue', 'Wed', or 'Thu'. [/note]"
+      }
+    ]
+  }
+}

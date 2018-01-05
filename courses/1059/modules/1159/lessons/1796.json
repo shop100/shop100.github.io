@@ -1,7 +1,7 @@
 {
   "lesson": {
     "id": 1796,
-    "name": "Kiểu dữ liệu",
+    "name": "Kiểu dữ liệu trong PHP",
     "type": 0,
     "mode": 1,
     "videoID": "CJcgSUBMH1s",
@@ -29,8 +29,8 @@
             }
           }
         ],
-        "question": "Điền vào chỗ trống để định nghĩa biến string:\r\n[!raw!]\r\n<?php\r\n  {0}string = \"I am learning PHP\";\r\n?>",
-        "textContent": "[h1]Kiểu dữ liệu[/h1]\r\n\r\nCác biến có thể lưu trữ ở nhiều kiểu dữ liệu khác nhau.\r\nCác kiểu dữ liệu được hỗ trợ bởi PHP: [b]String[/b], [b]Integer[/b], [b]Float[/b], [b]Boolean[/b], [b]Array[/b], [b]Object[/b], NULL, Resource.\r\n\r\n[h2]PHP String[/h2]\r\nMột [b]chuỗi[/b] là một dãy các ký tự, như \"Hello world!\"\r\nMột chỗi có thể là bất kỳ văn bản nào trong [b]dấu ngoặc đơn hoặc ngoặc kép[/b]. [code format=\"php\"]<?php\r\n[b]  $string1[/b] = \"Hello world!\"; //ngoặc kép\r\n[b]  $string2[/b] = 'Hello world!';  //ngoặc đơn\r\n?>[/code]\r\n[note]Bạn có thể kết hợp hai dãy với nhau bằng cách sử dụng dấu chấm ( .).\r\nVí dụ: [b]echo $s1 . $s2[/b]\r\n[b][/b][/note]\r\n\r\n[h2]PHP Integer[/h2]\r\n[b]Số nguyên[/b] (không phải số thập phân) phải thỏa mãn các chỉ tiêu sau:\r\n- Không thể chứa dấu phẩy hoặc khoảng trống.\r\n- Nó không được có điểm thập phân\r\n- Nó có thể là số âm hoặc số dương[code format=\"php\"]<?php\r\n[b]  $int1[/b] = 42; // Số dương\r\n[b]  $int2[/b] = -42; // Số âm\r\n?>[/code]"
+        "question": "Điền vào chỗ trống để định nghĩa biến có giá trị kiểu string:\r\n[!raw!]\r\n<?php\r\n  {0}string = \"I am learning PHP\";\r\n?>",
+        "textContent": "[h1]Kiểu dữ liệu [/h1]\r\n\r\nCác biến có thể chứa dữ liệu với nhiều kiểu dữ liệu khác nhau.\r\nVí dụ trong PHP có các kiểu dữ liệu sau: [b]String[/b], [b]Số nguyên Integer[/b], [b]Đúng/Sai Boolean[/b], [b]Mảng Array[/b], [b]Đối tượng - Object[/b], NULL, Resource.\r\n\r\n[h2]String trong PHP[/h2]\r\nMột [b]string[/b] là một đoạn chữ, ví dụ \"Hello world!\"\r\nMột string có thể là bất kỳ văn bản nào trong dấu nháy đơn [b]'[/b] hoặc dấu nháy kép [b]\"[/b]. [code format=\"php\"]<?php\r\n[b]  $string1[/b] = \"Hello world!\"; //dùng dấu nháy kép\r\n[b]  $string2[/b] = 'Hello world!';  //dùng dấu nháy đơn\r\n?>[/code]\r\n[note]Bạn có thể nối 2 string bằng dấu chấm ( .).\r\nVí dụ: [b]echo $s1 . $s2[/b]\r\n[b][/b][/note]\r\n\r\n[h2]Số nguyên (Integer) trong PHP[/h2]\r\nMột [b]integer[/b] là số nguyên (không có phần thập phân) phải theo tiêu chí sau:\r\n- không chứa dấu phẩy (,) hay khoảng trống space\r\n- Không có phần thập phân\r\n- Có thể mang giá trị âm hoặc dương[code format=\"php\"]<?php\r\n[b]  $int1[/b] = 42; // số dương\r\n[b]  $int2[/b] = -42; // số âm\r\n?>[/code]"
       },
       {
         "id": 3455,

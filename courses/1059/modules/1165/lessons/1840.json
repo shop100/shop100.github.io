@@ -1,1 +1,126 @@
-{"lesson":{"id":1840,"name":"PHP Forms","type":0,"mode":1,"videoID":"eNH6j68L71E","tags":"forms","quizzes":[{"id":3550,"number":1,"videoStart":27.6,"videoEnd":120.0,"linkedVideoID":null,"type":1,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":98510,"text":"form","isCorrect":true,"properties":{}},{"id":98511,"text":"div","isCorrect":false,"properties":{}},{"id":98512,"text":"table","isCorrect":false,"properties":{}},{"id":98513,"text":"hr","isCorrect":false,"properties":{}}],"question":"Which HTML element is needed to collect user input from a web page?","textContent":"[h1]Forms[/h1]\r\n\r\nThe purpose of the PHP superglobals [b]$_GET[/b] and [b]$_POST[/b] is to collect data that has been entered into a form.\r\nThe example below shows a simple HTML form that includes two input fields and a submit button:[code format=\"raw\"]<form action=\"[b]first.php[/b]\" method=\"[b]post[/b]\">\r\n  <p>Name: <input type=\"text\" name=\"name\" /></p>\r\n  <p>Age: <input type=\"text\" name=\"age\" /></p>\r\n  <p><input type=\"submit\" name=\"submit\" value=\"Submit\" /></p>\r\n</form>[/code]\r\n[b]Result:[/b] [img id=\"2379\" width=\"100%\"]"},{"id":3551,"number":2,"videoStart":120.0,"videoEnd":226.0,"linkedVideoID":null,"type":1,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":104357,"text":"Action","isCorrect":true,"properties":{}},{"id":104358,"text":"Method","isCorrect":false,"properties":{}},{"id":104359,"text":"Submit","isCorrect":false,"properties":{}},{"id":104360,"text":"Input","isCorrect":false,"properties":{}}],"question":"Which form attribute indicates the page to which the form is submitted?","textContent":"[h1]Forms[/h1]\r\n\r\nThe [b]action[/b] attribute specifies that when the form is submitted, the data is sent to a PHP file named [b]first.php[/b]. \r\nHTML form elements have [b]names[/b], which will be used when accessing the data with PHP.\r\n[note]The [b]method [/b]attribute will be discussed in the next lesson. For now, we'll set the value to \"[b]post[/b]\".[/note]"},{"id":3552,"number":3,"videoStart":226.0,"videoEnd":443.0,"linkedVideoID":null,"type":3,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":117935,"text":"my","isCorrect":false,"properties":{"prefix":"","postfix":".php"}},{"id":117936,"text":"method","isCorrect":false,"properties":{"prefix":"","postfix":""}}],"question":"Fill in the blanks to submit the form to a page called my.php using the POST method.\r\n[!raw!]\r\n<form action=\"{0}\"\r\n {1}=\"post\">\r\n </form>","textContent":"[h1]Forms[/h1]\r\n\r\nNow, when we have an HTML form with the [b]action [/b]attribute set to our PHP file, we can access the posted form data using the[b] $_POST[/b] associative array.\r\nIn the [b]first.php[/b] file: [code format=\"raw\" ]<html>\r\n<body>\r\n\r\nWelcome <?php echo [b]$_POST[\"name\"][/b]; ?><br />\r\nYour age: <?php echo [b]$_POST[\"age\"][/b]; ?>\r\n\r\n</body>\r\n</html>[/code]\r\nThe [b]$_POST[/b] superglobal array holds key/value pairs. In the pairs, keys are the [b]names[/b] of the form controls and values are the[b] input data[/b] entered by the user.\r\n[note]We used the [b]$_POST [/b]array, as the [b]method=\"post[/b]\" was specified in the form.\r\nTo learn more about the form methods, press [b]Continue[/b]![/note]"}]}}
+{
+  "lesson": {
+    "id": 1840,
+    "name": "Xử lý Form trong PHP",
+    "type": 0,
+    "mode": 1,
+    "videoID": "eNH6j68L71E",
+    "tags": "forms",
+    "quizzes": [
+      {
+        "id": 3550,
+        "number": 1,
+        "videoStart": 27.6,
+        "videoEnd": 120.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 98510,
+            "text": "form",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 98511,
+            "text": "div",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 98512,
+            "text": "table",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 98513,
+            "text": "hr",
+            "isCorrect": false,
+            "properties": {}
+          }
+        ],
+        "question": "Bạn cần thẻ HTML nào để thu thập dữ liệu do người dùng nhập từ trang web?",
+        "textContent": "[h1]Xử lý Form[/h1]\r\n\r\nTrong PHP [b]$_GET[/b] và [b]$_POST[/b] chứa dữ liệu người dùng đã nhập vào form.\r\nVí dụ bên dưới hiển thị một form đơn giản, form này chứa 2 thẻ <input> và 1 nút để gửi data đi:[code format=\"raw\"]<form action=\"[b]first.php[/b]\" method=\"[b]post[/b]\">\r\n  <p>Name: <input type=\"text\" name=\"name\" /></p>\r\n  <p>Age: <input type=\"text\" name=\"age\" /></p>\r\n  <p><input type=\"submit\" name=\"submit\" value=\"Gửi dữ liệu\" /></p>\r\n</form>[/code]\r\n[b]Kết quả:[/b] [img id=\"2379\" width=\"100%\"]"
+      },
+      {
+        "id": 3551,
+        "number": 2,
+        "videoStart": 120.0,
+        "videoEnd": 226.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 104357,
+            "text": "Action",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 104358,
+            "text": "Method",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 104359,
+            "text": "Submit",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 104360,
+            "text": "Input",
+            "isCorrect": false,
+            "properties": {}
+          }
+        ],
+        "question": "Thuộc tính nào trong thẻ <form> chỉ định trang web mà nhận dữ liệu sau khi click nút gửi data?",
+        "textContent": "[h1]Xử lý Form[/h1]\r\n\r\nThuộc tính [b]action[/b] cho biết rằng khi click nút gửi data, dữ liệu được gửi tới file [b]first.php[/b]. \r\nThẻ <input> có thuộc tính [b]name[/b], sẽ dùng tới khi bạn muốn đọc dữ liệu đã nhập bằng PHP.\r\n[note]Thuộc tính [b]method [/b] sẽ được phân tích kỹ hơn trong bài sau. Bây giờ chúng ta sẽ set giá trị method = \"[b]post[/b]\".[/note]"
+      },
+      {
+        "id": 3552,
+        "number": 3,
+        "videoStart": 226.0,
+        "videoEnd": 443.0,
+        "linkedVideoID": null,
+        "type": 3,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 117935,
+            "text": "my",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ".php"
+            }
+          },
+          {
+            "id": 117936,
+            "text": "method",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "Điền vào chỗ trống để hiển thị form gửi dữ liệu tới trang web my.php (với method = POST).\r\n[!raw!]\r\n<form action=\"{0}\"\r\n {1}=\"post\">\r\n </form>",
+        "textContent": "[h1]Xử lý Form[/h1]\r\n\r\nBây giờ, khi chúng ta có một form có thuộc tính [b]action [/b] xác định trang web nhận được data, chúng ta có thể truy cập dữ liệu được gửi đi bằng mảng [b]$_POST[/b].\r\nTrong file [b]first.php[/b]: [code format=\"raw\" ]<html>\r\n<body>\r\n\r\nChào bạn, <?php echo [b]$_POST[\"name\"][/b]; ?><br />\r\nTuổi của bạn: <?php echo [b]$_POST[\"age\"][/b]; ?>\r\n\r\n</body>\r\n</html>[/code]\r\nMảng [b]$_POST[/b] chứa các cặp key/value. Với các key là các thuộc tính [b]name[/b] trong thẻ <input> và các value là [b]giá trị input[/b] tương ứng do người dùng nhập.\r\n[note]Chúng ta đã dùng mảng [b]$_POST[/b], tương ứng với thuộc tính [b]method=\"post[/b]\" được set cho form.\r\nĐể hiểu hơn về các method khác trong form, click [b]Continue[/b]![/note]"
+      }
+    ]
+  }
+}

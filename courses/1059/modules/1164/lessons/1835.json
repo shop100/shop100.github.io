@@ -1,1 +1,71 @@
-{"lesson":{"id":1835,"name":"Function Parameters","type":0,"mode":1,"videoID":"cARUoiBxHoQ","tags":"functions","quizzes":[{"id":3542,"number":1,"videoStart":325.0,"videoEnd":512.0,"linkedVideoID":null,"type":2,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":98488,"text":"7","isCorrect":false,"properties":{"prefix":"","postfix":""}}],"question":"What output results from the following code?\r\nfunction test($num) {\r\n    echo $num/2;\r\n}\r\ntest(14);","textContent":"[h1]Function Parameters[/h1]\r\n\r\nInformation can be passed to functions through [b]arguments[/b], which are like variables.\r\nArguments are specified after the function name, and within the parentheses.\r\nHere, our function takes a number, multiplies it by two, and prints the result: [code format=\"php\" codeId=\"489\"]function multiplyByTwo($number) {\r\n  $answer = $number * 2;\r\n  echo $answer;\r\n}\r\nmultiplyByTwo(3);\r\n//Outputs 6[/code]\r\nYou can add as many arguments as you want, as long as they are separated with [b]commas[/b].[code format=\"php\" codeId=\"490\"]function multiply($num1, $num2) {\r\n  echo $num1 * $num2;\r\n}\r\nmultiply(3, 6);\r\n//Outputs 18[/code]\r\n[note]When you define a function, the variables that represent the values that will be passed to it for processing are called [b]parameters[/b]. However, when you use a function, the value you pass to it is called an [b]argument[/b].[/note]"},{"id":3543,"number":2,"videoStart":540.0,"videoEnd":701.0,"linkedVideoID":null,"type":3,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":98489,"text":"$","isCorrect":false,"properties":{"prefix":"","postfix":""}},{"id":98490,"text":"*","isCorrect":false,"properties":{"prefix":"","postfix":""}}],"question":"Fill in the blanks to define the function \"myMul\", which takes two parameters and prints the product of their multiplication.\r\n[!raw!]\r\nfunction myMul($num1,{0}num2)  {\r\n\techo $num1 {1} $num2;\r\n}","textContent":"[h1]Default Arguments[/h1]\r\n\r\nDefault arguments can be defined for the function arguments.\r\nIn the example below, we're calling the function [b]setCounter()[/b]. There are no arguments, so it will take on the default values that have been defined.[code format=\"php\" codeId=\"491\"]function setCounter($num=10) {\r\n   echo \"Counter is \".$num;\r\n}\r\nsetCounter(42);  //Counter is 42\r\nsetCounter();  //Counter is 10[/code]\r\n[note]When using default arguments, any defaults should be on the right side of any non-default arguments; otherwise, things will not work as expected.[/note]"}]}}
+{
+  "lesson": {
+    "id": 1835,
+    "name": "Function Parameters",
+    "type": 0,
+    "mode": 1,
+    "videoID": "cARUoiBxHoQ",
+    "tags": "functions",
+    "quizzes": [
+      {
+        "id": 3542,
+        "number": 1,
+        "videoStart": 325.0,
+        "videoEnd": 512.0,
+        "linkedVideoID": null,
+        "type": 2,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 98488,
+            "text": "7",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "What output results from the following code?\r\nfunction test($num) {\r\n    echo $num/2;\r\n}\r\ntest(14);",
+        "textContent": "[h1]Function Parameters[/h1]\r\n\r\nInformation can be passed to functions through [b]arguments[/b], which are like variables.\r\nArguments are specified after the function name, and within the parentheses.\r\nHere, our function takes a number, multiplies it by two, and prints the result: [code format=\"php\" codeId=\"489\"]function multiplyByTwo($number) {\r\n  $answer = $number * 2;\r\n  echo $answer;\r\n}\r\nmultiplyByTwo(3);\r\n//Outputs 6[/code]\r\nYou can add as many arguments as you want, as long as they are separated with [b]commas[/b].[code format=\"php\" codeId=\"490\"]function multiply($num1, $num2) {\r\n  echo $num1 * $num2;\r\n}\r\nmultiply(3, 6);\r\n//Outputs 18[/code]\r\n[note]When you define a function, the variables that represent the values that will be passed to it for processing are called [b]parameters[/b]. However, when you use a function, the value you pass to it is called an [b]argument[/b].[/note]"
+      },
+      {
+        "id": 3543,
+        "number": 2,
+        "videoStart": 540.0,
+        "videoEnd": 701.0,
+        "linkedVideoID": null,
+        "type": 3,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 98489,
+            "text": "$",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          },
+          {
+            "id": 98490,
+            "text": "*",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "Fill in the blanks to define the function \"myMul\", which takes two parameters and prints the product of their multiplication.\r\n[!raw!]\r\nfunction myMul($num1,{0}num2)  {\r\n\techo $num1 {1} $num2;\r\n}",
+        "textContent": "[h1]Default Arguments[/h1]\r\n\r\nDefault arguments can be defined for the function arguments.\r\nIn the example below, we're calling the function [b]setCounter()[/b]. There are no arguments, so it will take on the default values that have been defined.[code format=\"php\" codeId=\"491\"]function setCounter($num=10) {\r\n   echo \"Counter is \".$num;\r\n}\r\nsetCounter(42);  //Counter is 42\r\nsetCounter();  //Counter is 10[/code]\r\n[note]When using default arguments, any defaults should be on the right side of any non-default arguments; otherwise, things will not work as expected.[/note]"
+      }
+    ]
+  }
+}

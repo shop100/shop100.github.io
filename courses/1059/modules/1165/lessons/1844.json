@@ -1,1 +1,127 @@
-{"lesson":{"id":1844,"name":"Module 7 Quiz","type":1,"mode":0,"videoID":null,"tags":null,"quizzes":[{"id":3560,"number":1,"videoStart":0.0,"videoEnd":0.0,"linkedVideoID":null,"type":1,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":19764,"text":"GET","isCorrect":false,"properties":{}},{"id":19765,"text":"POST","isCorrect":true,"properties":{}}],"question":"Which of the form submit methods should be chosen for a login page?","textContent":null},{"id":3561,"number":2,"videoStart":0.0,"videoEnd":0.0,"linkedVideoID":null,"type":2,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":105261,"text":"login","isCorrect":false,"properties":{"prefix":"","postfix":""}}],"question":"Consider the following URL: www.sololearn.com/test.php?page=login.\r\nWhat is the output of the following code: \r\necho $_GET['page'];","textContent":null},{"id":3562,"number":3,"videoStart":0.0,"videoEnd":0.0,"linkedVideoID":null,"type":1,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":19767,"text":"Yes","isCorrect":false,"properties":{}},{"id":19768,"text":"No","isCorrect":true,"properties":{}}],"question":"Should you store sensitive information in cookies?","textContent":null},{"id":3563,"number":4,"videoStart":0.0,"videoEnd":0.0,"linkedVideoID":null,"type":6,"linkedQuizID":null,"tip":null,"hint":null,"time":0,"answers":[{"id":18279,"text":"method","isCorrect":true,"properties":{}},{"id":18280,"text":"GET","isCorrect":true,"properties":{}},{"id":18281,"text":"form","isCorrect":true,"properties":{}}],"question":"Fill in the blanks:\r\n[!raw!]\r\n<form {0}=\"{1}\">\r\n   <input type=\"text\" name=\"name\" />\r\n   <input type=\"submit\" />\r\n</{2}>","textContent":null}]}}
+{
+  "lesson": {
+    "id": 1844,
+    "name": "Làm trắc nghiệm",
+    "type": 1,
+    "mode": 0,
+    "videoID": null,
+    "tags": null,
+    "quizzes": [
+      {
+        "id": 3560,
+        "number": 1,
+        "videoStart": 0.0,
+        "videoEnd": 0.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 19764,
+            "text": "GET",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 19765,
+            "text": "POST",
+            "isCorrect": true,
+            "properties": {}
+          }
+        ],
+        "question": "Which of the form submit methods should be chosen for a login page?",
+        "textContent": null
+      },
+      {
+        "id": 3561,
+        "number": 2,
+        "videoStart": 0.0,
+        "videoEnd": 0.0,
+        "linkedVideoID": null,
+        "type": 2,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 105261,
+            "text": "login",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "Consider the following URL: www.sololearn.com/test.php?page=login.\r\nWhat is the output of the following code: \r\necho $_GET['page'];",
+        "textContent": null
+      },
+      {
+        "id": 3562,
+        "number": 3,
+        "videoStart": 0.0,
+        "videoEnd": 0.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 19767,
+            "text": "Yes",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 19768,
+            "text": "No",
+            "isCorrect": true,
+            "properties": {}
+          }
+        ],
+        "question": "Should you store sensitive information in cookies?",
+        "textContent": null
+      },
+      {
+        "id": 3563,
+        "number": 4,
+        "videoStart": 0.0,
+        "videoEnd": 0.0,
+        "linkedVideoID": null,
+        "type": 6,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 18279,
+            "text": "method",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 18280,
+            "text": "GET",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 18281,
+            "text": "form",
+            "isCorrect": true,
+            "properties": {}
+          }
+        ],
+        "question": "Fill in the blanks:\r\n[!raw!]\r\n<form {0}=\"{1}\">\r\n   <input type=\"text\" name=\"name\" />\r\n   <input type=\"submit\" />\r\n</{2}>",
+        "textContent": null
+      }
+    ]
+  }
+}
