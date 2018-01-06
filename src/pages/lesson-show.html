@@ -1,0 +1,51 @@
+<div class="lessonViewInfo">
+    <span class="number">1/3</span>
+    <div class="lessonOutline text">
+    <span class="video" ng-class="{active:(quiz.selected && view=='text')}"  ng-repeat-start="quiz in lesson.quizzes" ng-click="selectLessonText(quiz)">
+        <img class="left" alt=" " src="https://www.sololearn.com/Play/arrow.png?r=54&g=171&b=203">
+        <i></i>
+        <img class="right" alt=" " src="https://www.sololearn.com/Play/arrow.png?r=54&g=171&b=203">
+    </span>
+
+    <span class="quiz" ng-class="{active:quiz.selected && view=='quiz'}" ng-repeat-end ng-click="selectQuiz(quiz)">
+        <img class="left" alt=" " src="https://www.sololearn.com/Play/arrow.png?r=54&g=171&b=203">
+        <i></i>
+        <img class="right" alt=" " src="https://www.sololearn.com/Play/arrow.png?r=54&g=171&b=203">
+    </span>
+    </div>
+</div>
+<div id="textView" ng-show="view=='text'">
+    <div class="textContentContainer">
+        <div id="textContent" class="text">
+            <bb-decode content="quizSelected.textContent"></bb-decode>
+        </div>
+    </div>
+</div>
+
+<div id="quizView" ng-show="view=='quiz'" class="view elevated" style="display: block; z-index: 116; transform: translateX(0px) scaleX(1) scaleY(1);">
+    {{quizSelected.question.split('[!raw!]')[0]}}
+    <div ng-if="quizSelected.type === 1">
+        <single-choice-quiz answers="quizSelected.answers"></single-choice-quiz>
+    </div>
+    <div ng-if="quizSelected.type === 2">
+        {{quizSelected.type}}
+    </div>
+    <div ng-if="quizSelected.type === 3">
+        <fill-in-blank-quiz answers="quizSelected.answers" placeholder="quizSelected.question.split('[!raw!]')[1]"></fill-in-blank-quiz>
+    </div>
+    <div ng-if="quizSelected.type === 4">
+        {{quizSelected.type}}
+    </div>
+    <div ng-if="quizSelected.type === 5">
+        {{quizSelected.type}}
+    </div>
+    <div ng-if="quizSelected.type === 6">
+        {{quizSelected.type}}
+    </div>
+    <div ng-if="quizSelected.type === 7">
+        {{quizSelected.type}}
+    </div>
+    <div ng-if="quizSelected.type === 8">
+        {{quizSelected.type}}
+    </div>
+</div>
