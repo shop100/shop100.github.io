@@ -28,11 +28,16 @@ angular
                     html = html.replace(/\[\/b]/gi,'</strong>');
                     html = html.replace(/\[h1]/gi,'<h1>');
                     html = html.replace(/\[\/h1]/gi,'</h1>');
+                    html = html.replace(/\[h2]/gi,'<h2>');
+                    html = html.replace(/\[\/h2]/gi,'</h2>');
 
                     html = html.replace(/\n/gi,'<br/>');
 
                     html = html.replace(/\[note]/gi,'<div class="noteBlock"><span class="note">');
                     html = html.replace(/\[\/note]/gi,'</span></div>');
+
+                    html = html.replace(/\[code format="(.*?)"]/gi,'<div class="codeBlock"><span class="code $1">');
+                    html = html.replace(/\[\/code]/gi,'</span></div>');
 
                     scope.html = $sce.trustAsHtml(html);
                 });
