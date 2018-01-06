@@ -1,7 +1,7 @@
 {
   "lesson": {
     "id": 1822,
-    "name": "Làm trắc nghiệm",
+    "name": "Bài kiểm tra 4",
     "type": 1,
     "mode": 0,
     "videoID": null,
@@ -21,18 +21,18 @@
         "answers": [
           {
             "id": 19613,
-            "text": "True",
+            "text": "Đúng",
             "isCorrect": true,
             "properties": {}
           },
           {
             "id": 19614,
-            "text": "False",
+            "text": "Sai",
             "isCorrect": false,
             "properties": {}
           }
         ],
-        "question": "A numeric array stores each array element with a numeric index.",
+        "question": "Thứ tự mảng lưu trữ thành phần mảng theo số thứ t.",
         "textContent": null
       },
       {
@@ -72,7 +72,7 @@
             "properties": {}
           }
         ],
-        "question": "Which statement will be displayed in the browser?\r\n<?php \r\n$array[0] = \"the mall\";\r\n$array[1] = \"David\";\r\n$array[2] = \"brother\";\r\n$array[3] = \"the store\";\r\n$array[4] = \"Rob\";\r\necho \"$array[1] went to $array[3]\";\r\n?>",
+        "question": "Câu nào sẽ được hiển thị trong trình duyệt?\r\n<?php \r\n$array[0] = \"the mall\";\r\n$array[1] = \"David\";\r\n$array[2] = \"brother\";\r\n$array[3] = \"the store\";\r\n$array[4] = \"Rob\";\r\necho \"$array[1] went to $array[3]\";\r\n?>",
         "textContent": null
       },
       {
@@ -89,18 +89,18 @@
         "answers": [
           {
             "id": 19615,
-            "text": "True",
+            "text": "Có",
             "isCorrect": true,
             "properties": {}
           },
           {
             "id": 19616,
-            "text": "False",
+            "text": "Không",
             "isCorrect": false,
             "properties": {}
           }
         ],
-        "question": "In the following example, the numeric index is automatically assigned.\r\n<?php \r\n$items = array(\"Ball\",\"Shoe\",\"Dress\");\r\n?>",
+        "question": "Trong ví dụ sau, số thứ tự có được tự động gán?.\r\n<?php \r\n$items = array(\"Ball\",\"Shoe\",\"Dress\");\r\n?>",
         "textContent": null
       }
     ]

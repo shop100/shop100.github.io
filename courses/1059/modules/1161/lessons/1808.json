@@ -45,7 +45,7 @@
           }
         ],
         "question": "Cú pháp nào tương ứng với mảng associative?",
-        "textContent": "[h1]Mảng associative[/h1]\r\n\r\n[b]mảng liên tưởng [/b] là mảng sử dụng key để chỉ định.\r\nCó hai cách để tạo mảng liên tưởng: [code format=\"php\"]$people = array(\"David\"=>\"27\", \"Amy\"=>\"21\", \"John\"=>\"42\");\r\n// or\r\n$people['David'] = \"27\";\r\n$people['Amy'] = \"21\";\r\n$people['John'] = \"42\";[/code]\r\n[note]Trong ví dụ đầu tiên, lưu ý việc sử dụng các dấu[b] =>[/b] trong việc gán các giá trị cho các phím được đặt tên.[/note]"
+        "textContent": "[h1]Mảng associative[/h1]\r\n\r\n[b]Mảng associative [/b] là mảng sử dụng key để chỉ định.\r\nCó hai cách để tạo mảng liên tưởng: [code format=\"php\"]$people = array(\"David\"=>\"27\", \"Amy\"=>\"21\", \"John\"=>\"42\");\r\n// or\r\n$people['David'] = \"27\";\r\n$people['Amy'] = \"21\";\r\n$people['John'] = \"42\";[/code]\r\n[note]Trong ví dụ đầu tiên, lưu ý việc sử dụng các dấu[b] =>[/b] trong việc gán các giá trị cho các phím được đặt tên.[/note]"
       },
       {
         "id": 3478,
