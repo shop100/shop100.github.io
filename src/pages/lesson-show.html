@@ -31,7 +31,7 @@
         {{quizSelected.type}}
     </div>
     <div ng-if="quizSelected.type === 3">
-        {{quizSelected.type}}
+        <fill-in-blank-quiz answers="quizSelected.answers" placeholder="quizSelected.question.split('[!raw!]')[1]"></fill-in-blank-quiz>
     </div>
     <div ng-if="quizSelected.type === 4">
         {{quizSelected.type}}

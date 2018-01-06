@@ -12,7 +12,7 @@ angular
             $mdSidenav("left").toggle();
         };
     }])
-    .directive("bbDecode", function ($sce) {
+    .directive("bbDecode", ["$sce",function ($sce) {
         return {
             template: "<div ng-bind-html='html'></div>",
             scope: {
@@ -43,4 +43,4 @@ angular
                 });
             }
         };
-    });
+    }]);
