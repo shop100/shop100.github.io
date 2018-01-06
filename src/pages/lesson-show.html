@@ -23,7 +23,7 @@
 
 <div id="quizView" ng-show="view=='quiz'" class="view elevated" style="display: block; z-index: 116; transform: translateX(0px) scaleX(1) scaleY(1);">
     <div class="quizQuestion">
-        {{quizSelected.question.split('[!raw!]')[0]}}
+        {{question}}
     </div>
     <div ng-if="quizSelected.type === 1">
         <single-choice-quiz answers="quizSelected.answers" event-correct="done(quizSelected)"></single-choice-quiz>
@@ -32,7 +32,8 @@
         {{quizSelected.type}}
     </div>
     <div ng-if="quizSelected.type === 3">
-        <fill-in-blank-quiz answers="quizSelected.answers" event-correct="done(quizSelected)" placeholder="quizSelected.question.split('[!raw!]')[1]"></fill-in-blank-quiz>
+        {{quizSelected.question.split('[!raw!]')[1]}}
+        <fill-in-blank-quiz answers="quizSelected.answers" event-correct="done(quizSelected)" placeholder="placeholder"></fill-in-blank-quiz>
     </div>
     <div ng-if="quizSelected.type === 4">
         {{quizSelected.type}}
