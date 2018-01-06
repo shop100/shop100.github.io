@@ -1,7 +1,7 @@
 {
   "lesson": {
     "id": 1820,
-    "name": "Làm trắc nghiệm",
+    "name": "Bài kiểm tra 2",
     "type": 1,
     "mode": 0,
     "videoID": null,
@@ -38,7 +38,7 @@
             "properties": {}
           }
         ],
-        "question": "Fill in the blanks to define a variable called 'name', assign it a value, and print it to the screen.\r\n[!raw!]\r\n$name = {0};\r\n{1} {2};",
+        "question": "Kéo thả các options để khai báo biến 'name', nhận giá trị, và in nó ra màn hình.\r\n[!raw!]\r\n$name = {0};\r\n{1} {2};",
         "textContent": null
       },
       {
@@ -63,7 +63,7 @@
             }
           }
         ],
-        "question": "What output results from the following code?\r\n$x = 'y';\r\n$y = 'x';\r\necho $$x;",
+        "question": "Kết quả của đoạn code sau?\r\n$x = 'y';\r\n$y = 'x';\r\necho $$x;",
         "textContent": null
       },
       {
@@ -103,7 +103,7 @@
             "properties": {}
           }
         ],
-        "question": "Rearrange the code to define a variable and print it's value.",
+        "question": "Sắp xếp các dòng code sau để khai báo biến và in ra giá trị của nó.",
         "textContent": null
       }
     ]

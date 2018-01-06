@@ -1,7 +1,7 @@
 {
   "lesson": {
     "id": 1803,
-    "name": "Arithmetic Operators",
+    "name": "Phép tính",
     "type": 0,
     "mode": 1,
     "videoID": "d3BTJ5ByKAo",
@@ -47,7 +47,7 @@
             }
           }
         ],
-        "question": "Fill in the blanks to subtract one number from the other.\r\n[!raw!]\r\n<?php\r\n$num1 = 23;\r\n{0}num2 = 16;\r\necho $num1 {1} ${2};\r\n?>",
+        "question": "Điền vào khoảng trống để trừ hai số cho nhau.\r\n[!raw!]\r\n<?php\r\n$num1 = 23;\r\n{0}num2 = 16;\r\necho $num1 {1} ${2};\r\n?>",
         "textContent": "[h1]Operators [/h1]\r\n\r\n[b]Operators[/b] carry out operations on variables and values. [img id=\"2784\" width=\"100%\"]\r\n[h2]Arithmetic Operators[/h2]\r\n\r\nArithmetic operators work with numeric values to perform common arithmetical operations.[img id=\"2363\" width=\"100%\"]\r\n[b]Example:[/b] [code format=\"php\" codeId=\"469\"]<?php\r\n  $num1 = 8;\r\n  $num2 = 6;\r\n\r\n  //Addition\r\n  echo $num1 + $num2; //[b]14[/b]\r\n\r\n  //Subtraction\r\n  echo $num1 - $num2; //[b]2[/b]\r\n\r\n  //Multiplication\r\n  echo $num1 * $num2; //[b]48[/b]\r\n\r\n  //Division\r\n   echo $num1 / $num2; //[b]1.33333333333[/b]\r\n?>[/code]"
       },
       {

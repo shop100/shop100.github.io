@@ -1,7 +1,7 @@
 {
   "lesson": {
     "id": 1800,
-    "name": "Variable Scope",
+    "name": "Phạm vi sử dụng biến",
     "type": 0,
     "mode": 1,
     "videoID": "0p6YgVpU6OU",
@@ -21,25 +21,25 @@
         "answers": [
           {
             "id": 113708,
-            "text": "The variable was not defined within the function",
+            "text": "Biến không được định nghĩa trong hàm",
             "isCorrect": true,
             "properties": {}
           },
           {
             "id": 113709,
-            "text": "A syntax error",
+            "text": "Cú pháp bị lỗi",
             "isCorrect": false,
             "properties": {}
           },
           {
             "id": 113710,
-            "text": "The PHP tag was not opened",
+            "text": "Tag PHP không được mở ",
             "isCorrect": false,
             "properties": {}
           }
         ],
-        "question": "In the example, why did we get a PHP error?",
-        "textContent": "[h1]Variables Scope[/h1]\r\n\r\nPHP variables can be declared anywhere in the script.\r\nThe [b]scope[/b] of a variable is the part of the script in which the variable can be referenced or used.\r\n\r\nPHP's most used variable scopes are [b]local[/b], [b]global[/b].\r\nA variable declared outside a function has a [b]global scope[/b], and can only be accessed outside of a function.\r\nA variable declared within a function has a[b] local scope[/b], and can only be accessed within that function.\r\n\r\nConsider the following example.[code format=\"php\" codeId=\"488\"]<?php\r\n  $name = 'David';\r\n  function getName() {\r\n    echo $name;\r\n  }\r\n  getName();\r\n\r\n  [b]// Error: Undefined variable: name[/b]\r\n?>[/code]\r\nThis script will produce an error, as the[b] $name[/b] variable has a [b]global[/b] scope, and is not accessible within the [b]getName()[/b] function.\r\n[note][b]Functions[/b] will be discussed in the coming lessons.[/note]"
+        "question": "Trong ví dụ, tại sao lại lỗi?",
+        "textContent": "[h1]Phạm vi biến[/h1]\r\n\r\nBiến trong PHP có thể khai báo ở bất kỳ đâu trong chương trình.\r\n [b]Phạm vi[/b] của biến là một phần của chương trình trong đó biến có thể tham khảo hoặc sử dụng.\r\n\r\nPhạm vi biến sử dụng nhiều trong PHP là [b]khu vực (local)[/b], [b]toàn bộ (global)[/b].\r\nBiến được khai báo ngoài function thuộc [b]phạm vi toàn bộ(global scope)[/b], chỉ có thể sử dụng ngoài function.\r\nBiến khái báo trong function thuộc[b] phạm vi khu vực (local scope)[/b], và chỉ có thể sử dụng trong function.\r\n\r\nXem xét ví dụ sau.[code format=\"php\" codeId=\"488\"]<?php\r\n  $name = 'David';\r\n  function getName() {\r\n    echo $name;\r\n  }\r\n  getName();\r\n\r\n  [b]// Error: Undefined variable: name[/b]\r\n?>[/code]\r\nChương trình này sản sinh ra lỗi, vì biến[b] $name[/b] thuộc phạm vi [b]toàn bộ[/b], và không thể sử dụng trong hàm [b]getName()[/b].\r\n[note][b]Function[/b] sẽ được thảo luận trong những bài tiếp theo.[/note]"
       },
       {
         "id": 3462,
@@ -63,8 +63,8 @@
             }
           }
         ],
-        "question": "What output results from the following code?\r\n<?php \r\n$num1 = 56;\r\nfunction  my_func() {\r\n  $num1 = 89;\r\n  echo $num1;\r\n}\r\nmy_func();\r\n?>",
-        "textContent": "[h1]The global Keyword[/h1]\r\n\r\nThe [b]global [/b]keyword is used to access a global variable from within a function.\r\nTo do this, use the [b]global[/b] keyword within the function, prior to the variables.[code format=\"php\" codeId=\"467\"]<?php\r\n  $name = 'David';\r\n  function getName() {\r\n    [b]global $name;[/b]\r\n    echo $name;\r\n  }\r\n  getName();\r\n\r\n [b] //Outputs 'David'[/b]\r\n?>[/code]"
+        "question": "Kết quả của đoạn code sau là gì?\r\n<?php \r\n$num1 = 56;\r\nfunction  my_func() {\r\n  $num1 = 89;\r\n  echo $num1;\r\n}\r\nmy_func();\r\n?>",
+        "textContent": "[h1]từ khóa global[/h1]\r\n\r\nTừ khóa [b]global [/b]được sử dụng để truy cập biến từ ngoài vào trong function.\r\nĐể sử dụng, từ khóa [b]global[/b] trong function, đặt nó trước các biến.[code format=\"php\" codeId=\"467\"]<?php\r\n  $name = 'David';\r\n  function getName() {\r\n    [b]global $name;[/b]\r\n    echo $name;\r\n  }\r\n  getName();\r\n\r\n [b] //Outputs 'David'[/b]\r\n?>[/code]"
       }
     ]
   }
