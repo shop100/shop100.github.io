@@ -1,7 +1,7 @@
 {
   "lesson": {
     "id": 2331,
-    "name": "Constants",
+    "name": "Hằng số",
     "type": 0,
     "mode": 1,
     "videoID": "caHa189l37U",
@@ -38,8 +38,8 @@
             }
           }
         ],
-        "question": "Fill in the blanks to declare a case-sensitive constant called AGE and assign the value 28 to it.\r\n[!raw!]\r\n<?php\r\n  {0}(\"AGE\", {1});\r\n?>",
-        "textContent": "[h1]Constants[/h1]\r\n\r\n[b]Constants[/b] are similar to variables except that they cannot be changed or undefined after they've been defined.\r\nBegin the name of your constant with a letter or an underscore.\r\nTo create a constant, use the [b]define()[/b] function: [code format=\"raw\" ][b]define[/b](name, value, case-insensitive)[/code]\r\nParameters:\r\n[b]name[/b]: Specifies the name of the constant;\r\n[b]value[/b]: Specifies the value of the constant;\r\n[b]case-insensitive[/b]: Specifies whether the constant name should be case-insensitive. Default is [b]false;[/b]\r\n\r\nThe example below creates a constant with a [b]case-sensitive[/b] name: [code format=\"php\" codeId=\"463\"]<?php\r\n  define(\"MSG\", \"Hi SoloLearners!\");\r\n  echo MSG;\r\n\r\n   // Outputs \"Hi SoloLearners!\"\r\n?> [/code]\r\nThe example below creates a constant with a [b]case-insensitive[/b] name: [code format=\"php\" codeId=\"464\"]<?php\r\n  define(\"MSG\", \" Hi SoloLearners!\", [b]true[/b]);\r\n  echo msg;\r\n\r\n  // Outputs \"Hi SoloLearners!\"\r\n?>[/code]\r\n[note]No dollar sign ($) is necessary before the constant name.[/note]"
+        "question": "điền vào chỗ trống để khai báo hằng số AGE và gán giá trị 28 cho nó.\r\n[!raw!]\r\n<?php\r\n  {0}(\"AGE\", {1});\r\n?>",
+        "textContent": "[h1]Hằng số[/h1]\r\n\r\n[b]Hằng số[/b] cũng tương tự như biến ngoại trừ việc chúng không thể thay đổi hoặc không xác định khi chúng đã được xác định.\r\nBắt đầu với tên hằng số của bạn với một chữ hoặc một gạch dưới.\r\nĐể tạo ra hằng số , sử dụng hàm [b]define()[/b] function: [code format=\"raw\" ][b]define[/b](name, value, case-insensitive)[/code]\r\ncác thông số:\r\n[b]name[/b]: Tên chỉ định của hằng số;\r\n[b]value[/b]: Chỉ định giá trị của hằng;\r\n[b]case-insensitive[/b]: chỉ định hằng số thuộc loại nào. Mặc định là [b]false;[/b]\r\n\r\nVí dụ bên dưới tạo ra một hằng với [b]case-sensitive[/b]: [code format=\"php\" codeId=\"463\"]<?php\r\n  define(\"MSG\", \"Hi SoloLearners!\");\r\n  echo MSG;\r\n\r\n   // Outputs \"Hi SoloLearners!\"\r\n?> [/code]\r\nVí dụ bên dưới tạo ra hằng số với [b]case-insensitive[/b]: [code format=\"php\" codeId=\"464\"]<?php\r\n  define(\"MSG\", \" Hi SoloLearners!\", [b]true[/b]);\r\n  echo msg;\r\n\r\n  // Outputs \"Hi SoloLearners!\"\r\n?>[/code]\r\n[note]No dollar sign ($) is necessary before the constant name.[/note]"
       }
     ]
   }

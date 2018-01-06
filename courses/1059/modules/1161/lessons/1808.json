@@ -1,7 +1,7 @@
 {
   "lesson": {
     "id": 1808,
-    "name": "Associative Arrays",
+    "name": "Mảng liên tưởng",
     "type": 0,
     "mode": 1,
     "videoID": "0S10VOdez3g",
@@ -44,8 +44,8 @@
             "properties": {}
           }
         ],
-        "question": "Which syntax corresponds to the associative array?",
-        "textContent": "[h1]Associative Arrays[/h1]\r\n\r\n[b]Associative [/b]arrays are arrays that use named keys that you assign to them.\r\nThere are two ways to create an associative array: [code format=\"php\"]$people = array(\"David\"=>\"27\", \"Amy\"=>\"21\", \"John\"=>\"42\");\r\n// or\r\n$people['David'] = \"27\";\r\n$people['Amy'] = \"21\";\r\n$people['John'] = \"42\";[/code]\r\n[note]In the first example, note the use of the  [b]=>[/b] signs in assigning values to the named keys.[/note]"
+        "question": "Cú pháp nào tương ứng với mảng liên tưởng?",
+        "textContent": "[h1]mảng liên tưởng[/h1]\r\n\r\n[b]mảng liên tưởng [/b] là mảng sử dụng key để chỉ định.\r\nCó hai cách để tạo mảng liên tưởng: [code format=\"php\"]$people = array(\"David\"=>\"27\", \"Amy\"=>\"21\", \"John\"=>\"42\");\r\n// or\r\n$people['David'] = \"27\";\r\n$people['Amy'] = \"21\";\r\n$people['John'] = \"42\";[/code]\r\n[note]Trong ví dụ đầu tiên, lưu ý việc sử dụng các dấu[b] =>[/b] trong việc gán các giá trị cho các phím được đặt tên.[/note]"
       },
       {
         "id": 3478,
@@ -69,8 +69,8 @@
             }
           }
         ],
-        "question": "Fill in the blanks to output the age from the array.\r\n[!raw!]\r\n<?php\r\n$man = array(\"name\"=>\"John\", \"age\"=>\"25\");\r\necho $man['{0}'];\r\n?>",
-        "textContent": "[h1]Associative Arrays[/h1]\r\n\r\nUse the named keys to access the array's members.[code format=\"php\" codeId=\"474\"]$people = array(\"David\"=>\"27\", \"Amy\"=>\"21\", \"John\"=>\"42\");\r\n\r\necho $people['Amy']; // Outputs 21\"[/code]"
+        "question": "Điền vào chỗ trống để cho ra kết quả tuổi từ mảng.\r\n[!raw!]\r\n<?php\r\n$man = array(\"name\"=>\"John\", \"age\"=>\"25\");\r\necho $man['{0}'];\r\n?>",
+        "textContent": "[h1]mảng liên tưởng[/h1]\r\n\r\nSử dụng key để truy cập vào phần tử trong mảng.[code format=\"php\" codeId=\"474\"]$people = array(\"David\"=>\"27\", \"Amy\"=>\"21\", \"John\"=>\"42\");\r\n\r\necho $people['Amy']; // Outputs 21\"[/code]"
       }
     ]
   }
