@@ -73,7 +73,7 @@
           }
         ],
         "question": "Điền vào khoảng trống để khai báo mảng hai chiều.\r\n[!raw!]\r\n<?php\r\n$cars = array (\r\n  'BMW' {0} array('X5', 'red', '2013'),\t\t\t\r\n  'AUDI' => {1}('A4', 'white', '2008')\r\n);\r\n?>",
-        "textContent": "[h1]Mảng đa chiều[/h1]\r\n\r\nHãy tạo một mảng hai chiều có chứa 3 mảng:[code format=\"php\" ]$people = array(\r\n   'online'=>array('David', 'Amy'),\r\n   'offline'=>array('John', 'Rob', 'Jack'),\r\n   'away'=>array('Arthur', 'Daniel')\r\n);[/code]\r\nĐể truy cập vào các phần tử trong mảng $people, Chúng ta phải chỉ ra hai thành phần.[code format=\"php\" codeId=\"475\"]echo $people['online'][0]; //Outputs \"David\"\r\n\r\necho $people['away'][1]; //Outputs \"Daniel\"[/code]\r\n[note]The arrays in the multi-dimensional array can be both numeric and associative.[/note]"
+        "textContent": "[h1]Mảng đa chiều[/h1]\r\n\r\nHãy tạo một mảng hai chiều có chứa 3 mảng:[code format=\"php\" ]$people = array(\r\n   'online'=>array('David', 'Amy'),\r\n   'offline'=>array('John', 'Rob', 'Jack'),\r\n   'away'=>array('Arthur', 'Daniel')\r\n);[/code]\r\nĐể truy cập vào các phần tử trong mảng $people, Chúng ta phải chỉ ra hai thành phần.[code format=\"php\" codeId=\"475\"]echo $people['online'][0]; //Outputs \"David\"\r\n\r\necho $people['away'][1]; //Outputs \"Daniel\"[/code]\r\n[note]Mảng trong mảng đa chiều có thể là cả số lẫn associative.[/note]"
       }
     ]
   }
