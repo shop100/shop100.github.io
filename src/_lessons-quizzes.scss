@@ -88,3 +88,40 @@
   margin: 0 auto;
 }
 
+#quizView .actionBar {
+  padding: 20px 10px;
+}
+#quizView .checkButton {
+  background-color: rgb(100, 221, 23);
+  opacity: 1;
+  transform: scaleX(1) scaleY(1);
+  margin: 0 20px;
+  float: right;
+  background-image: url(https://www.sololearn.com/Images/appSprite.png);
+  background-position: -160px -60px;
+}
+.materialIcon, .actionButton {
+  overflow: hidden;
+  position: relative;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+}
+.actionButton {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  box-shadow: 0 10px 20px rgba(0,0,0,.19), 0 6px 6px rgba(0,0,0,.23);
+  border: none;
+  background: #0ad;
+  cursor: pointer;
+}
+#quizView .quizQuestion {
+  padding: 40px;
+  font-size: 20px;
+  color: #444;
+}
+#quizSelector {
+  padding: 0 40px;
+  text-align: center;
+}

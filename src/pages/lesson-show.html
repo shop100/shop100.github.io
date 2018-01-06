@@ -23,15 +23,17 @@
 </div>
 
 <div id="quizView" ng-show="view=='quiz'" class="view elevated" style="display: block; z-index: 116; transform: translateX(0px) scaleX(1) scaleY(1);">
-    {{quizSelected.question.split('[!raw!]')[0]}}
+    <div class="quizQuestion">
+        {{quizSelected.question.split('[!raw!]')[0]}}
+    </div>
     <div ng-if="quizSelected.type === 1">
-        <single-choice-quiz answers="quizSelected.answers"></single-choice-quiz>
+        <single-choice-quiz answers="quizSelected.answers" event-correct="done(quizSelected)"></single-choice-quiz>
     </div>
     <div ng-if="quizSelected.type === 2">
         {{quizSelected.type}}
     </div>
     <div ng-if="quizSelected.type === 3">
-        <fill-in-blank-quiz answers="quizSelected.answers" placeholder="quizSelected.question.split('[!raw!]')[1]"></fill-in-blank-quiz>
+        <fill-in-blank-quiz answers="quizSelected.answers" event-correct="done(quizSelected)" placeholder="quizSelected.question.split('[!raw!]')[1]"></fill-in-blank-quiz>
     </div>
     <div ng-if="quizSelected.type === 4">
         {{quizSelected.type}}
@@ -47,5 +49,8 @@
     </div>
     <div ng-if="quizSelected.type === 8">
         {{quizSelected.type}}
+    </div>
+    <div class="actionBar">
+        <button class="actionButton checkButton" style="background-color: rgb(100, 221, 23); opacity: 1; transform: scaleX(1) scaleY(1);" ng-click="check()"></button>
     </div>
 </div>

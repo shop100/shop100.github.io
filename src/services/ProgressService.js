@@ -26,7 +26,11 @@ module.exports = [
                 if(!progresses[type]){
                     progresses[type] = {};
                 }
+                if(!progresses[type][id]) {
+                    progresses[type][id] = {status:false};
+                }
                 done = progresses[type][id].status;
+                return progresses;
             });
 
             return done;
