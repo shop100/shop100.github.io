@@ -10,7 +10,7 @@
 
 <md-sidenav class="site-sidenav md-sidenav-left md-whiteframe-z2"
             md-component-id="left" hide-print
-            md-is-locked-open="$mdMedia('gt-sm')">
+            md-is-locked-open="$mdMedia('gt-sm')" ng-hide="$state.current.name === 'courses'">
 
     <header class="nav-header">
         <a ui-sref="home()" class="docs-logo">
@@ -19,9 +19,19 @@
     </header>
 
     <md-content flex role="navigation">
-        <ul>
-            <li>
-                <a ui-sref="courses()">Courses</a>
+        <ul id="sidebar-courses">
+            <a ui-sref="courses()">Các khóa học</a>
+            <li ng-repeat="course in courses">
+                <a ui-sref="courses.show({slug:course.slug})"
+                   ng-style="{color:($state.params.course_id===course.id?'#1fbba6':'')}"
+                >{{course.name}}</a>
+                <ul>
+                    <li ng-repeat="module in course.modules">
+                        <a ui-sref="courses.show.module({slug:course.slug,course_id:course.id,module_id:module.id})" ng-style="{color:($state.params.module_id==module.id?'#1fbba6':'')}">
+                            {{module.name}}
+                        </a>
+                    </li>
+                </ul>
             </li>
         </ul>
     </md-content>
@@ -35,6 +45,7 @@
             </button>
             <div layout="row" flex class="fill-height">
                 <h2 class="md-toolbar-item md-breadcrumb md-headline">
+                    <span ng-show="$state.current.name === 'courses'">Shop100</span>
                     <span class="md-breadcrumb-page">Tự học</span>
                 </h2>
 
@@ -58,5 +69,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-drag-and-drop-lists/2.1.0/angular-drag-and-drop-lists.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.9/ace.js"></script>
-<script type="text/javascript" src="dist/app.bundle.js?6aafac1a7ca40ae5d162"></script></body>
+<script type="text/javascript" src="dist/app.bundle.js?1e3eea3fac6442fd7d2d"></script></body>
 </html>
