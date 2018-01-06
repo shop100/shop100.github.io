@@ -7,7 +7,13 @@ angular
         "AppServices",
         "AppControllers"
     ])
-    .run(["$rootScope", function ($rootScope, $mdSidenav, $mdMedia) {
+    .run([
+        "$rootScope",
+        "$mdSidenav",
+        "$mdMedia",
+        "$state",
+        function ($rootScope, $mdSidenav, $mdMedia, $state) {
+        $rootScope.$state = $state;
         $rootScope.openMenu = function () {
             $mdSidenav("left").toggle();
         };
@@ -38,6 +44,7 @@ angular
 
                     html = html.replace(/\[code format="(.*?)"]/gi,'<div class="codeBlock"><span class="code $1">');
                     html = html.replace(/\[\/code]/gi,'</span></div>');
+                    html = html.replace(/\[img id="(.*?)" width="100%"]/gi,'<img src="https://api.sololearn.com/DownloadFile?id=$0">');
 
                     scope.html = $sce.trustAsHtml(html);
                 });

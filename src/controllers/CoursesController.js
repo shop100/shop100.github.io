@@ -1,9 +1,10 @@
 module.exports = [
+    "$rootScope",
     "$scope",
     "CourseService",
-    function (scope, CourseService) {
+    function ($rootScope, scope, CourseService) {
         CourseService.all().then(function (resp) {
-            scope.courses = resp.data;
+            scope.courses = $rootScope.courses = resp.data;
             scope.courses = scope.courses.map(function (course) {
                 CourseService.get(course).then(function (resp) {
                     var respData = resp.data.course;
