@@ -1,7 +1,7 @@
 {
   "lesson": {
     "id": 1834,
-    "name": "User-Defined Functions",
+    "name": "Tạo function trong PHP",
     "type": 0,
     "mode": 1,
     "videoID": "cARUoiBxHoQ",
@@ -44,8 +44,8 @@
             "properties": {}
           }
         ],
-        "question": "Which of the following is a correct name for a function?",
-        "textContent": "[h1]Functions[/h1]\r\n\r\nA [b]function [/b]is a block of statements that can be used repeatedly in a program.\r\nA function will not execute immediately when a page loads. It will be executed by a call to the function.\r\nA user defined function declaration starts with the word [b]function[/b]: [code format=\"php\"][b]function [/b]functionName() {\u000b    \r\n   //code to be executed\u000b\r\n}[/code]\r\nA function name can start with a letter or an underscore, but not with a number or a special symbol.\r\n[note]Function names are NOT case-sensitive.[/note]"
+        "question": "Đáp án nào dưới đây là tên chính xác cho một hàm?",
+        "textContent": "[h1]Hàm[/h1]\r\n\r\nMột [b]hàm [/b]là một khối các câu lệnh có thể được sử dụng nhiều lần trong một chương trình.\r\nHàm sẽ được thực hiện ngay khi trang web load. Nó sẽ thực hiện khi được gọi tới.\r\nKhai báo hàm bắt đầu với từ  [b]function[/b]: [code format=\"php\"][b]function [/b]functionName() {\u000b    \r\n   //code to be executed\u000b\r\n}[/code]\r\nA function name can start with a letter or an underscore, but not with a number or a special symbol.\r\n[note]Function names are NOT case-sensitive.[/note]"
       },
       {
         "id": 3539,
