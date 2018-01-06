@@ -1,7 +1,7 @@
 {
   "lesson": {
     "id": 1837,
-    "name": "Làm trắc nghiệm",
+    "name": "Bài kiểm tra 6",
     "type": 1,
     "mode": 0,
     "videoID": null,
@@ -29,7 +29,7 @@
             }
           }
         ],
-        "question": "What output results from the following code?\r\nfunction func($arg)  {\r\n  $result = 0;\r\n  for($i=0; $i<$arg; $i++) {\r\n    $result = $result + $i;\r\n  }\r\n  return $result;\r\n}\r\necho func(5);",
+        "question": "Kết quả của đoạn code sau?\r\nfunction func($arg)  {\r\n  $result = 0;\r\n  for($i=0; $i<$arg; $i++) {\r\n    $result = $result + $i;\r\n  }\r\n  return $result;\r\n}\r\necho func(5);",
         "textContent": null
       },
       {
@@ -63,7 +63,7 @@
             }
           }
         ],
-        "question": "Fill in the blanks to output \"Welcome Robert\".\r\n[!raw!]\r\nfunction greet($name)   {\r\n  return \"Welcome \".{0};\r\n}\r\n{1} greet('Robert');",
+        "question": "Điền vào chỗ trống để xuất ra \"Welcome Robert\".\r\n[!raw!]\r\nfunction greet($name)   {\r\n  return \"Welcome \".{0};\r\n}\r\n{1} greet('Robert');",
         "textContent": null
       },
       {
@@ -97,7 +97,7 @@
             }
           }
         ],
-        "question": "Fill in the blanks to declare a function myFunction, taking two parameters and printing the product of their multiplication to the screen.\r\n[!raw!]\r\n{0} myFunction($a, $b) {\r\n  echo $a {1} $b;\r\n}",
+        "question": "Điền vào chỗ trống để khai báo hàm myFunction, và lấy hai đối số nhân với nhau.\r\n[!raw!]\r\n{0} myFunction($a, $b) {\r\n  echo $a {1} $b;\r\n}",
         "textContent": null
       }
     ]
