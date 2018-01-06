@@ -22,10 +22,12 @@
         <ul id="sidebar-courses">
             <a ui-sref="courses()">Các khóa học</a>
             <li ng-repeat="course in courses">
-                <a ui-sref="courses.show({slug:course.slug})">{{course.name}}</a>
+                <a ui-sref="courses.show({slug:course.slug})"
+                   ng-style="{color:($state.params.course_id===course.id?'#1fbba6':'')}"
+                >{{course.name}}</a>
                 <ul>
                     <li ng-repeat="module in course.modules">
-                        <a ui-sref="courses.show.module({course_id:course.id,module_id:module.id})">
+                        <a ui-sref="courses.show.module({course_id:course.id,module_id:module.id})" ng-style="{color:($state.params.module_id==module.id?'#1fbba6':'')}">
                             {{module.name}}
                         </a>
                     </li>
