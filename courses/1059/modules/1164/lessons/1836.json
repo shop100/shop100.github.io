@@ -1,7 +1,7 @@
 {
   "lesson": {
     "id": 1836,
-    "name": "The Return Statement",
+    "name": "câu lệnh return",
     "type": 0,
     "mode": 1,
     "videoID": "yU0Z8sVGBx0",
@@ -45,7 +45,7 @@
           }
         ],
         "question": "Rearrange the code to create a function which returns the sum of its parameters, and call it for 5 and 6 as its parameters.",
-        "textContent": "[h1]Return[/h1]\r\n\r\nA function can return a value using the [b]return [/b]statement.\r\nReturn stops the function's execution, and sends the value back to the calling code.\r\n[b]For example: [/b][code format=\"php\" codeId=\"492\"]function mult($num1, $num2) {\r\n  $res = $num1 * $num2;\r\n  [b]return[/b] $res;\r\n}\r\n\r\necho mult(8, 3);\r\n// Outputs 24[/code]\r\n[note]Leaving out the return results in a [b]NULL[/b] value being returned.\r\nA function cannot return multiple values, but returning an [b]array[/b] will produce similar results.[/note]"
+        "textContent": "[h1]Return[/h1]\r\n\r\nMột hàm thì dùng câu lệnh[b]return [/b] để trả về kết quả.\r\nReturn khiến hàm dừng lại, và trả về kết quả.\r\n[b]Ví duh: [/b][code format=\"php\" codeId=\"492\"]function mult($num1, $num2) {\r\n  $res = $num1 * $num2;\r\n  [b]return[/b] $res;\r\n}\r\n\r\necho mult(8, 3);\r\n// Outputs 24[/code]\r\n[note]Mẹo: Bạn có thể trả về nhiều kết quả trong một mảng.[/note]"
       }
     ]
   }
