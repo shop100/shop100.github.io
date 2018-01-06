@@ -49,7 +49,7 @@ module.exports = [
             if(!scope.quizSelected){
                 return;
             }
-            let questionSegments = scope.quizSelected.question.split('[!raw!]');
+            var questionSegments = scope.quizSelected.question.split('[!raw!]');
             scope.question = questionSegments[0];
             if(typeof questionSegments[1] === 'undefined'){
                 scope.question = scope.quizSelected.question.split('[!html!]')[0];
