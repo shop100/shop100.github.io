@@ -29,6 +29,12 @@ module.exports = [
             scope.deSelectAllItem();
             quiz.selected = true;
             scope.view = 'quiz';
-        }
+        };
+        scope.done = function (selectedQuiz) {
+            return LessonService.done(selectedQuiz);
+        };
+        scope.isDone = function (selectedQuiz) {
+            return LessonService.isDone(selectedQuiz);
+        };
     }
 ];
