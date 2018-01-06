@@ -16,12 +16,14 @@ module.exports = [
                 rootScope.courses = resp.data;
             }
 
-            scope.courses = scope.courses.map(function (course) {
+            rootScope.courses = rootScope.courses.map(function (course) {
                 CourseService.get(course).then(function (resp) {
                     var respData = resp.data.course;
                     course.modules = respData.modules;
                     course.name = respData.name;
                 });
+
+                return course;
             });
         });
         scope.goto = function (route, params) {

@@ -27,7 +27,7 @@
                 >{{course.name}}</a>
                 <ul>
                     <li ng-repeat="module in course.modules">
-                        <a ui-sref="courses.show.module({course_id:course.id,module_id:module.id})" ng-style="{color:($state.params.module_id==module.id?'#1fbba6':'')}">
+                        <a ui-sref="courses.show.module({slug:course.slug,course_id:course.id,module_id:module.id})" ng-style="{color:($state.params.module_id==module.id?'#1fbba6':'')}">
                             {{module.name}}
                         </a>
                     </li>
