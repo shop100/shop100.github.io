@@ -30,6 +30,9 @@ angular
                         return;
                     }
                     var html = scope.content;
+                    var div = document.createElement('div');
+                    div.innerText = html;
+                    html = div.innerHTML;
                     html = html.replace(/\[b]/gi,'<strong>');
                     html = html.replace(/\[\/b]/gi,'</strong>');
                     html = html.replace(/\[h1]/gi,'<h1>');
@@ -44,7 +47,7 @@ angular
 
                     html = html.replace(/\[code format="(.*?)"]/gi,'<div class="codeBlock"><span class="code $1">');
                     html = html.replace(/\[\/code]/gi,'</span></div>');
-                    html = html.replace(/\[img id="(.*?)" width="100%"]/gi,'<img src="https://api.sololearn.com/DownloadFile?id=$0">');
+                    html = html.replace(/\[img id="(.*?)" width="100%"]/gi,'<img src="https://api.sololearn.com/DownloadFile?id=$1">');
 
                     scope.html = $sce.trustAsHtml(html);
                 });
