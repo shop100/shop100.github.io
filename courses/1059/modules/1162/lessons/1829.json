@@ -1,7 +1,7 @@
 {
   "lesson": {
     "id": 1829,
-    "name": "The Switch Statement",
+    "name": "Câu lệnh Switch",
     "type": 0,
     "mode": 1,
     "videoID": "VbiPMsBpJ7w",
@@ -21,25 +21,25 @@
         "answers": [
           {
             "id": 96883,
-            "text": "if elseif else statement",
+            "text": "Câu lệnh if elseif else",
             "isCorrect": true,
             "properties": {}
           },
           {
             "id": 96884,
-            "text": "while loop",
+            "text": "Vòng lặp while",
             "isCorrect": false,
             "properties": {}
           },
           {
             "id": 96885,
-            "text": "do while loop",
+            "text": "Vòng lặp do while",
             "isCorrect": false,
             "properties": {}
           }
         ],
-        "question": "The Switch statement is a replacement for...",
-        "textContent": "[h1]The switch Statement[/h1]\r\n\r\nThe [b]switch[/b] statement is an alternative to the[b] if-elseif-else[/b] statement. \r\nUse the [b]switch[/b] statement to select one of a number of blocks of code to be executed.\r\n\r\n[b]Syntax: [/b][code format=\"php\"][b]switch [/b](n) {\r\n  [b]case[/b] value1:\r\n    //code to be executed if n=value1\r\n    [b]break[/b];\r\n  [b]case[/b] value2:\r\n     //code to be executed if n=value2\r\n     [b]break[/b];\r\n  ...\r\n  [b]default[/b]:\r\n    // code to be executed if n is different from all labels\r\n}[/code]\r\nFirst, our single expression, [b]n[/b] (most often a variable), is evaluated once. Next, the value of the expression is compared with the value of each case in the structure. If there is a match, the block of code associated with that case is executed.\r\n[note]Using [b]nested if else statements[/b] results in similar behavior, but switch offers a more elegant and optimal solution.[/note]"
+        "question": "câu lệnh switch thay thế cho...",
+        "textContent": "[h1]Câu lệnh switch[/h1]\r\n\r\nCâu lệnh [b]switch[/b] thay thế cho câu lệnh[b] if-elseif-else[/b]. \r\nSử dụng câu lệnh[b]switch[/b] để chọn một đoạn code sẽ được thực thi.\r\n\r\n[b]Cú pháp: [/b][code format=\"php\"][b]switch [/b](n) {\r\n  [b]case[/b] value1:\r\n    //code to be executed if n=value1\r\n    [b]break[/b];\r\n  [b]case[/b] value2:\r\n     //code to be executed if n=value2\r\n     [b]break[/b];\r\n  ...\r\n  [b]default[/b]:\r\n    // code to be executed if n is different from all labels\r\n}[/code]\r\nĐầu tiên,chúng ta cần quann tâm tới , [b]n[/b] (thường là một biến), được đánh giá một lần. Tiếp theo, giá trị của biểu thức được so sánh với giá trị của từng trường hợp trong cấu trúc. Nếu n trùng với giá trị nào, thì đoạn code đó sẽ được thực hiện .\r\n[note]Sử dụng [b]câu lệnh  if else lồng nhau[/b] sẽ có kết quả giống nhau, nhưng s.[/note]"
       },
       {
         "id": 3527,
