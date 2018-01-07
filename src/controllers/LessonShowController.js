@@ -36,5 +36,24 @@ module.exports = [
         scope.isDone = function (selectedQuiz) {
             return LessonService.isDone(selectedQuiz);
         };
+        scope.$watch('quizSelected.question|json', function () {
+            if(!scope.quizSelected){
+                return;
+            }
+            scope.placeholder = scope.quizSelected.question.split('[!raw!]')[1];
+            if(typeof scope.placeholder === 'undefined'){
+                scope.placeholder = scope.quizSelected.question.split('[!html!]')[1];
+            }
+        });
+        scope.$watch('quizSelected.question|json', function () {
+            if(!scope.quizSelected){
+                return;
+            }
+            var questionSegments = scope.quizSelected.question.split('[!raw!]');
+            scope.question = questionSegments[0];
+            if(typeof questionSegments[1] === 'undefined'){
+                scope.question = scope.quizSelected.question.split('[!html!]')[0];
+            }
+        });
     }
 ];
