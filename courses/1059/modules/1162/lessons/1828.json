@@ -1,7 +1,7 @@
 {
   "lesson": {
     "id": 1828,
-    "name": "The Do While Loop",
+    "name": "Vòng lặp Do While",
     "type": 0,
     "mode": 1,
     "videoID": "MxPVNaArOSk",
@@ -38,8 +38,8 @@
             "properties": {}
           }
         ],
-        "question": "How many times will the following code print \"Hello\"?\r\n$i = 1;\r\ndo {  echo \"Hello\"; }\r\nwhile($i < 0);",
-        "textContent": "[h1]The do...while Loop[/h1]\r\n\r\nThe[b] do...while[/b] loop will always execute the block of code once, check the condition, and repeat the loop as long as the specified condition is true.\r\n\r\n[b]Syntax:[/b] [code format=\"php\"][b]do [/b]{\r\n  code to be executed;\r\n} [b]while [/b](condition is [b]true[/b]); [/code]\r\n[note]Regardless of whether the condition is [b]true [/b]or [b]false[/b], the code will be executed at least [b]once[/b], which could be needed in some situations.[/note]"
+        "question": "đoạn code sau sẽ in bao nhiêu lần chữ \"Hello\"?\r\n$i = 1;\r\ndo {  echo \"Hello\"; }\r\nwhile($i < 0);",
+        "textContent": "[h1]Vòng lặp do...while[/h1]\r\n\r\nVòng lặp[b] do...while[/b] sẽ luôn luôn thực hiện đoạn code một lần, kiểm tra điều kiện, và lặp lại vòng lặp miễn là điều kiện đúng.\r\n\r\n[b]Cú pháp:[/b] [code format=\"php\"][b]do [/b]{\r\n  code to be executed;\r\n} [b]while [/b](condition is [b]true[/b]); [/code]\r\n[note]Bất kể điều kiện là [b]đúng[/b] hay [b]sai[/b], mã sẽ được thực hiện ít nhất một lần, có thể cần thiết trong một số trường hợp.[/note]"
       },
       {
         "id": 3525,
@@ -78,8 +78,8 @@
             "properties": {}
           }
         ],
-        "question": "Rearrange the blocks to form a correct do while loop.",
-        "textContent": "[h1]The do...while Loop[/h1]\r\n\r\nThe example below will write some output, and then increment the variable $i by one. Then the condition is checked, and the loop continues to run, as long as $i is less than or equal to 7.[code format=\"php\" codeId=\"479\"]$i = 5;\r\ndo {\r\n   echo \"The number is \" . $i . \"<br/>\";\r\n   $i++;\r\n} while($i <= 7);\r\n\r\n//Output\r\n//The number is 5\r\n//The number is 6\r\n//The number is 7[/code]\r\n[note]Note that in a [b]do while[/b] loop, the condition is tested AFTER executing the statements within the loop. This means that the [b]do while[/b] loop would execute its statements at least once, even if the condition is false the first time.[/note]"
+        "question": "Sắp xếp các blocks để được vòng lặp do...while.",
+        "textContent": "[h1]Vòng lặp do...while[/h1]\r\n\r\nVí dụ bên dưới sẽ có một số đầu ra, và sau đó tăng biến $i làm một. Sau đó kiểm tra điều kiện, và vòng lặp tiếp tục chạy, miễn là $i là bé hơn hoặc bằng 7.[code format=\"php\" codeId=\"479\"]$i = 5;\r\ndo {\r\n   echo \"The number is \" . $i . \"<br/>\";\r\n   $i++;\r\n} while($i <= 7);\r\n\r\n//Output\r\n//The number is 5\r\n//The number is 6\r\n//The number is 7[/code]\r\n[note]Chú ý rằng trong vòng lặp [b]do while[/b], điều kiện được kiểm tra sau khi thực hiện các câu lệnh trong vòng lặp. Có nghĩa rằng vòng lặp [b]do while[/b] sẽ thực hiện ít nhất một lần, ngay cả khi điều kiện là sai lần đầu tiên..[/note]"
       }
     ]
   }
