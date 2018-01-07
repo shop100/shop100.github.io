@@ -1,7 +1,7 @@
 {
   "lesson": {
     "id": 1825,
-    "name": "The while Loop",
+    "name": "Vòng lặp while",
     "type": 0,
     "mode": 1,
     "videoID": "0HBLrQe2Ack",
@@ -38,8 +38,8 @@
             "properties": {}
           }
         ],
-        "question": "What is the syntax for the while loop?",
-        "textContent": "[h1]Loops[/h1]\r\n\r\nWhen writing code, you may want the same block of code to run over and over again. Instead of adding several almost equal code-lines in a script, we can use [b]loops[/b] to perform a task like this.\r\n\r\n[h2]The while Loop[/h2]\r\n\r\nThe [b]while [/b]loop executes a block of code as long as the specified condition is [b]true[/b].\r\n[b]Syntax:[/b] [code format=\"php\"][b]while [/b](condition is [b]true[/b]) {\r\n   code to be executed;\r\n}[/code]\r\n[note]If the condition never becomes [b]false[/b], the statement will continue to execute indefinitely.[/note]"
+        "question": "Đâu là cú pháp đúng của vòng lặp white?",
+        "textContent": "[h1]Vòng lặp[/h1]\r\n\r\nKhi bạn viết code, bạn có thể muốn đoạn code chay liên tục. thay vì thêm các dòng code giống nhau, chúng ta có thể dùng [b]vòng lặp[/b] để thực hiện tác vụ như thế này.\r\n\r\n[h2] Vòng lặp while[/h2]\r\n\r\nVòng lặp [b]while [/b]thực hiện đoạn code miễn điều kiện là [b]true[/b].\r\n[b]Cú pháp:[/b] [code format=\"php\"][b]while [/b](condition is [b]true[/b]) {\r\n   code to be executed;\r\n}[/code]\r\n[note]Nếu điều kiện không bao giờ sai [b]false[/b], câu lệnh sẽ thực hiện vô thời hạn.[/note]"
       },
       {
         "id": 3520,
