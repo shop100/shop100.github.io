@@ -1,7 +1,7 @@
 {
   "lesson": {
     "id": 1824,
-    "name": "The Elseif Statement",
+    "name": "Câu lệnh Elseif ",
     "type": 0,
     "mode": 1,
     "videoID": "YuQZDiawu3A",
@@ -21,25 +21,25 @@
         "answers": [
           {
             "id": 96855,
-            "text": "One",
+            "text": "Một",
             "isCorrect": false,
             "properties": {}
           },
           {
             "id": 96856,
-            "text": "None",
+            "text": "Không lần nào",
             "isCorrect": false,
             "properties": {}
           },
           {
             "id": 96857,
-            "text": "As many as you want",
+            "text": "Bao nhiêu lần cũng được",
             "isCorrect": true,
             "properties": {}
           }
         ],
-        "question": "How many times can an elseif statement be used?",
-        "textContent": "[h1]The Elseif Statement[/h1]\r\n\r\nUse the[b] if...elseif...else[/b] statement to specify a [b]new [/b]condition to test, if the first condition is [b]false[/b].\r\n[b]\r\nSyntax:[/b] [code format=\"php\"][b]if [/b](condition) {\r\n  code to be executed if condition is [b]true[/b];\r\n} [b]elseif [/b](condition) {\r\n  code to be executed if condition is [b]true[/b];\r\n} [b]else [/b]{\r\n   code to be executed if condition is [b]false[/b];\r\n}[/code]\r\n[note]You can add as many [b]elseif[/b] statements as you want. Just note, that the [b]elseif[/b] statement must begin with an [b]if[/b] statement.[/note]"
+        "question": "Câu lệnh elseif có thể được dùng bao nhiêu lần?",
+        "textContent": "[h1]Câu lệnh elseif[/h1]\r\n\r\nSử dụng câu lệnh[b] if...elseif...else[/b] để chỉ định một điều kiện [b]mới[/b] để kiểm tra, nếu điều kiện đầu tiên là [b]sai[/b].\r\n[b]\r\nCú pháp:[/b] [code format=\"php\"][b]if [/b](condition) {\r\n  code to be executed if condition is [b]true[/b];\r\n} [b]elseif [/b](condition) {\r\n  code to be executed if condition is [b]true[/b];\r\n} [b]else [/b]{\r\n   code to be executed if condition is [b]false[/b];\r\n}[/code]\r\n[note]Bạn có thể có rất nhiều câu lệnh [b]elseif[/b]. Nhưng chú ý, câu lệnh [b]elseif[/b] phải được bắt đầu với một câu lệnh [b]if[/b].[/note]"
       },
       {
         "id": 3518,
