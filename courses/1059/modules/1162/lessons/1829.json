@@ -72,8 +72,8 @@
             }
           }
         ],
-        "question": "Fill in the blanks.\r\n[!raw!]\r\n$i = 1;\r\nswitch($i) {\r\n  {0} \"1\":\r\n    echo 'One';\r\n    {1};\r\n  case \"2\":\r\n    echo 'Two';\r\n    break;\r\n}",
-        "textContent": "[h1]Switch[/h1]\r\n\r\nConsider the following example, which displays the appropriate message for each day. [code format=\"php\" codeId=\"482\"]$today = 'Tue';\r\n\r\n[b]switch [/b]($today) {\r\n  [b]case [/b]\"Mon\":\r\n    echo \"Today is Monday.\";\r\n    [b]break[/b];\r\n  [b]case [/b]\"Tue\":\r\n    echo \"Today is Tuesday.\";\r\n    [b]break[/b];\r\n  [b]case [/b]\"Wed\":\r\n    echo \"Today is Wednesday.\";\r\n    [b]break[/b];\r\n  [b]case [/b]\"Thu\":\r\n    echo \"Today is Thursday.\";\r\n    [b]break[/b];\r\n  [b]case [/b]\"Fri\":\r\n     echo \"Today is Friday.\";\r\n     [b]break[/b];\r\n  [b]case [/b]\"Sat\":\r\n     echo \"Today is Saturday.\";\r\n     [b]break[/b];\r\n  [b]case [/b]\"Sun\":\r\n     echo \"Today is Sunday.\";\r\n     [b]break[/b];\r\n  [b]default[/b]:\r\n     echo \"Invalid day.\";\r\n}\r\n//Outputs \"Today is Tuesday.\"[/code]\r\n[note]The [b]break[/b] keyword that follows each case is used to keep the code from automatically running into the next case. If you forget the [b]break;[/b] statement, PHP will automatically continue through the next case statements, even when the case doesn't match.[/note]"
+        "question": "Điền vào chỗ trống .\r\n[!raw!]\r\n$i = 1;\r\nswitch($i) {\r\n  {0} \"1\":\r\n    echo 'One';\r\n    {1};\r\n  case \"2\":\r\n    echo 'Two';\r\n    break;\r\n}",
+        "textContent": "[h1]Switch[/h1]\r\n\r\nXem xét ví dụ sau, hiển thị thông điệp thích hợp cho mỗi ngày. [code format=\"php\" codeId=\"482\"]$today = 'Tue';\r\n\r\n[b]switch [/b]($today) {\r\n  [b]case [/b]\"Mon\":\r\n    echo \"Today is Monday.\";\r\n    [b]break[/b];\r\n  [b]case [/b]\"Tue\":\r\n    echo \"Today is Tuesday.\";\r\n    [b]break[/b];\r\n  [b]case [/b]\"Wed\":\r\n    echo \"Today is Wednesday.\";\r\n    [b]break[/b];\r\n  [b]case [/b]\"Thu\":\r\n    echo \"Today is Thursday.\";\r\n    [b]break[/b];\r\n  [b]case [/b]\"Fri\":\r\n     echo \"Today is Friday.\";\r\n     [b]break[/b];\r\n  [b]case [/b]\"Sat\":\r\n     echo \"Today is Saturday.\";\r\n     [b]break[/b];\r\n  [b]case [/b]\"Sun\":\r\n     echo \"Today is Sunday.\";\r\n     [b]break[/b];\r\n  [b]default[/b]:\r\n     echo \"Invalid day.\";\r\n}\r\n//Outputs \"Today is Tuesday.\"[/code]\r\n[note]Từ khóa [b]break[/b] đằng sau các case được sử dụng để giữ code từ tự động chạy vào case tiếp theo. Nếu bạn quên câu lệnh [b]break;[/b], PHP sẽ tự động chạy đến case tiếp theo, ngay cả khi case không đúng.[/note]"
       },
       {
         "id": 3528,
@@ -97,8 +97,8 @@
             }
           }
         ],
-        "question": "What keyword is used to handle cases that are not defined with the case keyword?",
-        "textContent": "[h1]default[/h1]\r\n\r\nThe [b]default [/b]statement is used if no match is found. [code format=\"php\" codeId=\"483\"]$x=5;\r\nswitch ($x) {\r\n  case 1:\r\n    echo \"One\";\r\n    break;\r\n  case 2:\r\n    echo \"Two\";\r\n    break;\r\n  [b]default:\r\n    [/b]echo \"No match\";\r\n}\r\n\r\n//Outputs \"No match\"[/code] \r\n[note]The [b]default[/b] statement is optional, so it can be omitted.[/note]"
+        "question": "Từ khóa nào được sử dụng nếu không tìm thấy case trùng hợp trong switch ?",
+        "textContent": "[h1]default[/h1]\r\n\r\nCâu lệnh [b]default [/b] được sử dụng khi không tìm thất case trùng hợp. [code format=\"php\" codeId=\"483\"]$x=5;\r\nswitch ($x) {\r\n  case 1:\r\n    echo \"One\";\r\n    break;\r\n  case 2:\r\n    echo \"Two\";\r\n    break;\r\n  [b]default:\r\n    [/b]echo \"No match\";\r\n}\r\n\r\n//Outputs \"No match\"[/code] \r\n[note]Câu lệnh [b]default[/b] là tùy chọn, vậy nên có thể bỏ qua.[/note]"
       },
       {
         "id": 3529,
