@@ -90,8 +90,8 @@
             }
           }
         ],
-        "question": "Fill in the blanks to print \"Male\" if the variable \"gender\" is equal to 0, \"Female\" if it is equal to 1, and \"Undefined\" in all other cases.\r\n[!raw!]\r\nif($gender == {0})\r\n   echo \"Male\";\r\n{1}($gender {2} 1)\r\n   echo \"Female\";\r\n{3}\r\n   echo \"Undefined\";",
-        "textContent": "[h1]The Elseif Statement [/h1]\r\n\r\n[b]For example:[/b] [code format=\"php\" codeId=\"477\"]<?php\r\n$age = 21;\r\n\r\n[b]if[/b] ($age<=13) {\r\n   echo \"Child.\";\r\n} [b]elseif [/b]($age>13 && $age<19) {\r\n   echo \"Teenager\";\r\n} [b]else [/b]{\r\n   echo \"Adult\";\r\n}\r\n\r\n//Outputs \"Adult\"\r\n?>[/code]\r\n[note]We used the [b]logical AND[/b] (&&) operator to combine the two conditions and check to determine whether $age is between 13 and 19.[/note]"
+        "question": "Điền vào chỗ trống để xuất ra \"Male\" nếu biến \"gender\" bằng 0, \"Female\" nếu bằng 1, và \"Undefined\" trong các trường hợp khác.\r\n[!raw!]\r\nif($gender == {0})\r\n   echo \"Male\";\r\n{1}($gender {2} 1)\r\n   echo \"Female\";\r\n{3}\r\n   echo \"Undefined\";",
+        "textContent": "[h1]Câu lệnh elseif [/h1]\r\n\r\n[b]Ví dụ:[/b] [code format=\"php\" codeId=\"477\"]<?php\r\n$age = 21;\r\n\r\n[b]if[/b] ($age<=13) {\r\n   echo \"Child.\";\r\n} [b]elseif [/b]($age>13 && $age<19) {\r\n   echo \"Teenager\";\r\n} [b]else [/b]{\r\n   echo \"Adult\";\r\n}\r\n\r\n//Outputs \"Adult\"\r\n?>[/code]\r\n[note]Chúng ta sử dụng [b]toán tử AND[/b] (&&) để kết hợp hai điều và kiểm tra để xác định $age từ 13 đến 19.[/note]"
       }
     ]
   }
