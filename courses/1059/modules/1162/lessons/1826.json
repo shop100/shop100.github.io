@@ -1,7 +1,7 @@
 {
   "lesson": {
     "id": 1826,
-    "name": "The For Loop",
+    "name": "Vòng lặp For",
     "type": 0,
     "mode": 1,
     "videoID": "EFjiuTicHns",
@@ -38,8 +38,8 @@
             "properties": {}
           }
         ],
-        "question": "Which is the correct syntax for the classic for loop?",
-        "textContent": "[h1]The for Loop[/h1]\r\n\r\nThe [b]for [/b]loop is used when you know in advance how many times the script should run. [code format=\"php\"][b]for [/b](init; test; increment) {\r\n   code to be executed;\r\n}[/code]\r\n[b]Parameters:[/b]\r\n[b]init[/b]: Initialize the loop counter value\r\n[b]test[/b]: Evaluates each time the loop is iterated, continuing if evaluates to [b]true[/b], and ending if it evaluates to [b]false[/b]\r\n[b]increment:[/b] Increases the loop counter value\r\n[note]Each of the parameter expressions can be empty or contain multiple expressions that are separated with [b]commas[/b]. \r\nIn the [b]for[/b] statement, the parameters are separated with [b]semicolons[/b].[/note]"
+        "question": "Đâu là cú pháp đúng của vòng lặp for?",
+        "textContent": "[h1]Vòng lặp for[/h1]\r\n\r\nVòng lặp [b]for [/b]được sử dụng khi bạn biết trước bao nhiêu lần nên chạy. [code format=\"php\"][b]for [/b](init; test; increment) {\r\n   code to be executed;\r\n}[/code]\r\n[b]thông số:[/b]\r\n[b]init[/b]: Khởi tạo giá trị đếm vòng lặp\r\n[b]test[/b]: Đánh giá mỗi lần vòng lặp được lặp lại, tiếp tục nếu đánh giá đúng, và kết thúc nếu nó đánh giá [b]sai[/b]\r\n[b]increment:[/b] Tăng giá trị vòng lặp\r\n[note]Trong vòng lặp [b]for[/b], thông số được phân biệt bởi [b]dấu phẩy[/b].[/note]"
       },
       {
         "id": 3522,
@@ -72,8 +72,8 @@
             "properties": {}
           }
         ],
-        "question": "Fill in the blanks to print the variable \"name\" 10 times.\r\n[!raw!]\r\n$name = \"Bruce\";\r\nfor({0}; {1}; {2})   {\r\n   echo $name; \r\n}",
-        "textContent": "[h1]The for Loop[/h1]\r\n\r\nThe example below displays the numbers from 0 to 5:[code format=\"php\" codeId=\"480\"][b]for [/b]($a = 0; $a < 6; $a++) {\r\n   echo \"Value of a : \". $a . \"<br />\";\r\n}[/code]\r\n[b]Result: [/b][img id=\"2322\" width=\"100%\"]\r\n[note]The [b]for[/b] loop in the example above first sets the variable [b]$a[/b] to 0, then checks for the condition ($a < 6). If the condition is true, it runs the code. After that, it increments $a ($a++).[/note]"
+        "question": "Điền vào chỗ trống để in ra biến \"name\" 10 lần.\r\n[!raw!]\r\n$name = \"Bruce\";\r\nfor({0}; {1}; {2})   {\r\n   echo $name; \r\n}",
+        "textContent": "[h1]Vòng lặp for[/h1]\r\n\r\nVí dụ bên dưới hiện thị từ 0 đến 5:[code format=\"php\" codeId=\"480\"][b]for [/b]($a = 0; $a < 6; $a++) {\r\n   echo \"Value of a : \". $a . \"<br />\";\r\n}[/code]\r\n[b]Kết quả: [/b][img id=\"2322\" width=\"100%\"]\r\n[note]Vòng lặp [b]for[/b] trong ví dụ trước tiên đặt biến [b]$a[/b] từ 0, sau đó kiểm tra điều kiện($a < 6). nếu điều kiện đúng, code chạy. sau đó, tăng $a ($a++).[/note]"
       }
     ]
   }
