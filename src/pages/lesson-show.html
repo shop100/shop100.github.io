@@ -1,3 +1,4 @@
+<div style="    background: #E9E9E9;">
 <div class="lessonViewInfo">
     <div class="lessonOutline text">
     <span class="video" ng-class="{active:(quiz.selected && view=='text')}"  ng-repeat-start="quiz in lesson.quizzes" ng-click="selectLessonText(quiz)">
@@ -19,6 +20,7 @@
             <bb-decode content="quizSelected.textContent"></bb-decode>
         </div>
     </div>
+    <button class="actionButton skipTextButton" style="background-color: rgb(100, 221, 23);" ng-click="skipText()"></button>
 </div>
 
 <div id="quizView" ng-show="view=='quiz'" class="view elevated" style="display: block; z-index: 116; transform: translateX(0px) scaleX(1) scaleY(1);">
@@ -53,4 +55,5 @@
     <div class="actionBar">
         <button class="actionButton checkButton" style="background-color: rgb(100, 221, 23); opacity: 1; transform: scaleX(1) scaleY(1);" ng-click="check()"></button>
     </div>
+</div>
 </div>
