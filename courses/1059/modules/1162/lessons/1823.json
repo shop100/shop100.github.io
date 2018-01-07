@@ -47,8 +47,8 @@
             }
           }
         ],
-        "question": "Fill in the blanks to output \"Welcome\", if the variable 'age' is greater than 18.\r\n[!raw!]\r\n{0}($age {1} 18)\r\n{\r\n   {2} \"Welcome\";\r\n}",
-        "textContent": "[h1]Conditional Statements[/h1]\r\n\r\n[b]Conditional statements[/b] perform different actions for different decisions.\r\nThe [b]if else[/b] statement is used to execute a certain code if a condition is [b]true[/b], and another code if the condition is [b]false[/b].\r\n[b]Syntax:[/b][code format=\"php\" ][b]if[/b] (condition) {\r\n   code to be executed if condition is [b]true[/b];\r\n} [b]else [/b]{\r\n   code to be executed if condition is [b]false[/b];\r\n}[/code]\r\n[note]You can also use the[b] if[/b] statement without the [b]else [/b]statement, if you do not need to do anything, in case the condition is [b]false[/b].[/note]"
+        "question": "Điền vào chỗ trống để xuất ra kết quả. \"Welcome\", if the variable 'age' is greater than 18.\r\n[!raw!]\r\n{0}($age {1} 18)\r\n{\r\n   {2} \"Welcome\";\r\n}",
+        "textContent": "[h1]Câu điều kiện[/h1]\r\n\r\n[b]Câu điều kiện[/b] Thực hiện các hành động theo yêu cầu.\r\nCâu lệnh [b]if else[/b] sẽ thực hiện hành động nếu điều kiện là [b]true[/b], và hành động khác nếu điều kiện là [b]false[/b].\r\n[b]Syntax:[/b][code format=\"php\" ][b]if[/b] (condition) {\r\n   code to be executed if condition is [b]true[/b];\r\n} [b]else [/b]{\r\n   code to be executed if condition is [b]false[/b];\r\n}[/code]\r\n[note]Bạn cũng có thể dùng câu lệnh[b] if[/b] mà không cần đến câu lệnh [b]else [/b], nếu như bạn muốn thực hiện hành động, trong trường hợp điều kiện là [b]false[/b].[/note]"
       },
       {
         "id": 3516,
@@ -87,8 +87,8 @@
             "properties": {}
           }
         ],
-        "question": "Drag the corresponding code blocks to print \"YES\" if the variable 'num' is equal to 100, \"NO\" if it is not.\r\n[!raw!]\r\nif({0})\r\n{\r\n    {1}\r\n} \r\n{2}\r\n{\r\n     {3}\r\n}",
-        "textContent": "[h1]If Else[/h1]\r\n\r\nThe example below will output the greatest number of the two.[code format=\"php\" codeId=\"476\"]<?php\r\n$x = 10;\r\n$y = 20;\r\n[b]if [/b]([b]$x >= $y[/b]) {\r\n   echo $x;\r\n} [b]else [/b]{\r\n   echo $y;\r\n}\r\n\r\n// Outputs \"20\"\r\n?>[/code]"
+        "question": "Kéo và thả các options để in \"YES\" nếu biến 'num' bằng 100, \"NO\" nếu không bằng.\r\n[!raw!]\r\nif({0})\r\n{\r\n    {1}\r\n} \r\n{2}\r\n{\r\n     {3}\r\n}",
+        "textContent": "[h1]If Else[/h1]\r\n\r\nVí dụ bên dưới sẽ cho ra kết quả số lớn nhất trong 2 số.[code format=\"php\" codeId=\"476\"]<?php\r\n$x = 10;\r\n$y = 20;\r\n[b]if [/b]([b]$x >= $y[/b]) {\r\n   echo $x;\r\n} [b]else [/b]{\r\n   echo $y;\r\n}\r\n\r\n// Outputs \"20\"\r\n?>[/code]"
       }
     ]
   }
