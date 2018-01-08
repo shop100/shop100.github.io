@@ -1,8 +1,10 @@
 module.exports = [
     "$scope",
     "LessonService",
+    "CourseService",
     "$stateParams",
-    function (scope, LessonService, params) {
+    "$mdToast",
+    function (scope, LessonService, CourseService, params, toast) {
         LessonService.get(params.course_id, params.module_id, params.lesson_id).then(function (resp) {
             scope.lesson = resp.data.lesson;
             scope.selectLessonText(scope.lesson.quizzes[0]);
@@ -31,6 +33,15 @@ module.exports = [
             scope.view = 'quiz';
         };
         scope.done = function (selectedQuiz) {
+            if (scope.lesson.quizzes) {
+                var selectedQuizPosition = scope.lesson.quizzes.indexOf(selectedQuiz);
+                var nextQuiz = scope.lesson.quizzes[selectedQuizPosition+1];
+                if(nextQuiz){
+                    scope.selectQuiz(nextQuiz);
+                }else{
+                    CourseService.doneLesson(scope.lesson);
+                }
+            }
             return LessonService.done(selectedQuiz);
         };
         scope.isDone = function (selectedQuiz) {
@@ -55,5 +66,18 @@ module.exports = [
                 scope.question = scope.quizSelected.question.split('[!html!]')[0];
             }
         });
+        scope.check = function () {
+            toast.show(
+                toast.simple()
+                    .textContent('Đáp án chưa chính xác, vui lòng chọn lại!')
+                    .action('OK')
+                    .highlightAction(true)
+                    .highlightClass('md-warning')// Accent is used by default, this just demonstrates the usage.
+                    .position('bottom right')
+            );
+        };
+        scope.skipText = function () {
+            scope.view = 'quiz';
+        };
     }
 ];

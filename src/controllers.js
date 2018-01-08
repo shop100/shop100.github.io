@@ -8,7 +8,8 @@ angular
         "DragDropQuiz",
         "FillInBlankQuiz",
         "MultipleChoiceQuiz",
-        "SingleChoiceQuiz"
+        "SingleChoiceQuiz",
+        "ngMaterial"
     ])
     .config([
         "$urlRouterProvider",
