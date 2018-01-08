@@ -39,7 +39,7 @@
           }
         ],
         "question": "Đó là cú pháp chính xác cho câu lệnh include trong PHP?",
-        "textContent": "[h1]include[/h1]\r\n\r\nCâu lệnh [b]include[/b] và [b]require[/b] cho phép bạn chèn một nội dung vào một file PHP từ một file PHP khác, trước khi serverthực hiện.\r\nIncluding files saves quite a bit of work. You can create a standard header, footer, or menu file for all of your web pages. Then, when the header is requiring updating, you can update the header include file only.\r\n\r\nAssume that we have a standard header file called [b]header.php[/b].  [code format=\"php\" ]<?php\r\n  echo '<h1>Welcome</h1>';\r\n?>[/code]\r\nUse the [b]include[/b] statement to include the header file in a page.[code format=\"raw\" ]<html>\r\n  <body>\r\n\r\n  [b]<?php include 'header.php'; ?>[/b]\r\n\r\n  <p>Some text.</p>\r\n  <p>Some text.</p>\r\n  </body>\r\n</html>[/code]"
+        "textContent": "[h1]include[/h1]\r\n\r\nCâu lệnh [b]include[/b] và [b]require[/b] cho phép bạn chèn một nội dung vào một file PHP từ một file PHP khác, trước khi server thực hiện.\r\nIncluding files saves quite a bit of work. You can create a standard header, footer, or menu file for all of your web pages. Then, when the header is requiring updating, you can update the header include file only.\r\n\r\nAssume that we have a standard header file called [b]header.php[/b].  [code format=\"php\" ]<?php\r\n  echo '<h1>Welcome</h1>';\r\n?>[/code]\r\nUse the [b]include[/b] statement to include the header file in a page.[code format=\"raw\" ]<html>\r\n  <body>\r\n\r\n  [b]<?php include 'header.php'; ?>[/b]\r\n\r\n  <p>Some text.</p>\r\n  <p>Some text.</p>\r\n  </body>\r\n</html>[/code]"
       },
       {
         "id": 3533,
