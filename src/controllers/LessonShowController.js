@@ -34,8 +34,8 @@ module.exports = [
         };
         scope.done = function (selectedQuiz) {
             if (scope.lesson.quizzes) {
-                let selectedQuizPosition = scope.lesson.quizzes.indexOf(selectedQuiz);
-                let nextQuiz = scope.lesson.quizzes[selectedQuizPosition+1];
+                var selectedQuizPosition = scope.lesson.quizzes.indexOf(selectedQuiz);
+                var nextQuiz = scope.lesson.quizzes[selectedQuizPosition+1];
                 if(nextQuiz){
                     scope.selectQuiz(nextQuiz);
                 }else{
