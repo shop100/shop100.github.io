@@ -73,7 +73,7 @@
           }
         ],
         "question": "Bạn có thể sử dụng PHP trên Linux?",
-        "textContent": "[h1]Tại sao lại là PHP[/h1]\r\n\r\nPHP [b]chạy [/b]trên nhiều nền tảng, bao gồm Windows, Linux, Unix, Mac OS X,....\r\nPHP [b]tương thích [/b]với hầu hết các máy chủ hiện tại, như là Apache, IIS, và nữa.\r\nPHP [b]hỗ trợ [/b]một loạt các cơ sở dữ liệu.\r\nPHP [b]miễn phí[/b]!\r\n[note]PHP dễ học và sử dụng hiệu quả ở phía máy chủ.[/note]"
+        "textContent": "[h1]Tại sao lại là PHP[/h1]\r\n\r\nPHP [b]chạy [/b]trên nhiều nền tảng, bao gồm Windows, Linux, Unix, Mac OS X,....\r\nPHP [b]tương thích [/b]với hầu hết các serverhiện tại, như là Apache, IIS, và nữa.\r\nPHP [b]hỗ trợ [/b]một loạt các cơ sở dữ liệu.\r\nPHP [b]miễn phí[/b]!\r\n[note]PHP dễ học và sử dụng hiệu quả ở phía máy chủ.[/note]"
       }
     ]
   }
