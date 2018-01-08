@@ -64,11 +64,21 @@ angular
                     }
                 }
             };
+            var lessonDoneState = {
+                name: 'courses.show.module.lesson.done',
+                url: '/done',
+                views: {
+                    "@": {
+                        controller: require('./controllers/LessonDoneController.js'),
+                    }
+                }
+            };
 
             $stateProvider.state(homeState);
             $stateProvider.state(coursesState);
             $stateProvider.state(courseState);
             $stateProvider.state(courseModuleShowState);
             $stateProvider.state(lessonShowState);
+            $stateProvider.state(lessonDoneState);
             $urlRouterProvider.otherwise('/');
         }]);
