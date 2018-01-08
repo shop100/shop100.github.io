@@ -1,7 +1,7 @@
 {
   "lesson": {
     "id": 1833,
-    "name": "Làm trắc nghiệm",
+    "name": "Bài kiểm tra 5",
     "type": 1,
     "mode": 0,
     "videoID": null,
@@ -38,7 +38,7 @@
             "properties": {}
           }
         ],
-        "question": "Using the for loop, print only the even numbers between 0 and 10.\r\n[!raw!]\r\nfor ($i=0; $i<=10;$i++) {\r\n    {0}{\r\n\t{1}\r\n    }\r\n    {2}\r\n}",
+        "question": "Sử dụng vòng lặp for, chỉ in ra số chẵn từ 0 đến 10.\r\n[!raw!]\r\nfor ($i=0; $i<=10;$i++) {\r\n    {0}{\r\n\t{1}\r\n    }\r\n    {2}\r\n}",
         "textContent": null
       },
       {
@@ -63,7 +63,7 @@
             }
           }
         ],
-        "question": "What output results from the following code?\r\n$x = 0;\r\nwhile($x<=7) {\r\n   $x++;\r\n}\r\necho $x;",
+        "question": "Kết quả của đoạn code sau?\r\n$x = 0;\r\nwhile($x<=7) {\r\n   $x++;\r\n}\r\necho $x;",
         "textContent": null
       },
       {
@@ -80,18 +80,18 @@
         "answers": [
           {
             "id": 67864,
-            "text": "True",
+            "text": "Đúng",
             "isCorrect": true,
             "properties": {}
           },
           {
             "id": 67865,
-            "text": "False",
+            "text": "Sai",
             "isCorrect": false,
             "properties": {}
           }
         ],
-        "question": "The PHP Else If statement must be preceded by an If statement before it can be used.",
+        "question": "Câu lệnh Else If trong PHP cần phải có câu lệnh If đứng trước mới có thể dùng được.",
         "textContent": null
       },
       {
@@ -131,7 +131,7 @@
             "properties": {}
           }
         ],
-        "question": "What output results from the following code?\r\n$x = 6;\r\nif ($x ==  10) {\r\n      echo \"A\";\r\n}\r\nelseif ($x > 7 && $x < 10) {\r\n       echo \"B\";\r\n}\r\nelseif ($x == 20) {\r\n       echo \"C\";\r\n}\r\nelse {\r\n       echo \"D\";\r\n}",
+        "question": "Kết quả của đoạn code sau?\r\n$x = 6;\r\nif ($x ==  10) {\r\n      echo \"A\";\r\n}\r\nelseif ($x > 7 && $x < 10) {\r\n       echo \"B\";\r\n}\r\nelseif ($x == 20) {\r\n       echo \"C\";\r\n}\r\nelse {\r\n       echo \"D\";\r\n}",
         "textContent": null
       }
     ]
