@@ -1,6 +1,13 @@
 #courses {
+  .course-item{
+    width:33%;
+    float:left;
+    height: 462px;
+  }
   .course {
-    width: 420px;
+    height: 96%;
+    width: 484px;
+    max-width: 98%;
     .card-media {
       width: 90px;
       height: 90px;

@@ -1,9 +1,10 @@
 module.exports = [
     "$scope",
     "LessonService",
+    "CourseService",
     "$stateParams",
     "$mdToast",
-    function (scope, LessonService, params, toast) {
+    function (scope, LessonService, CourseService, params, toast) {
         LessonService.get(params.course_id, params.module_id, params.lesson_id).then(function (resp) {
             scope.lesson = resp.data.lesson;
             scope.selectLessonText(scope.lesson.quizzes[0]);
@@ -38,7 +39,7 @@ module.exports = [
                 if(nextQuiz){
                     scope.selectQuiz(nextQuiz);
                 }else{
-                    //todo:
+                    CourseService.doneLesson(scope.lesson);
                 }
             }
             return LessonService.done(selectedQuiz);
