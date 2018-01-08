@@ -1,7 +1,7 @@
 {
   "lesson": {
     "id": 1841,
-    "name": "GET and POST",
+    "name": "GET và POST",
     "type": 0,
     "mode": 1,
     "videoID": "G3OiiIVR3Mc",
@@ -38,8 +38,8 @@
             }
           }
         ],
-        "question": "Fill in the blanks to print the value of a text box named \"email\", which was submitted using POST.\r\n[!raw!]\r\n<?php\r\n   echo {0}POST[\"{1}\"];\r\n?>",
-        "textContent": "[h1]POST[/h1]\r\n\r\nThe two methods for submitting forms are [b]GET[/b] and [b]POST[/b].\r\nInformation sent from a form via the [b]POST[/b] method is invisible to others, since all names and/or values are embedded within the body of the HTTP request. Also, there are no limits on the amount of information to be sent.\r\nMoreover, POST supports advanced functionality such as support for multi-part binary input while uploading files to the server.\r\nHowever, it is not possible to bookmark the page, as the submitted values are not visible.\r\n[note][b]POST[/b] is the preferred method for sending form data.[/note]"
+        "question": "Điền vào chỗ trống để in ra giá trị của text box (thẻ <input> trong html) \"email\", được gửi đi bằng POST.\r\n[!raw!]\r\n<?php\r\n   echo {0}POST[\"{1}\"];\r\n?>",
+        "textContent": "[h1]POST[/h1]\r\n\r\nHai phương pháp dùng để gửi thông tin đi trong form là [b]GET[/b] và [b]POST[/b].\r\nThông tin được gửi tới form thông qua phương pháp [b]POST[/b] thì bị ẩn đi với người khác.\r\nHơn nữa, POST hỗ trợ chức năng nâng cao như là hỗ trợ mã nhị phân trong khi tai các file lên server.\r\nTuy nhiên, nó không thể đánh dấu trang, như là gửi đi một giá trị ẩn.\r\n[note][b]POST[/b] thường là phương pháp gửi dữ liệu.[/note]"
       },
       {
         "id": 3555,
