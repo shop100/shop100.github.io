@@ -1,7 +1,7 @@
 {
   "lesson": {
     "id": 1839,
-    "name": "$_SERVER Variables: Host Name",
+    "name": "Biến $_SERVER: tên miền",
     "type": 0,
     "mode": 1,
     "videoID": "CFKEnbPBAKc",
@@ -21,31 +21,31 @@
         "answers": [
           {
             "id": 98500,
-            "text": "An array",
+            "text": "Một mảng",
             "isCorrect": true,
             "properties": {}
           },
           {
             "id": 98501,
-            "text": "A string",
+            "text": "Một chỗi",
             "isCorrect": false,
             "properties": {}
           },
           {
             "id": 98502,
-            "text": "An integer",
+            "text": "Một số nguyên",
             "isCorrect": false,
             "properties": {}
           },
           {
             "id": 98503,
-            "text": "A function",
+            "text": "Một hàm",
             "isCorrect": false,
             "properties": {}
           }
         ],
-        "question": "What is the $_SERVER variable?",
-        "textContent": "[h1]$_SERVER[/h1]\r\n\r\n$_SERVER['HTTP_HOST'] returns the Host header from the current request. [code format=\"php\"]<?php\r\necho $_SERVER['HTTP_HOST'];\r\n//Outputs \"localhost\"\r\n?>[/code]\r\nThis method can be useful when you have a lot of images on your server and need to transfer the website to another host. Instead of changing the path for each image, you can do the following:\r\nCreate a [b]config.php[/b] file, that holds the path to your images: [code format=\"php\" ]<?php\r\n$host = $_SERVER['HTTP_HOST'];\r\n$image_path = $host.'/images/';\r\n?>[/code]\r\nUse the [b]config.php[/b] file in your scripts:[code format=\"php\" ]<?php\r\nrequire 'config.php';\r\necho '<img src=\"'.$image_path.'header.png\" />';\r\n?>[/code]\r\n[note]The path to your images is now dynamic. It will change automatically, based on the Host header.[/note]\r\nThis graphic shows the main elements of $_SERVER. [img id=\"2378\" width=\"100%\"]"
+        "question": "Biến $_SERVER là gì?",
+        "textContent": "[h1]$_SERVER[/h1]\r\n\r\n$_SERVER['HTTP_HOST'] trả về tên miền từ máy chủ hiện tại. [code format=\"php\"]<?php\r\necho $_SERVER['HTTP_HOST'];\r\n//Outputs \"localhost\"\r\n?>[/code]\r\nPhương pháp này có thể hữu ích khi bạn có nhiều hình ảnh trên server của bạn và cần chuyển website tới tên miền khác. Thay vì thay đổi đường dẫn của từng hình ảnh, bạn có thể làm theo:\r\nTạo ra một file [b]config.php[/b], mà chứa đường dẫn đến ảnh của bạn: [code format=\"php\" ]<?php\r\n$host = $_SERVER['HTTP_HOST'];\r\n$image_path = $host.'/images/';\r\n?>[/code]\r\nSử dụng file [b]config.php[/b] trong PHP:[code format=\"php\" ]<?php\r\nrequire 'config.php';\r\necho '<img src=\"'.$image_path.'header.png\" />';\r\n?>[/code]\r\n[note]Đường dẫn của ảnh sẽ thay đổi tự động, Dựa vào tên miền.[/note]\r\nThis graphic shows the main elements of $_SERVER. [img id=\"2378\" width=\"100%\"]"
       }
     ]
   }
