@@ -3,8 +3,9 @@ module.exports = [
     "LessonService",
     "CourseService",
     "$stateParams",
+    "$state",
     "$mdToast",
-    function (scope, LessonService, CourseService, params, toast) {
+    function (scope, LessonService, CourseService, params, state, toast) {
         LessonService.get(params.course_id, params.module_id, params.lesson_id).then(function (resp) {
             scope.lesson = resp.data.lesson;
             scope.selectLessonText(scope.lesson.quizzes[0]);
@@ -40,6 +41,9 @@ module.exports = [
                     scope.selectQuiz(nextQuiz);
                 }else{
                     CourseService.doneLesson(scope.lesson);
+                    var paramsDoneLesson = angular.extend({}, params);
+                    paramsDoneLesson.lesson_id = scope.lesson.id;
+                    state.go('courses.show.module.lesson.done', paramsDoneLesson);
                 }
             }
             return LessonService.done(selectedQuiz);
