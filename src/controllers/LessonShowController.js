@@ -43,13 +43,6 @@ module.exports = [
                     CourseService.doneLesson(scope.lesson);
                     var paramsDoneLesson = angular.extend({}, params);
                     paramsDoneLesson.lesson_id = scope.lesson.id;
-                    toast.show(
-                        toast.simple()
-                            .textContent('Trả lời đúng. Chúc mừng bạn đã hoàn thành tiết học')
-                            .highlightAction(true)
-                            .highlightClass('md-success')
-                            .position('bottom right')
-                    );
                     state.go('courses.show.module.lesson.done', paramsDoneLesson);
                 }
             }
