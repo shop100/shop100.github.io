@@ -29,8 +29,8 @@
             }
           }
         ],
-        "question": "Type in the function that must be called before working with the session variables.",
-        "textContent": "[h1]Sessions[/h1]\r\n\r\nUsing a [b]session[/b], you can store information in variables, to be used across multiple pages.\r\nInformation is not stored on the user's computer, as it is with [b]cookies[/b].\r\nBy default, session variables last until the user closes the browser.\r\n\r\n[h2]Start a PHP Session[/h2]\r\n\r\nA session is started using the [b]session_start()[/b] function.\r\nUse the PHP global [b]$_SESSION[/b] to set session variables. [code format=\"php\"]<?php\r\n// Start the session\r\n[b]session_start();[/b]\r\n\r\n$_SESSION['color'] = \"red\";\r\n$_SESSION['name'] = \"John\";\r\n?>[/code]\r\nNow, the [b]color[/b] and [b]name[/b] session variables are accessible on multiple pages, throughout the entire session.\r\n[note]The [b]session_start()[/b] function must be the very first thing in your document. Before any HTML tags.[/note]"
+        "question": "Điền vào chỗ trống hàm phải gọi trước khi khai báo biến sessions.",
+        "textContent": "[h1]Sessions[/h1]\r\n\r\nSử dụng [b]session[/b], bạn có thể lưu thông tin vào biến, được sử dụng trên nhiều trang.\r\nThông tin không được lưu trên máy tính của người dùng, cũng như [b]cookies[/b].\r\nBởi mặc định, biến session tồn tại cho đến khi người dùng đóng cửa sổ.\r\n\r\n[h2]Bắt đầu một Session trong PHP[/h2]\r\n\r\nSession bắt đầu khi sử dụng hàm [b]session_start()[/b].\r\n[code format=\"php\"]<?php\r\n// Start the session\r\n[b]session_start();[/b]\r\n\r\n$_SESSION['color'] = \"red\";\r\n$_SESSION['name'] = \"John\";\r\n?>[/code]\r\nBây giờ, biến session [b]color[/b] và [b]name[/b] có thể truy cập trên nhiều trang, xuyên suốt cả website.\r\n[note]Hàm [b]session_start()[/b] là điều nghĩ đến trong tài liệu. Trước bất kỳ HTML tags nào.[/note]"
       },
       {
         "id": 3557,
@@ -69,8 +69,8 @@
             "properties": {}
           }
         ],
-        "question": "Rearrange the code to declare the variable name, add it to the session, and then print it to the screen.",
-        "textContent": "[h1]Session Variables[/h1]\r\n\r\n[b]Another page[/b] can be created that can access the session variables we set in the previous page: [code format=\"php\"]<?php\r\n// Start the session\r\nsession_start();\r\n?>\r\n<!DOCTYPE html>\r\n<html>\r\n<body>\r\n<?php\r\necho \"Your name is \" . [b]$_SESSION['name'][/b];\r\n// Outputs \"Your name is John\"\r\n?>\r\n</body>\r\n</html>[/code]\r\n[note]Your session variables remain available in the [b]$_SESSION [/b]superglobal until you close your session.\r\nAll global session variables can be removed manually by using [b]session_unset()[/b]. You can also destroy the session with [b]session_destroy()[/b]. [/note]"
+        "question": "Sắp xếp lại code để khai báo biến name, thêm nó vào session, và sau đó in nó vào màn hình.",
+        "textContent": "[h1]Biến Session[/h1]\r\n\r\n[b]Một trang khác[/b] có thể truy cập vào biến session chúng ta đặt ở trang trước đó: [code format=\"php\"]<?php\r\n// Start the session\r\nsession_start();\r\n?>\r\n<!DOCTYPE html>\r\n<html>\r\n<body>\r\n<?php\r\necho \"Your name is \" . [b]$_SESSION['name'][/b];\r\n// Outputs \"Your name is John\"\r\n?>\r\n</body>\r\n</html>[/code]\r\n[note]Biến session của bạn vẫn có sẵn trong [b]$_SESSION [/b]siêu toàn cục cho đến khi bạn đóng  của ban.\r\nAll global session variables can be removed manually by using [b]session_unset()[/b]. You can also destroy the session with [b]session_destroy()[/b]. [/note]"
       }
     ]
   }
