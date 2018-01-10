@@ -31,7 +31,7 @@
         <single-choice-quiz answers="quizSelected.answers" event-correct="done(quizSelected)"></single-choice-quiz>
     </div>
     <div ng-if="quizSelected.type === 2">
-        {{quizSelected.type}}
+        <fill-in-blank-quiz answers="quizSelected.answers" event-correct="done(quizSelected)" placeholder="quizSelected.properties.prefix + '{0}' + quizSelected.properties.postfix"></fill-in-blank-quiz>
     </div>
     <div ng-if="quizSelected.type === 3">
         <fill-in-blank-quiz answers="quizSelected.answers" event-correct="done(quizSelected)" placeholder="placeholder"></fill-in-blank-quiz>
