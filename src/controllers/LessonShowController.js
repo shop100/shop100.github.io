@@ -39,11 +39,13 @@ module.exports = [
                 var nextQuiz = scope.lesson.quizzes[selectedQuizPosition+1];
                 if(nextQuiz){
                     scope.selectQuiz(nextQuiz);
+                    scope.view = 'text';
                 }else{
                     CourseService.doneLesson(scope.lesson);
                     var paramsDoneLesson = angular.extend({}, params);
                     paramsDoneLesson.lesson_id = scope.lesson.id;
                     state.go('courses.show.module.lesson.done', paramsDoneLesson);
+                    scope.view = 'quiz';
                 }
             }
             return LessonService.done(selectedQuiz);
