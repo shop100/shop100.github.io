@@ -72,8 +72,8 @@
             }
           }
         ],
-        "question": "What would the value of the variable $num be after the following code?\r\n<?php\r\n$num = 9;\r\n$num = $num%2; \r\n?>",
-        "textContent": "[h1]Modulus [/h1]\r\n\r\nThe [b]modulus [/b]operator, represented by the [b]%[/b] sign, returns the remainder of the division of the first operand by the second operand: [code format=\"php\" codeId=\"470\"]<?php\r\n  $x = 14;\r\n  $y = 3;\r\n  echo [b]$x % $y[/b]; // 2\r\n?>[/code]\r\n[note]If you use floating point numbers with the modulus operator, they will be converted to [b]integers [/b]before the operation.[/note]"
+        "question": "Sau khi chạy đoạn code sau, giá trị của biến $num là bao nhiêu?\r\n<?php\r\n$num = 9;\r\n$num = $num%2; \r\n?>",
+        "textContent": "[h1]Phép chia dư - Modulus[/h1]\r\n\r\nPhép toán [b]chia dư [/b], trong PHP có thể dùng ký hiệu [b]%[/b], trả về phần dư của phép chia, ví dụ: [code format=\"php\" codeId=\"470\"]<?php\r\n  $x = 14;\r\n  $y = 3;\r\n  echo [b]$x % $y[/b]; // trả về 2. Vì 14%2\r\n?>[/code]\r\n[note]Số thập phân tham gia trong phép toán sẽ tự động bị chuyển về [b]số nguyên[/b] trước khi phép toán được thực hiện.[/note]"
       },
       {
         "id": 3471,
@@ -97,8 +97,8 @@
             }
           }
         ],
-        "question": "What output results from the following code?\r\n<?php  \r\n$num = 18; \r\n$num--;\r\necho $num;\r\n?>",
-        "textContent": "[h1]Increment & Decrement [/h1]\r\n\r\nThe [b]increment [/b]operators are used to increment a variable's value.\r\nThe [b]decrement [/b]operators are used to decrement a variable's value. [code format=\"php\"]$x++; // equivalent to $x = $x+1;\r\n$x--; // equivalent to $x = $x-1; [/code]\r\nIncrement and decrement operators either precede or follow a variable.[code format=\"php\"]$x++; // post-increment \r\n$x--; // post-decrement \r\n++$x; // pre-increment \r\n--$x; // pre-decrement[/code]\r\nThe difference is that the post-increment returns the original value [b]before [/b]it changes the variable, while the pre-increment changes the variable first and then returns the value.\r\n[b]Example:[/b] [code format=\"php\"]$a  = 2; $b = $a++; // $a=3,  $b=2\r\n$a  = 2; $b = ++$a; // $a=3,  $b=3[/code]"
+        "question": "Code sau đây hiển thị kết quả là bao nhiêu?\r\n<?php  \r\n$num = 18; \r\n$num--;\r\necho $num;\r\n?>",
+        "textContent": "[h1]Phép toán increment và decrement [/h1]\r\n\r\nPhép toán [b]increment [/b] được dùng để tăng giá trị của biến.\r\nPhép toán [b]decrement [/b] dùng để giảm giá trị của 1 biến. [code format=\"php\"]$x++; // có tác dụng tương đương với $x = $x+1;\r\n$x--; // có tác dụng tương đương với $x = $x-1; [/code]\r\nCác phép toán increment và decrement có thể xuất hiện phía trước hoặc phía sau của tên biến.[code format=\"php\"]$x++; // post-increment \r\n$x--; // post-decrement \r\n++$x; // pre-increment \r\n--$x; // pre-decrement[/code]\r\nKhác biệt giữa 2 cách viết là post-increment trả về giá trị gốc [b]trước khi [/b]giá trị biến bị thay đổi, còn pre-increment thay đổi giá trị biến trước rồi mới trả về giá trị.\r\n[b]Ví dụ:[/b] [code format=\"php\"]$a  = 2; $b = $a++; // $a=3,  $b=2\r\n$a  = 2; $b = ++$a; // $a=3,  $b=3[/code]"
       }
     ]
   }
