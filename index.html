@@ -24,8 +24,9 @@
             <li ng-repeat="course in courses">
                 <a ui-sref="courses.show({slug:course.slug})"
                    ng-style="{color:($state.params.course_id===course.id?'#1fbba6':'')}"
+                    ng-click="course.expandChildren=true"
                 >{{course.name}}</a>
-                <ul>
+                <ul ng-show="course.expandChildren">
                     <li ng-repeat="module in course.modules">
                         <a ui-sref="courses.show.module({slug:course.slug,course_id:course.id,module_id:module.id})" ng-style="{color:($state.params.module_id==module.id?'#1fbba6':'')}">
                             {{module.name}}
@@ -69,5 +70,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-drag-and-drop-lists/2.1.0/angular-drag-and-drop-lists.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.9/ace.js"></script>
-<script type="text/javascript" src="dist/app.bundle.js?96ae377a9c9b72870cb2"></script></body>
+<script type="text/javascript" src="dist/app.bundle.js?d69a9355f8bcb7b7b04f"></script></body>
 </html>
