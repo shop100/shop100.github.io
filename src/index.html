@@ -24,8 +24,9 @@
             <li ng-repeat="course in courses">
                 <a ui-sref="courses.show({slug:course.slug})"
                    ng-style="{color:($state.params.course_id===course.id?'#1fbba6':'')}"
+                    ng-click="course.expandChildren=true"
                 >{{course.name}}</a>
-                <ul>
+                <ul ng-show="course.expandChildren">
                     <li ng-repeat="module in course.modules">
                         <a ui-sref="courses.show.module({slug:course.slug,course_id:course.id,module_id:module.id})" ng-style="{color:($state.params.module_id==module.id?'#1fbba6':'')}">
                             {{module.name}}
