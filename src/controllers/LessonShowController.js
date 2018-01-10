@@ -8,7 +8,11 @@ module.exports = [
     function (scope, LessonService, CourseService, params, state, toast) {
         LessonService.get(params.course_id, params.module_id, params.lesson_id).then(function (resp) {
             scope.lesson = resp.data.lesson;
-            scope.selectLessonText(scope.lesson.quizzes[0]);
+            var quiz = scope.lesson.quizzes[0];
+            scope.selectLessonText(quiz);
+            if(!quiz.textContent){
+                scope.view = 'quiz';
+            }
         });
         scope.$watch('lesson.quizzes|json', function () {
             if (scope.lesson && scope.lesson.quizzes) {
@@ -40,6 +44,9 @@ module.exports = [
                 if(nextQuiz){
                     scope.selectQuiz(nextQuiz);
                     scope.view = 'text';
+                    if(!nextQuiz.textContent) {
+                        scope.view = 'quiz';
+                    }
                 }else{
                     CourseService.doneLesson(scope.lesson);
                     var paramsDoneLesson = angular.extend({}, params);

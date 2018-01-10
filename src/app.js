@@ -45,7 +45,7 @@ angular
                     html = html.replace(/\[note]/gi,'<div class="noteBlock"><span class="note">');
                     html = html.replace(/\[\/note]/gi,'</span></div>');
 
-                    html = html.replace(/\[code format="(.*?)"]/gi,'<div class="codeBlock"><span class="code $1">');
+                    html = html.replace(/\[code format="(.*?)".*?]/gi,'<div class="codeBlock"><span class="code $1">');
                     html = html.replace(/\[\/code]/gi,'</span></div>');
                     html = html.replace(/\[img id="(.*?)" width="100%"]/gi,'<img src="https://api.sololearn.com/DownloadFile?id=$1">');
 

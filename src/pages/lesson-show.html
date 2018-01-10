@@ -1,7 +1,7 @@
 <div style="    background: #E9E9E9;">
 <div class="lessonViewInfo">
     <div class="lessonOutline text">
-    <span class="video" ng-class="{active:(quiz.selected && view=='text')}"  ng-repeat-start="quiz in lesson.quizzes" ng-click="selectLessonText(quiz)">
+    <span class="video" ng-show="quiz.textContent" ng-class="{active:(quiz.selected && view=='text')}"  ng-repeat-start="quiz in lesson.quizzes" ng-click="selectLessonText(quiz)">
         <img class="left" alt=" " src="https://www.sololearn.com/Play/arrow.png?r=54&g=171&b=203">
         <i></i>
         <img class="right" alt=" " src="https://www.sololearn.com/Play/arrow.png?r=54&g=171&b=203">
