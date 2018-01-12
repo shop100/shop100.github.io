@@ -103,7 +103,7 @@
             "properties": {}
           }
         ],
-        "question": "Sắp xếp các dòng code sau để khai báo biến và in ra giá trị của nó.[!raw!]{0}\r\n    {1}\r\n    {2}\r\n{3}\r\n",
+        "question": "Kéo và thả các dòng code sau để khai báo biến và in ra giá trị của nó.[!raw!]{0}\r\n    {1}\r\n    {2}\r\n{3}\r\n",
         "textContent": null
       }
     ]

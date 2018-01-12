@@ -38,7 +38,7 @@
         "videoStart": 238.0,
         "videoEnd": 332.5,
         "linkedVideoID": null,
-        "type": 8,
+        "type": 6,
         "linkedQuizID": null,
         "tip": null,
         "hint": null,
@@ -69,7 +69,7 @@
             "properties": {}
           }
         ],
-        "question": "Sắp xếp lại code để khai báo biến name, thêm nó vào session, và sau đó in nó vào màn hình.",
+        "question": "Kéo thả code để khai báo biến name, thêm nó vào session, và sau đó in nó vào màn hình.[!raw!]{0}\r\n{1}\r\n{2}\r\n{3}",
         "textContent": "[h1]Biến Session[/h1]\r\n\r\n[b]Một trang khác[/b] có thể truy cập vào biến session chúng ta đặt ở trang trước đó: [code format=\"php\"]<?php\r\n// Start the session\r\nsession_start();\r\n?>\r\n<!DOCTYPE html>\r\n<html>\r\n<body>\r\n<?php\r\necho \"Your name is \" . [b]$_SESSION['name'][/b];\r\n// Outputs \"Your name is John\"\r\n?>\r\n</body>\r\n</html>[/code]\r\n[note]Biến session của bạn vẫn có sẵn trong [b]$_SESSION [/b]siêu toàn cục cho đến khi bạn đóng trình duyệt của ban.\r\nTất cả biến session toàn cục có thể được gỡ đi bằng cách sử dụng [b]session_unset()[/b]. Bạn có thể hủy bằng [b]session_destroy()[/b]. [/note]"
       }
     ]

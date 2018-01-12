@@ -53,7 +53,7 @@
         "videoStart": 0.0,
         "videoEnd": 0.0,
         "linkedVideoID": null,
-        "type": 8,
+        "type": 6,
         "linkedQuizID": null,
         "tip": null,
         "hint": null,
@@ -90,7 +90,7 @@
             "properties": {}
           }
         ],
-        "question": "Rearrange the code to define the variable 'age', increment it by one, and print it to the screen.",
+        "question": "Drag and drop the code to define the variable 'age', increment it by one, and print it to the screen.[!raw!]{0}\r\n    {1}\r\n    {2}\r\n    {3}\r\n{4}",
         "textContent": null
       },
       {

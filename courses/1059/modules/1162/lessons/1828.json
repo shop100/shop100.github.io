@@ -47,7 +47,7 @@
         "videoStart": 94.0,
         "videoEnd": 183.0,
         "linkedVideoID": null,
-        "type": 8,
+        "type": 6,
         "linkedQuizID": null,
         "tip": null,
         "hint": null,
@@ -78,7 +78,7 @@
             "properties": {}
           }
         ],
-        "question": "Sắp xếp các blocks để được vòng lặp do...while.",
+        "question": "Kéo và thả code để được vòng lặp do...while.[!raw!]{0}\r\n{1}\r\n    {2}\r\n{3}",
         "textContent": "[h1]Vòng lặp do...while[/h1]\r\n\r\nVí dụ bên dưới sẽ có một số đầu ra, và sau đó tăng biến $i làm một. Sau đó kiểm tra điều kiện, và vòng lặp tiếp tục chạy, miễn là $i là bé hơn hoặc bằng 7.[code format=\"php\" codeId=\"479\"]$i = 5;\r\ndo {\r\n   echo \"The number is \" . $i . \"<br/>\";\r\n   $i++;\r\n} while($i <= 7);\r\n\r\n//Output\r\n//The number is 5\r\n//The number is 6\r\n//The number is 7[/code]\r\n[note]Chú ý rằng trong vòng lặp [b]do while[/b], điều kiện được kiểm tra sau khi thực hiện các câu lệnh trong vòng lặp. Có nghĩa rằng vòng lặp [b]do while[/b] sẽ thực hiện ít nhất một lần, ngay cả khi điều kiện là sai lần đầu tiên..[/note]"
       }
     ]
