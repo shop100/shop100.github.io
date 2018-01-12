@@ -23,7 +23,7 @@
             <a ui-sref="courses()">Các khóa học</a>
             <li ng-repeat="course in courses">
                 <a ui-sref="courses.show({slug:course.slug})"
-                   ng-style="{color:($state.params.course_id===course.id?'#1fbba6':'')}"
+                   ng-style="{color:(($state.params.slug===course.slug)?'#1fbba6':'')}"
                     ng-click="course.expandChildren=true"
                 >{{course.name}}</a>
                 <ul ng-show="course.expandChildren">
@@ -47,7 +47,10 @@
             <div layout="row" flex class="fill-height">
                 <h2 class="md-toolbar-item md-breadcrumb md-headline">
                     <span ng-show="$state.current.name === 'courses'">Shop100</span>
-                    <span class="md-breadcrumb-page">Tự học</span>
+                    <a ui-sref="courses()" class="md-breadcrumb-page">Trang chủ</a>
+                    <a ng-if="$state.params.slug" ui-sref="courses.show({slug:$state.params.slug})" class="md-breadcrumb-page"> / {{$state.params.slug}}</a>
+                    <a ng-if="$state.params.course_id" ui-sref="courses.show.module({slug:$state.params.slug,course_id:$state.params.course_id,module_id:$state.params.module_id})" class="md-breadcrumb-page"> / Học phần {{$state.params.course_id}}</a>
+                    <a ng-if="$state.params.lesson_id" class="md-breadcrumb-page"> / Bài học {{$state.params.lesson_id}}</a>
                 </h2>
 
                 <span flex></span> <!-- use up the empty space -->
@@ -70,5 +73,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-drag-and-drop-lists/2.1.0/angular-drag-and-drop-lists.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.9/ace.js"></script>
-<script type="text/javascript" src="dist/app.bundle.js?8451fe42ba65455045b7"></script></body>
+<script type="text/javascript" src="dist/app.bundle.js?f4f3623c054ee3fd10d7"></script></body>
 </html>
