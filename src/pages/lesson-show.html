@@ -43,7 +43,7 @@
         {{quizSelected.type}}
     </div>
     <div ng-if="quizSelected.type === 6">
-        {{quizSelected.type}}
+        <drag-drop-quiz answers="quizSelected.answers" placeholder="quizSelected.question.split('[!raw!]')[1]" event-correct="done(quizSelected)"></drag-drop-quiz>
     </div>
     <div ng-if="quizSelected.type === 7">
         {{quizSelected.type}}
