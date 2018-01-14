@@ -17,7 +17,12 @@
 <div id="textView" ng-show="view=='text'">
     <div class="textContentContainer">
         <div id="textContent" class="text">
-            <bb-decode content="quizSelected.textContent"></bb-decode>
+            <div ng-repeat="textContentSegment in textContentSegments">
+                <bb-decode ng-if="textContentSegment.type==='text'" content="textContentSegment.content"></bb-decode>
+                <div ng-if="textContentSegment.type==='code'">
+                    <div ui-ace="{onLoad:editorOnLoad,mode:textContentSegment.format,    theme:'chrome',require: ['ace/ext/language_tools'], advanced: { enableSnippets: true, enableBasicAutocompletion: true, enableLiveAutocompletion: true }}" ng-model="textContentSegment.content" style="font-size:18px"></div>
+                </div>
+            </div>
         </div>
     </div>
     <button class="actionButton skipTextButton" style="background-color: rgb(100, 221, 23);" ng-click="skipText()"></button>

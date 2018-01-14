@@ -69,6 +69,38 @@ module.exports = [
                 scope.placeholder = scope.quizSelected.question.split('[!html!]')[1];
             }
         });
+        scope.$watch('quizSelected.textContent', function () {
+            if (scope.quizSelected) {
+                var textSegments = scope.quizSelected.textContent.replace(/\n/gim, 'JS_BREAK_LINE').replace(/\r/gim, 'JS_RETURN_BACK').split(/\[code.*?code]/gim);
+                var codeSegments = scope.quizSelected.textContent.replace(/\n/gim, 'JS_BREAK_LINE').replace(/\r/gim, 'JS_RETURN_BACK').match(/\[code.*?code]/gim);
+                var segments = [];
+                for(var i = 0;i<Math.max(textSegments.length, codeSegments.length);i++){
+                    if (textSegments[i]) {
+                        segments.push({content:textSegments[i], type:'text'});
+                    }
+                    if (codeSegments[i]) {
+                        var format = codeSegments[i].match(/format="(.*?)"/gim);
+                        format = format[0].replace("format=\"",'').replace('"','');
+                        if(format === 'raw'){
+                            format = null;
+                        }
+                        segments.push({
+                            content:codeSegments[i].replace(/\[[a-z0-9]+ .*?]/gim,'').replace(/\[[a-z0-9]+?]/gim,'').replace(/\[\/[a-z0-9]+?\]/gim,''),
+                            type:'code',
+                            format: format
+                        });
+                    }
+                }
+                segments = segments.map(function (segment) {
+                    segment.content = segment.content.replace(/JS_BREAK_LINE/gim, '\n').replace(/JS_RETURN_BACK/gim, '\r');
+                    return segment;
+                });
+                scope.textContentSegments = (segments);
+            }
+        });
+        scope.editorOnLoad = function (_editor) {
+            _editor.setShowPrintMargin(false);
+        };
         scope.$watch('quizSelected.question|json', function () {
             if(!scope.quizSelected){
                 return;

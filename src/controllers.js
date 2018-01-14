@@ -1,4 +1,5 @@
 require("quiz-drag-drop/quiz-drag-drop.js");
+require("angular-ui-ace/src/ui-ace");
 require("quiz-fill-in-blank/quiz-fill-in-blank.js");
 require("quiz-single-multiple-choice/quiz-single-choice.js");
 require("quiz-single-multiple-choice/quiz-multiple-choices.js");
@@ -9,7 +10,8 @@ angular
         "FillInBlankQuiz",
         "MultipleChoiceQuiz",
         "SingleChoiceQuiz",
-        "ngMaterial"
+        "ngMaterial",
+        "ui.ace"
     ])
     .config([
         "$urlRouterProvider",
