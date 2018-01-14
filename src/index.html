@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Shop100.vn</title>
     <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Status" content="200 OK"/>
 </head>
 <body ng-app="App" layout="row" ng-cloak>
@@ -26,7 +27,7 @@
                    ng-style="{color:(($state.params.slug===course.slug)?'#1fbba6':'')}"
                     ng-click="course.expandChildren=true"
                 >{{course.name}}</a>
-                <ul ng-show="course.expandChildren">
+                <ul ng-show="course.expandChildren || ($state.params.slug===course.slug)">
                     <li ng-repeat="module in course.modules">
                         <a ui-sref="courses.show.module({slug:course.slug,course_id:course.id,module_id:module.id})" ng-style="{color:($state.params.module_id==module.id?'#1fbba6':'')}">
                             {{module.name}}
@@ -73,5 +74,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-drag-and-drop-lists/2.1.0/angular-drag-and-drop-lists.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.9/ace.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.9/ext-language_tools.js"></script>
 </body>
 </html>

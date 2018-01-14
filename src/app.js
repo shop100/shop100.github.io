@@ -13,6 +13,7 @@ angular
         "$mdMedia",
         "$state",
         function ($rootScope, $mdSidenav, $mdMedia, $state) {
+            $rootScope.$mdMedia = $mdMedia;
         $rootScope.$state = $state;
         $rootScope.openMenu = function () {
             $mdSidenav("left").toggle();

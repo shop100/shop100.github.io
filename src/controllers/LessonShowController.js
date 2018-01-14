@@ -73,6 +73,15 @@ module.exports = [
             if (scope.quizSelected) {
                 var textSegments = scope.quizSelected.textContent.replace(/\n/gim, 'JS_BREAK_LINE').replace(/\r/gim, 'JS_RETURN_BACK').split(/\[code.*?code]/gim);
                 var codeSegments = scope.quizSelected.textContent.replace(/\n/gim, 'JS_BREAK_LINE').replace(/\r/gim, 'JS_RETURN_BACK').match(/\[code.*?code]/gim);
+                if(!codeSegments){
+                    scope.textContentSegments = textSegments.map(function (textSegment) {
+                        return {content:textSegment, type:'text'};
+                    }).map(function (segment) {
+                        segment.content = segment.content.replace(/JS_BREAK_LINE/gim, '\n').replace(/JS_RETURN_BACK/gim, '\r');
+                        return segment;
+                    });
+                    return;
+                }
                 var segments = [];
                 for(var i = 0;i<Math.max(textSegments.length, codeSegments.length);i++){
                     if (textSegments[i]) {
