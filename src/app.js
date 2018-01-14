@@ -12,12 +12,32 @@ angular
         "$mdSidenav",
         "$mdMedia",
         "$state",
-        function ($rootScope, $mdSidenav, $mdMedia, $state) {
-            $rootScope.$mdMedia = $mdMedia;
-        $rootScope.$state = $state;
-        $rootScope.openMenu = function () {
+        "CourseService",
+        function (rScope, $mdSidenav, $mdMedia, $state, CourseService) {
+            rScope.$mdMedia = $mdMedia;
+        rScope.$state = $state;
+        rScope.openMenu = function () {
             $mdSidenav("left").toggle();
         };
+            CourseService.all().then(function (resp) {
+                rScope.courses = resp.data;
+                rScope.courses = rScope.courses.map(function (course) {
+                    CourseService.get(course).then(function (resp) {
+                        var respData = resp.data.course;
+                        course.alias = respData.alias;
+                        course.glossary = respData.glossary;
+                        course.groups = respData.groups;
+                        course.id = respData.id;
+                        course.language = respData.language;
+                        course.languageName = respData.languageName;
+                        course.modules = respData.modules;
+                        course.name = respData.name;
+                        course.tags = respData.tags;
+                        course.version = respData.version;
+                    });
+                    return course;
+                })
+            })
     }])
     .directive("bbDecode", ["$sce",function ($sce) {
         return {
