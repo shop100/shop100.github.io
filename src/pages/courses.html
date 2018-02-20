@@ -1,3 +1,11 @@
+<div class="filters">
+    <div>
+        <md-button ui-sref-active="md-raised" style="text-transform: none;" ui-sref="courses()" md-ink-ripple>Xem toàn bộ</md-button>
+        <md-button ui-sref-active="md-raised" style="text-transform: none;" ui-sref="web-courses()" md-ink-ripple>Khóa học lập trình Web</md-button>
+        <md-button ui-sref-active="md-raised" style="text-transform: none;" ui-sref="mobile-app-courses()" md-ink-ripple>Khóa học lập trình Mobile</md-button>
+        <md-button ui-sref-active="md-raised" style="text-transform: none;" ui-sref="embedded-courses()" md-ink-ripple>Khóa học lập trình Nhúng</md-button>
+    </div>
+</div>
 <div class="md-padding" id="courses" >
     <div class="course-item"  ng-repeat="course in courses">
         <md-card class="course" flex>

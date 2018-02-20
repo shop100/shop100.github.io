@@ -35,6 +35,24 @@ angular
                 controller: require('./controllers/CoursesController.js'),
                 template: require('./pages/courses.html')
             };
+            var MobileAppCoursesState = {
+                name: 'mobile-app-courses',
+                url: '/mobile/',
+                controller: require('./controllers/MobileAppCoursesController.js'),
+                template: require('./pages/courses.html')
+            };
+            var EmbeddedCoursesState = {
+                name: 'embedded-courses',
+                url: '/embedded/',
+                controller: require('./controllers/EmbeddedCoursesController.js'),
+                template: require('./pages/courses.html')
+            };
+            var webCoursesState = {
+                name: 'web-courses',
+                url: '/web/',
+                controller: require('./controllers/WebCoursesController.js'),
+                template: require('./pages/courses.html')
+            };
 
             var courseState = {
                 name: 'courses.show',
@@ -78,6 +96,9 @@ angular
 
             $stateProvider.state(homeState);
             $stateProvider.state(coursesState);
+            $stateProvider.state(webCoursesState);
+            $stateProvider.state(MobileAppCoursesState);
+            $stateProvider.state(EmbeddedCoursesState);
             $stateProvider.state(courseState);
             $stateProvider.state(courseModuleShowState);
             $stateProvider.state(lessonShowState);

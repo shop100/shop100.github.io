@@ -49,6 +49,9 @@
                 <h2 class="md-toolbar-item md-breadcrumb md-headline">
                     <span ng-show="$state.current.name === 'courses'">Shop100</span>
                     <a ui-sref="courses()" class="md-breadcrumb-page">Trang chủ</a>
+                    <a class="md-breadcrumb-page" ng-show="$state.current.name === 'web-courses'"> / Phát triển Website</a>
+                    <a class="md-breadcrumb-page" ng-show="$state.current.name === 'mobile-app-courses'"> / Android-iOS</a>
+                    <a class="md-breadcrumb-page" ng-show="$state.current.name === 'embedded-courses'"> / Hệ thống nhúng</a>
                     <a ng-if="$state.params.slug" ui-sref="courses.show({slug:$state.params.slug})" class="md-breadcrumb-page"> / {{$state.params.slug}}</a>
                     <a ng-if="$state.params.course_id" ui-sref="courses.show.module({slug:$state.params.slug,course_id:$state.params.course_id,module_id:$state.params.module_id})" class="md-breadcrumb-page"> / Học phần {{$state.params.course_id}}</a>
                     <a ng-if="$state.params.lesson_id" class="md-breadcrumb-page"> / Bài học {{$state.params.lesson_id}}</a>

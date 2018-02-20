@@ -1,4 +1,4 @@
-<div id="modulesView" class="modulePanel view" style="z-index: 101; display: block; opacity: 1;">
+<div id="modulesView" class="modulePanel view" style="z-index: 101; display: block; opacity: 1;max-width: 865px;margin: 0 auto;">
     <div class="appModule " ng-class="{none:!module.alignment,center:module.alignment}" ng-repeat="module in course.modules">
         <div class="content" ng-click="stateGo('courses.show.module',({course_id:course.id,module_id:module.id}))">
             <div class="appModuleCircle materialResponse">
