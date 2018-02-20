@@ -1,0 +1,105 @@
+{
+  "lesson": {
+    "id": 1819,
+    "name": "Bài kiểm tra 1",
+    "type": 1,
+    "mode": 0,
+    "videoID": null,
+    "tags": null,
+    "quizzes": [
+      {
+        "id": 3499,
+        "number": 1,
+        "videoStart": 0.0,
+        "videoEnd": 0.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 87248,
+            "text": "echo \"(<p> Hello.</p>);",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 87249,
+            "text": "echo \"<p> Hello.</p>\";",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 87250,
+            "text": "echo (<p>' Hello.'</p>);",
+            "isCorrect": false,
+            "properties": {}
+          }
+        ],
+        "question": "Đáp án nào dưới đây đúng cú pháp?",
+        "textContent": null
+      },
+      {
+        "id": 3506,
+        "number": 2,
+        "videoStart": 0.0,
+        "videoEnd": 0.0,
+        "linkedVideoID": null,
+        "type": 3,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 87251,
+            "text": "//",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "Điền vào chỗ trống để biến văn bản thành comment:\r\n[!raw!]\r\n{0} This is a comment\r\necho 'This is a test';",
+        "textContent": null
+      },
+      {
+        "id": 3507,
+        "number": 3,
+        "videoStart": 0.0,
+        "videoEnd": 0.0,
+        "linkedVideoID": null,
+        "type": 6,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 66871,
+            "text": "<?php",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 66872,
+            "text": "echo",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 66873,
+            "text": "?>",
+            "isCorrect": true,
+            "properties": {}
+          }
+        ],
+        "question": "Kéo và thả các options dưới để có đoạn code PHP đúng:\r\n[!raw!]\r\n{0}\r\n  {1} \"Some text\";\r\n{2}",
+        "textContent": null
+      }
+    ]
+  }
+}

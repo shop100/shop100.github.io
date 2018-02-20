@@ -1,0 +1,139 @@
+{
+  "lesson": {
+    "id": 1833,
+    "name": "Bài kiểm tra 5",
+    "type": 1,
+    "mode": 0,
+    "videoID": null,
+    "tags": null,
+    "quizzes": [
+      {
+        "id": 3535,
+        "number": 1,
+        "videoStart": 0.0,
+        "videoEnd": 0.0,
+        "linkedVideoID": null,
+        "type": 6,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 19697,
+            "text": "if ($i%2 != 0)",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 19698,
+            "text": "continue;",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 19699,
+            "text": "echo $i.\"<br/>\";",
+            "isCorrect": true,
+            "properties": {}
+          }
+        ],
+        "question": "Sử dụng vòng lặp for, chỉ in ra số chẵn từ 0 đến 10.\r\n[!raw!]\r\nfor ($i=0; $i<=10;$i++) {\r\n    {0}{\r\n\t{1}\r\n    }\r\n    {2}\r\n}",
+        "textContent": null
+      },
+      {
+        "id": 3536,
+        "number": 2,
+        "videoStart": 0.0,
+        "videoEnd": 0.0,
+        "linkedVideoID": null,
+        "type": 2,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 19700,
+            "text": "8",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "Kết quả của đoạn code sau?\r\n$x = 0;\r\nwhile($x<=7) {\r\n   $x++;\r\n}\r\necho $x;",
+        "textContent": null
+      },
+      {
+        "id": 3537,
+        "number": 3,
+        "videoStart": 0.0,
+        "videoEnd": 0.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 67864,
+            "text": "Đúng",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 67865,
+            "text": "Sai",
+            "isCorrect": false,
+            "properties": {}
+          }
+        ],
+        "question": "Câu lệnh Else If trong PHP cần phải có câu lệnh If đứng trước mới có thể dùng được.",
+        "textContent": null
+      },
+      {
+        "id": 3538,
+        "number": 4,
+        "videoStart": 0.0,
+        "videoEnd": 0.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 19703,
+            "text": "A",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 19704,
+            "text": "B",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 19705,
+            "text": "C",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 19706,
+            "text": "D",
+            "isCorrect": true,
+            "properties": {}
+          }
+        ],
+        "question": "Kết quả của đoạn code sau?\r\n$x = 6;\r\nif ($x ==  10) {\r\n      echo \"A\";\r\n}\r\nelseif ($x > 7 && $x < 10) {\r\n       echo \"B\";\r\n}\r\nelseif ($x == 20) {\r\n       echo \"C\";\r\n}\r\nelse {\r\n       echo \"D\";\r\n}",
+        "textContent": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "lesson": {
+    "id": 1829,
+    "name": "Câu lệnh Switch",
+    "type": 0,
+    "mode": 1,
+    "videoID": "VbiPMsBpJ7w",
+    "tags": "switch",
+    "quizzes": [
+      {
+        "id": 3526,
+        "number": 1,
+        "videoStart": 9.0,
+        "videoEnd": 119.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 96883,
+            "text": "Câu lệnh if elseif else",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 96884,
+            "text": "Vòng lặp while",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 96885,
+            "text": "Vòng lặp do while",
+            "isCorrect": false,
+            "properties": {}
+          }
+        ],
+        "question": "câu lệnh switch thay thế cho...",
+        "textContent": "[h1]Câu lệnh switch[/h1]\r\n\r\nCâu lệnh [b]switch[/b] thay thế cho câu lệnh[b] if-elseif-else[/b]. \r\nSử dụng câu lệnh[b]switch[/b] để chọn một đoạn code sẽ được thực thi.\r\n\r\n[b]Cú pháp: [/b][code format=\"php\"][b]switch [/b](n) {\r\n  [b]case[/b] value1:\r\n    //code to be executed if n=value1\r\n    [b]break[/b];\r\n  [b]case[/b] value2:\r\n     //code to be executed if n=value2\r\n     [b]break[/b];\r\n  ...\r\n  [b]default[/b]:\r\n    // code to be executed if n is different from all labels\r\n}[/code]\r\nĐầu tiên,chúng ta cần quann tâm tới , [b]n[/b] (thường là một biến), được đánh giá một lần. Tiếp theo, giá trị của biểu thức được so sánh với giá trị của từng trường hợp trong cấu trúc. Nếu n trùng với giá trị nào, thì đoạn code đó sẽ được thực hiện .\r\n[note]Sử dụng [b]câu lệnh  if else lồng nhau[/b] sẽ có kết quả giống nhau, nhưng switch cung cấp giải pháp gọn nhẹ và tối ưu hơn.[/note]"
+      },
+      {
+        "id": 3527,
+        "number": 2,
+        "videoStart": 121.0,
+        "videoEnd": 212.0,
+        "linkedVideoID": null,
+        "type": 3,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 98472,
+            "text": "case",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          },
+          {
+            "id": 98473,
+            "text": "break",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "Điền vào chỗ trống .\r\n[!raw!]\r\n$i = 1;\r\nswitch($i) {\r\n  {0} \"1\":\r\n    echo 'One';\r\n    {1};\r\n  case \"2\":\r\n    echo 'Two';\r\n    break;\r\n}",
+        "textContent": "[h1]Switch[/h1]\r\n\r\nXem xét ví dụ sau, hiển thị thông điệp thích hợp cho mỗi ngày. [code format=\"php\" codeId=\"482\"]$today = 'Tue';\r\n\r\n[b]switch [/b]($today) {\r\n  [b]case [/b]\"Mon\":\r\n    echo \"Today is Monday.\";\r\n    [b]break[/b];\r\n  [b]case [/b]\"Tue\":\r\n    echo \"Today is Tuesday.\";\r\n    [b]break[/b];\r\n  [b]case [/b]\"Wed\":\r\n    echo \"Today is Wednesday.\";\r\n    [b]break[/b];\r\n  [b]case [/b]\"Thu\":\r\n    echo \"Today is Thursday.\";\r\n    [b]break[/b];\r\n  [b]case [/b]\"Fri\":\r\n     echo \"Today is Friday.\";\r\n     [b]break[/b];\r\n  [b]case [/b]\"Sat\":\r\n     echo \"Today is Saturday.\";\r\n     [b]break[/b];\r\n  [b]case [/b]\"Sun\":\r\n     echo \"Today is Sunday.\";\r\n     [b]break[/b];\r\n  [b]default[/b]:\r\n     echo \"Invalid day.\";\r\n}\r\n//Outputs \"Today is Tuesday.\"[/code]\r\n[note]Từ khóa [b]break[/b] đằng sau các case được sử dụng để giữ code từ tự động chạy vào case tiếp theo. Nếu bạn quên câu lệnh [b]break;[/b], PHP sẽ tự động chạy đến case tiếp theo, ngay cả khi case không đúng.[/note]"
+      },
+      {
+        "id": 3528,
+        "number": 3,
+        "videoStart": 212.0,
+        "videoEnd": 274.0,
+        "linkedVideoID": null,
+        "type": 2,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 98474,
+            "text": "default",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "Từ khóa nào được sử dụng nếu không tìm thấy case trùng hợp trong switch ?",
+        "textContent": "[h1]default[/h1]\r\n\r\nCâu lệnh [b]default [/b] được sử dụng khi không tìm thất case trùng hợp. [code format=\"php\" codeId=\"483\"]$x=5;\r\nswitch ($x) {\r\n  case 1:\r\n    echo \"One\";\r\n    break;\r\n  case 2:\r\n    echo \"Two\";\r\n    break;\r\n  [b]default:\r\n    [/b]echo \"No match\";\r\n}\r\n\r\n//Outputs \"No match\"[/code] \r\n[note]Câu lệnh [b]default[/b] là tùy chọn, vậy nên có thể bỏ qua.[/note]"
+      },
+      {
+        "id": 3529,
+        "number": 4,
+        "videoStart": 274.0,
+        "videoEnd": 428.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 98475,
+            "text": "Summer",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 98476,
+            "text": "Winter",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 98477,
+            "text": "Nothing",
+            "isCorrect": true,
+            "properties": {}
+          }
+        ],
+        "question": "Kết quả của đoạn code sau là gì?\r\n$mo = \"December\";\r\nswitch ($mo) {\r\ncase \"July\":\r\n    echo \"Summer\";\r\nbreak;\r\ncase \"January\":\r\ncase \"February\":\r\n    echo \"Winter\";\r\n}\r\n?>",
+        "textContent": "[h1]Switch[/h1]\r\n\r\nViệc không thêm vào câu lệnh [b]break[/b] Khiến PHP tiếp tục thực hiện các câu lệnh  [b]case[/b], cho đến khi thấy [b]break[/b]. Bạn có thể sự dụng điều này nếu bạn cần phải dùng đến cùng một đầu ra trong một trường hợp.[code format=\"php\" codeId=\"484\"]$day = 'Wed';\r\n\r\n[b]switch [/b]($day) {\r\n[b]  case [/b]'Mon':\r\n    echo 'First day of the week';\r\n[b]    break[/b];\r\n[b]  case [/b]'Tue':\r\n[b]  case [/b]'Wed':\r\n[b]  case [/b]'Thu':\r\n    echo 'Working day';\r\n[b]    break[/b];\r\n[b]  case [/b]'Fri':\r\n    echo 'Friday!';\r\n[b]    break[/b];\r\n[b]  default[/b]:\r\n    echo 'Weekend!';\r\n}\r\n\r\n//Outputs \"Working day\"[/code]\r\n[note]Ví dụ trên sẽ có kết quả tương tự nếu[b] $day[/b] tương ứng 'Tue', 'Wed', hoặc 'Thu'. [/note]"
+      }
+    ]
+  }
+}

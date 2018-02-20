@@ -1,0 +1,86 @@
+{
+  "lesson": {
+    "id": 1805,
+    "name": "Comparison Operators",
+    "type": 0,
+    "mode": 1,
+    "videoID": "d3BTJ5ByKAo",
+    "tags": "operators",
+    "quizzes": [
+      {
+        "id": 3503,
+        "number": 1,
+        "videoStart": 412.0,
+        "videoEnd": 545.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 71626,
+            "text": "!=",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 71627,
+            "text": "==",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 71628,
+            "text": "<",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 71629,
+            "text": "!<",
+            "isCorrect": false,
+            "properties": {}
+          }
+        ],
+        "question": "Which of the following corresponds to the not equal to operator?",
+        "textContent": "[h1]Comparison Operators[/h1]\r\n\r\n[b]Comparison[/b] operators compare two values (numbers or strings).\r\nComparison operators are used inside conditional statements, and evaluate to either [b]TRUE[/b] or [b]FALSE[/b]. [img id=\"2367\" width=\"100%\"]"
+      },
+      {
+        "id": 3473,
+        "number": 2,
+        "videoStart": 546.5,
+        "videoEnd": 658.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 85849,
+            "text": "$num1 == $num2;",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 85850,
+            "text": "$num1 > $num2;",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 85851,
+            "text": "$num1 != $num2;",
+            "isCorrect": true,
+            "properties": {}
+          }
+        ],
+        "question": "Which of the following returns TRUE, if $num1=4; $num2=8?",
+        "textContent": "[h1]Comparison Operators[/h1]\r\n\r\nAdditional comparison operators: [img id=\"2365\" width=\"100%\"]"
+      }
+    ]
+  }
+}

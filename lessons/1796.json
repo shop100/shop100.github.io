@@ -1,0 +1,62 @@
+{
+  "lesson": {
+    "id": 1796,
+    "name": "Kiểu dữ liệu trong PHP",
+    "type": 0,
+    "mode": 1,
+    "videoID": "CJcgSUBMH1s",
+    "tags": "data-types",
+    "quizzes": [
+      {
+        "id": 3501,
+        "number": 1,
+        "videoStart": 86.0,
+        "videoEnd": 161.5,
+        "linkedVideoID": null,
+        "type": 3,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 96823,
+            "text": "$",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "Điền vào chỗ trống để định nghĩa biến có giá trị kiểu string:\r\n[!raw!]\r\n<?php\r\n  {0}string = \"I am learning PHP\";\r\n?>",
+        "textContent": "[h1]Kiểu dữ liệu [/h1]\r\n\r\nCác biến có thể chứa dữ liệu với nhiều kiểu dữ liệu khác nhau.\r\nVí dụ trong PHP có các kiểu dữ liệu sau: [b]String[/b], [b]Số nguyên Integer[/b], [b]Đúng/Sai Boolean[/b], [b]Mảng Array[/b], [b]Đối tượng - Object[/b], NULL, Resource.\r\n\r\n[h2]String trong PHP[/h2]\r\nMột [b]string[/b] là một đoạn chữ, ví dụ \"Hello world!\"\r\nMột string có thể là bất kỳ văn bản nào trong dấu nháy đơn [b]'[/b] hoặc dấu nháy kép [b]\"[/b]. [code format=\"php\"]<?php\r\n[b]  $string1[/b] = \"Hello world!\"; //dùng dấu nháy kép\r\n[b]  $string2[/b] = 'Hello world!';  //dùng dấu nháy đơn\r\n?>[/code]\r\n[note]Bạn có thể nối 2 string bằng dấu chấm ( .).\r\nVí dụ: [b]echo $s1 . $s2[/b]\r\n[b][/b][/note]\r\n\r\n[h2]Số nguyên (Integer) trong PHP[/h2]\r\nMột [b]integer[/b] là số nguyên (không có phần thập phân) phải theo tiêu chí sau:\r\n- không chứa dấu phẩy (,) hay khoảng trống space\r\n- Không có phần thập phân\r\n- Có thể mang giá trị âm hoặc dương[code format=\"php\"]<?php\r\n[b]  $int1[/b] = 42; // số dương\r\n[b]  $int2[/b] = -42; // số âm\r\n?>[/code]"
+      },
+      {
+        "id": 3455,
+        "number": 2,
+        "videoStart": 161.5,
+        "videoEnd": 260.0,
+        "linkedVideoID": null,
+        "type": 2,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 98415,
+            "text": "1997",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "Kết quả của đoạn code sau?\r\n<?php\r\n $someString = \"15\";\r\n $birthyear = 1982;\r\n echo $someString + $birthyear;\r\n?>",
+        "textContent": "[h1]PHP Float[/h1]\r\n\r\nA [b]float[/b], or floating point number, is a number that includes a decimal point.[code format=\"php\" ]<?php\r\n  $x = 42.168;\r\n?>[/code]\r\n[h2]PHP Boolean[/h2]\r\n\r\n [b]Boolean[/b] thể hiện 2 trạng thái: TRUE hoặc FALSE.[code format=\"php\" ]<?php\r\n  $x = true; $y = false;\r\n?>[/code]\r\n[note]Booleans thường được sử dụng trong kiểm tra có điều kiện, sẽ dược đề cập sau trong khóa học.[/note]\r\nHầu hết các loại dữ liệu có thể sử dụng kết hợp với nhau. Trong ví dụ sau, [b]string[/b] và [b]integer[/b] được kết hợp để xác định tổng.[code format=\"php\" codeId=\"465\"]<?php\r\n  $str = \"10\";\r\n  $int = 20;\r\n  $sum = $str + $int;\r\n  echo ($sum);\r\n\r\n  // Outputs [b]30[/b]\r\n?>[/code]\r\n[note]PHP tự dộng   chuyển đổi từng biến thành kiểu dữ liệu chính xác, theo giá trị của nó.Đây là lý do vì sao biến $str được coi là một số trong phần bổ sung.[/note]"
+      }
+    ]
+  }
+}

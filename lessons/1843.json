@@ -1,0 +1,89 @@
+{
+  "lesson": {
+    "id": 1843,
+    "name": "$_COOKIE",
+    "type": 0,
+    "mode": 1,
+    "videoID": "tOuym4a7XjY",
+    "tags": "cookies",
+    "quizzes": [
+      {
+        "id": 3558,
+        "number": 1,
+        "videoStart": 6.0,
+        "videoEnd": 73.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 96928,
+            "text": "Trên máy tính của người dùng",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 96929,
+            "text": "Trên server",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 96930,
+            "text": "Chúng không được lưu",
+            "isCorrect": false,
+            "properties": {}
+          }
+        ],
+        "question": " cookies được lưu ở đâu?",
+        "textContent": "[h1]Cookies[/h1]\r\n\r\n[b]Cookies[/b] thường được sử dụng để xác định người dùng. cookie là một file nhỏ được server lưu trong trình duyệt. Mỗi lần cùng một máy tính mở một trang web qua trình duyệt, nó sẽ gửi đi cookie nữa. Với PHP, bạn có thể tạo và đọc giá trị của cookies.\r\n\r\nTạo cookies sử dụng hàm [b]setcookie()[/b] :[code format=\"php\"]setcookie(name, value, expire, path, domain);[/code]\r\n[b]name[/b]: Chỉ định tên của cookie\r\n[b]value[/b]: Chỉ định giá trị của cookie\r\n[b]expire[/b]: Chỉ định (tính bằng giây) khi cookie hết hạn. thời gian () + 86400 * 30, sẽ đặt cookie hết hạn trong 30 ngày. Nếu tham số này bị bỏ qua hoặc đặt thành 0, cookie sẽ hết hạn vào cuối phiên (khi trình duyệt đóng lại). Mặc định là 0. Default is 0.\r\n[b]path[/b]: Chỉ định đường dẫn máy chủ của cookie. Nếu đặt là \"/\", cookies sẽ có sẵn cho toàn bộ miền. Nếu để là\"/php/\", cookie sẽ chỉ có sẵn trong thư mục php và tất cả các thư mục con của php. Giá trị mặc định là thư mục hiện tại mà cookie đang được thiết lập.\r\n[b]domain[/b]: Chỉ định tên miền của cookie.Để làm cho cookie có sẵn trên tất cả các tên miền phụ của example.com, đặt tên miền là \"example.com\".\r\n[note]The [b]name[/b] Tham số name là tên duy nhất được yêu cầu. Tất cả các thông số khác là tùy chọn.[/note]"
+      },
+      {
+        "id": 3559,
+        "number": 2,
+        "videoStart": 73.0,
+        "videoEnd": 421.5,
+        "linkedVideoID": null,
+        "type": 3,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 117937,
+            "text": "logged",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "'",
+              "postfix": "'"
+            }
+          },
+          {
+            "id": 117938,
+            "text": "1",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          },
+          {
+            "id": 117939,
+            "text": "3600",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "time()+",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "Điền vào chỗ trống để đặt cookie tên là 'logged' với value là 1 và expiration là 1 giờ.\r\n[!raw!]\r\nsetcookie({0}, {1}, {2});",
+        "textContent": "[h1]Cookies[/h1]\r\n\r\nVí dụ sau, tạo ra cookie tên là\"user\" với value \"John\".Cookie sẽ hết hạn sau 30 ngày, được viết là 86,400 * 30, trong đó 86,400 giây = 1 ngày. '/' có nghĩa là cookie có sẵn trên toàn bộ trang web.\r\n\r\nSau đó chúng ta láy giá trị của cookie \"user\" (sử dụng biến toàn cục [b]$_COOKIE[/b]). Chúng ta cũng sử dụng hàm [b]isset()[/b] để kiểm tra xem cookie có được cài đặt: [code format=\"php\"]<?php\r\n$value = \"John\";\r\n[b]setcookie[/b](\"user\", $value, time() + (86400 * 30), '/'); \r\n\r\nif(isset($_COOKIE['user'])) {\r\n  echo \"Value is: \". $_COOKIE['user'];\r\n}\r\n//Outputs \"Value is: John\"\r\n?>[/code]\r\n[note]Hàm [b]setcookie()[/b] phải xuất hiện trước <html> tag.\r\nGiá trị của cookie được tự động mã hóa khi cookie được gửi, và được giải mã khi nhận được. Tuy nhiên, [b]Không bao giờ[/b] lưu thông tin nhay cảm vào cookie.[/note]"
+      }
+    ]
+  }
+}

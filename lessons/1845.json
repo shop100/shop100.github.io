@@ -1,0 +1,111 @@
+{
+  "lesson": {
+    "id": 1845,
+    "name": "Writing to a File",
+    "type": 0,
+    "mode": 1,
+    "videoID": "gC8sLGB8SSM",
+    "tags": "files",
+    "quizzes": [
+      {
+        "id": 3564,
+        "number": 1,
+        "videoStart": 30.0,
+        "videoEnd": 165.0,
+        "linkedVideoID": null,
+        "type": 6,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 96934,
+            "text": "fopen",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 96935,
+            "text": "'test.txt'",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 96936,
+            "text": "'w'",
+            "isCorrect": true,
+            "properties": {}
+          }
+        ],
+        "question": "Fill in the blanks to open a file called 'test.txt' for writing.\r\n[!raw!]\r\n{0}({1}, {2});",
+        "textContent": "[h1]Manipulating Files[/h1]\r\n\r\nPHP offers a number of functions to use when creating, reading, uploading, and editing files.\r\nThe [b]fopen()[/b] function creates or opens a file. If you use [b]fopen()[/b] with a file that does not exist, the file will be created, given that the file has been opened for writing (w) or appending (a).\r\n\r\nUse one of the following [b]modes[/b] to open the file.\r\n[b]r[/b]: Opens file for read only.\r\n[b]w[/b]: Opens file for write only. Erases the contents of the file or creates a new file if it doesn't exist.\r\n[b]a[/b]: Opens file for write only. \r\n[b]x[/b]: Creates new file for write only. \r\n[b]r+[/b]: Opens file for read/write.  \r\n[b]w+[/b]: Opens file for read/write. Erases the contents of the file or creates a new file if it doesn't exist.\r\n[b]a+[/b]: Opens file for read/write. Creates a new file if the file doesn't exist\r\n[b]x+[/b]: Creates new file for read/write.\r\n\r\nThe example below creates a new file, \"file.txt\", which will be created in the same directory that houses the PHP code.[code format=\"php\"]$myfile = [b]fopen[/b](\"file.txt\", \"w\");[/code]"
+      },
+      {
+        "id": 3566,
+        "number": 2,
+        "videoStart": 165.0,
+        "videoEnd": 322.0,
+        "linkedVideoID": null,
+        "type": 2,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 96937,
+            "text": "\\n",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "What is the symbol for a new line in a text file?",
+        "textContent": "[h1]Write to File[/h1]\r\n\r\nWhen writing to a file, use the [b]fwrite()[/b] function.\r\nThe first parameter of [b]fwrite()[/b] is the file to write to; the second parameter is the string to be written.\r\n\r\nThe example below writes a couple of names into a new file called \"names.txt\".[code format=\"php\"]<?php\r\n$myfile = fopen(\"names.txt\", \"w\");\r\n\r\n$txt = \"John\\n\";\r\n[b]fwrite[/b]($myfile, $txt);\r\n$txt = \"David\\n\";\r\n[b]fwrite[/b]($myfile, $txt);\r\n\r\nfclose($myfile);\r\n\r\n/* File contains:\r\nJohn\r\nDavid\r\n*/\r\n?>[/code]\r\nNotice that we wrote to the file \"names.txt\" twice, and then we used the [b]fclose()[/b] function to close the file.\r\n[note]The [b]\\n[/b] symbol is used when writing [b]new lines[/b].[/note]"
+      },
+      {
+        "id": 3567,
+        "number": 3,
+        "videoStart": 343.0,
+        "videoEnd": 377.0,
+        "linkedVideoID": null,
+        "type": 8,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 71865,
+            "text": "$handle = fopen('num.txt', 'w');",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 71866,
+            "text": "fwrite($handle, '1');",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 71867,
+            "text": "fwrite($handle, '2');",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 71868,
+            "text": "fclose($handle);",
+            "isCorrect": false,
+            "properties": {}
+          }
+        ],
+        "question": "Rearrange the code to write 12 to the file 'num.txt'.",
+        "textContent": "[h1]fclose()[/h1]\r\n\r\nThe [b]fclose()[/b] function closes an open file and returns TRUE on success or FALSE on failure.\r\n[note]It's a good practice to close all files after you have finished working with them.[/note]"
+      }
+    ]
+  }
+}

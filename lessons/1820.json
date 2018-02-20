@@ -1,0 +1,111 @@
+{
+  "lesson": {
+    "id": 1820,
+    "name": "Bài kiểm tra 2",
+    "type": 1,
+    "mode": 0,
+    "videoID": null,
+    "tags": null,
+    "quizzes": [
+      {
+        "id": 3508,
+        "number": 1,
+        "videoStart": 0.0,
+        "videoEnd": 0.0,
+        "linkedVideoID": null,
+        "type": 6,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 19552,
+            "text": "\"Robert\"",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 19553,
+            "text": "echo",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 19554,
+            "text": "$name",
+            "isCorrect": true,
+            "properties": {}
+          }
+        ],
+        "question": "Kéo thả các options để khai báo biến 'name', nhận giá trị, và in nó ra màn hình.\r\n[!raw!]\r\n$name = {0};\r\n{1} {2};",
+        "textContent": null
+      },
+      {
+        "id": 3509,
+        "number": 2,
+        "videoStart": 0.0,
+        "videoEnd": 0.0,
+        "linkedVideoID": null,
+        "type": 2,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 19556,
+            "text": "x",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "Kết quả của đoạn code sau?\r\n$x = 'y';\r\n$y = 'x';\r\necho $$x;",
+        "textContent": null
+      },
+      {
+        "id": 4930,
+        "number": 3,
+        "videoStart": 0.0,
+        "videoEnd": 0.0,
+        "linkedVideoID": null,
+        "type": 8,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 67036,
+            "text": "<?php",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 67037,
+            "text": "  $test = 42;",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 67038,
+            "text": "  echo $test;",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 67039,
+            "text": "?>",
+            "isCorrect": false,
+            "properties": {}
+          }
+        ],
+        "question": "Sắp xếp các dòng code sau để khai báo biến và in ra giá trị của nó.",
+        "textContent": null
+      }
+    ]
+  }
+}

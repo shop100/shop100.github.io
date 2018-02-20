@@ -1,0 +1,52 @@
+{
+  "lesson": {
+    "id": 1836,
+    "name": "câu lệnh return",
+    "type": 0,
+    "mode": 1,
+    "videoID": "yU0Z8sVGBx0",
+    "tags": "functions",
+    "quizzes": [
+      {
+        "id": 3544,
+        "number": 1,
+        "videoStart": 96.0,
+        "videoEnd": 232.5,
+        "linkedVideoID": null,
+        "type": 8,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 98491,
+            "text": "function sum($num1, $num2) {",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 98492,
+            "text": "$sum = $num1 + $num2;",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 98493,
+            "text": "return $sum; }",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 98494,
+            "text": "sum(5, 6);",
+            "isCorrect": false,
+            "properties": {}
+          }
+        ],
+        "question": "Rearrange the code to create a function which returns the sum of its parameters, and call it for 5 and 6 as its parameters.",
+        "textContent": "[h1]Return[/h1]\r\n\r\nMột hàm thì dùng câu lệnh[b]return [/b] để trả về kết quả.\r\nReturn khiến hàm dừng lại, và trả về kết quả.\r\n[b]Ví duh: [/b][code format=\"php\" codeId=\"492\"]function mult($num1, $num2) {\r\n  $res = $num1 * $num2;\r\n  [b]return[/b] $res;\r\n}\r\n\r\necho mult(8, 3);\r\n// Outputs 24[/code]\r\n[note]Mẹo: Bạn có thể trả về nhiều kết quả trong một mảng.[/note]"
+      }
+    ]
+  }
+}

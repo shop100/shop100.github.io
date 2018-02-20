@@ -1,0 +1,37 @@
+{
+  "lesson": {
+    "id": 1838,
+    "name": "Biến $_SERVER: tên file hiện tại",
+    "type": 0,
+    "mode": 1,
+    "videoID": "k-toXiaTV0k",
+    "tags": "predefined-variables",
+    "quizzes": [
+      {
+        "id": 3548,
+        "number": 1,
+        "videoStart": 12.0,
+        "videoEnd": 157.0,
+        "linkedVideoID": null,
+        "type": 3,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 98495,
+            "text": "_",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "$",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "Điền vào chỗ trống để in ra file hiện tại ra màn hình.\r\n[!raw!]\r\n<?php\r\n  $addr = {0}SERVER['SCRIPT_NAME'];\r\n  echo $addr;\r\n?>",
+        "textContent": "[h1]Biến được tạo sẵn[/h1]\r\n\r\nMột biến [b]superglobal[/b]  là biến được tạo sẵn luôn luôn truy cập, bất kể phạm vi. Bạn có thể truy cập vào biến superglobals qua tất cả các hàm, class, hoặc file.\r\n\r\nBiến superglobal của PHP là $_SERVER, $GLOBALS, $_REQUEST, $_POST, $_GET, $_FILES, $_ENV, $_COOKIE, $_SESSION.\r\n\r\n[h2]$_SERVER[/h2]\r\n\r\n[b]$_SERVER[/b] là một mảng mà bao gồm thông tin như là tiêu đề, đường dẫn và vị trí file hiện tại. Toàn bộ mảng này được tạo bởi servercủa trang web.\r\n[b]$_SERVER['SCRIPT_NAME'][/b] trả về đường dẫn của file hiện tại: [code format=\"php\" codeId=\"493\"]<?php\r\necho $_SERVER['SCRIPT_NAME'];\r\n//Outputs \"/somefile.php\"\r\n?>[/code]\r\n[note]Ví dụ của chúng ta được viết ở trong một file có tên là [b]somefile.php[/b], là thư mục gốc của server.[/note]"
+      }
+    ]
+  }
+}

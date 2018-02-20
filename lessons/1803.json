@@ -1,0 +1,105 @@
+{
+  "lesson": {
+    "id": 1803,
+    "name": "Phép tính",
+    "type": 0,
+    "mode": 1,
+    "videoID": "d3BTJ5ByKAo",
+    "tags": "operators",
+    "quizzes": [
+      {
+        "id": 3469,
+        "number": 1,
+        "videoStart": 5.0,
+        "videoEnd": 97.0,
+        "linkedVideoID": null,
+        "type": 3,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 98426,
+            "text": "$",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          },
+          {
+            "id": 98427,
+            "text": "-",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          },
+          {
+            "id": 98428,
+            "text": "num2",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "Điền vào khoảng trống để trừ hai số cho nhau.\r\n[!raw!]\r\n<?php\r\n$num1 = 23;\r\n{0}num2 = 16;\r\necho $num1 {1} ${2};\r\n?>",
+        "textContent": "[h1]Operators [/h1]\r\n\r\n[b]Operators[/b] carry out operations on variables and values. [img id=\"2784\" width=\"100%\"]\r\n[h2]Arithmetic Operators[/h2]\r\n\r\nArithmetic operators work with numeric values to perform common arithmetical operations.[img id=\"2363\" width=\"100%\"]\r\n[b]Example:[/b] [code format=\"php\" codeId=\"469\"]<?php\r\n  $num1 = 8;\r\n  $num2 = 6;\r\n\r\n  //Addition\r\n  echo $num1 + $num2; //[b]14[/b]\r\n\r\n  //Subtraction\r\n  echo $num1 - $num2; //[b]2[/b]\r\n\r\n  //Multiplication\r\n  echo $num1 * $num2; //[b]48[/b]\r\n\r\n  //Division\r\n   echo $num1 / $num2; //[b]1.33333333333[/b]\r\n?>[/code]"
+      },
+      {
+        "id": 3470,
+        "number": 2,
+        "videoStart": 102.0,
+        "videoEnd": 171.5,
+        "linkedVideoID": null,
+        "type": 2,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 98429,
+            "text": "1",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "Sau khi chạy đoạn code sau, giá trị của biến $num là bao nhiêu?\r\n<?php\r\n$num = 9;\r\n$num = $num%2; \r\n?>",
+        "textContent": "[h1]Phép chia dư - Modulus[/h1]\r\n\r\nPhép toán [b]chia dư [/b], trong PHP có thể dùng ký hiệu [b]%[/b], trả về phần dư của phép chia, ví dụ: [code format=\"php\" codeId=\"470\"]<?php\r\n  $x = 14;\r\n  $y = 3;\r\n  echo [b]$x % $y[/b]; // trả về 2. Vì 14%2\r\n?>[/code]\r\n[note]Số thập phân tham gia trong phép toán sẽ tự động bị chuyển về [b]số nguyên[/b] trước khi phép toán được thực hiện.[/note]"
+      },
+      {
+        "id": 3471,
+        "number": 3,
+        "videoStart": 172.0,
+        "videoEnd": 284.0,
+        "linkedVideoID": null,
+        "type": 2,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 96834,
+            "text": "17",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "Code sau đây hiển thị kết quả là bao nhiêu?\r\n<?php  \r\n$num = 18; \r\n$num--;\r\necho $num;\r\n?>",
+        "textContent": "[h1]Phép toán increment và decrement [/h1]\r\n\r\nPhép toán [b]increment [/b] được dùng để tăng giá trị của biến.\r\nPhép toán [b]decrement [/b] dùng để giảm giá trị của 1 biến. [code format=\"php\"]$x++; // có tác dụng tương đương với $x = $x+1;\r\n$x--; // có tác dụng tương đương với $x = $x-1; [/code]\r\nCác phép toán increment và decrement có thể xuất hiện phía trước hoặc phía sau của tên biến.[code format=\"php\"]$x++; // post-increment \r\n$x--; // post-decrement \r\n++$x; // pre-increment \r\n--$x; // pre-decrement[/code]\r\nKhác biệt giữa 2 cách viết là post-increment trả về giá trị gốc [b]trước khi [/b]giá trị biến bị thay đổi, còn pre-increment thay đổi giá trị biến trước rồi mới trả về giá trị.\r\n[b]Ví dụ:[/b] [code format=\"php\"]$a  = 2; $b = $a++; // $a=3,  $b=2\r\n$a  = 2; $b = ++$a; // $a=3,  $b=3[/code]"
+      }
+    ]
+  }
+}

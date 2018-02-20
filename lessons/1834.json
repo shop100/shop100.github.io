@@ -1,0 +1,86 @@
+{
+  "lesson": {
+    "id": 1834,
+    "name": "Tạo function trong PHP",
+    "type": 0,
+    "mode": 1,
+    "videoID": "cARUoiBxHoQ",
+    "tags": "functions",
+    "quizzes": [
+      {
+        "id": 3540,
+        "number": 1,
+        "videoStart": 80.0,
+        "videoEnd": 176.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 96902,
+            "text": "#hello()",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 96903,
+            "text": "_hello()",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 96904,
+            "text": "123()",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 96905,
+            "text": "11_hello()",
+            "isCorrect": false,
+            "properties": {}
+          }
+        ],
+        "question": "Đáp án nào dưới đây là tên chính xác cho một hàm?",
+        "textContent": "[h1]Hàm[/h1]\r\n\r\nMột [b]hàm [/b]là một khối các câu lệnh có thể được sử dụng nhiều lần trong một chương trình.\r\nHàm sẽ được thực hiện ngay khi trang web load. Nó sẽ thực hiện khi được gọi tới.\r\nKhai báo hàm bắt đầu với từ  [b]function[/b]: [code format=\"php\"][b]function [/b]functionName() {\u000b    \r\n   //code to be executed\u000b\r\n}[/code]\r\nTên một hàm được bắt đầu bằng một chữ cái hoặc gạch dưới, nhưng không phải là một số hoặc một ký tự đặc biệt.\r\n[note]Tên hàm không phân biệt chữ hoa, chữ thường.[/note]"
+      },
+      {
+        "id": 3539,
+        "number": 2,
+        "videoStart": 176.0,
+        "videoEnd": 325.0,
+        "linkedVideoID": null,
+        "type": 6,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 98482,
+            "text": "function",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 98483,
+            "text": "myFunc",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 98484,
+            "text": "myFunc();",
+            "isCorrect": true,
+            "properties": {}
+          }
+        ],
+        "question": "Kéo thả các option dưới để tạo hàm myFunc và chạy hàm đó:\r\n[!raw!]\r\n{0} {1}()  {\r\n   echo \"PHP is awesome!\";\r\n}\r\n{2}",
+        "textContent": "[h1]Hàm[/h1]\r\n\r\nTrong ví dụ dưới, chúng ta tạo một hàm [b]sayHello()[/b]. Bắt đầu bằng dấu mở ngoặc nhọn ({) để chỉ ra khối code của hàm, trong khi dấu đóng ngoặc nhọn (}) chỉ ra rằng đây là kết thúc.\r\nĐể chạy hàm, chỉ cần viết tên hàm đó: [code format=\"php\" codeId=\"487\"][b]function [/b]sayHello() {\r\n  echo \"Hello!\";\r\n}\r\n\r\n[b]sayHello()[/b]; //call the function\r\n\r\n//Outputs \"Hello!\"[/code]"
+      }
+    ]
+  }
+}

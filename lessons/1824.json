@@ -1,0 +1,98 @@
+{
+  "lesson": {
+    "id": 1824,
+    "name": "Câu lệnh Elseif ",
+    "type": 0,
+    "mode": 1,
+    "videoID": "YuQZDiawu3A",
+    "tags": "if-statements else-statements",
+    "quizzes": [
+      {
+        "id": 3517,
+        "number": 1,
+        "videoStart": 10.0,
+        "videoEnd": 153.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 96855,
+            "text": "Một",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 96856,
+            "text": "Không lần nào",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 96857,
+            "text": "Bao nhiêu lần cũng được",
+            "isCorrect": true,
+            "properties": {}
+          }
+        ],
+        "question": "Câu lệnh elseif có thể được dùng bao nhiêu lần?",
+        "textContent": "[h1]Câu lệnh elseif[/h1]\r\n\r\nSử dụng câu lệnh[b] if...elseif...else[/b] để chỉ định một điều kiện [b]mới[/b] để kiểm tra, nếu điều kiện đầu tiên là [b]sai[/b].\r\n[b]\r\nCú pháp:[/b] [code format=\"php\"][b]if [/b](condition) {\r\n  code to be executed if condition is [b]true[/b];\r\n} [b]elseif [/b](condition) {\r\n  code to be executed if condition is [b]true[/b];\r\n} [b]else [/b]{\r\n   code to be executed if condition is [b]false[/b];\r\n}[/code]\r\n[note]Bạn có thể có rất nhiều câu lệnh [b]elseif[/b]. Nhưng chú ý, câu lệnh [b]elseif[/b] phải được bắt đầu với một câu lệnh [b]if[/b].[/note]"
+      },
+      {
+        "id": 3518,
+        "number": 2,
+        "videoStart": 153.0,
+        "videoEnd": 208.5,
+        "linkedVideoID": null,
+        "type": 3,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 105245,
+            "text": "0",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          },
+          {
+            "id": 105246,
+            "text": "elseif",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          },
+          {
+            "id": 105247,
+            "text": "==",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          },
+          {
+            "id": 105248,
+            "text": "else",
+            "isCorrect": false,
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ],
+        "question": "Điền vào chỗ trống để xuất ra \"Male\" nếu biến \"gender\" bằng 0, \"Female\" nếu bằng 1, và \"Undefined\" trong các trường hợp khác.\r\n[!raw!]\r\nif($gender == {0})\r\n   echo \"Male\";\r\n{1}($gender {2} 1)\r\n   echo \"Female\";\r\n{3}\r\n   echo \"Undefined\";",
+        "textContent": "[h1]Câu lệnh elseif [/h1]\r\n\r\n[b]Ví dụ:[/b] [code format=\"php\" codeId=\"477\"]<?php\r\n$age = 21;\r\n\r\n[b]if[/b] ($age<=13) {\r\n   echo \"Child.\";\r\n} [b]elseif [/b]($age>13 && $age<19) {\r\n   echo \"Teenager\";\r\n} [b]else [/b]{\r\n   echo \"Adult\";\r\n}\r\n\r\n//Outputs \"Adult\"\r\n?>[/code]\r\n[note]Chúng ta sử dụng [b]toán tử AND[/b] (&&) để kết hợp hai điều và kiểm tra để xác định $age từ 13 đến 19.[/note]"
+      }
+    ]
+  }
+}

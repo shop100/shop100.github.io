@@ -1,0 +1,80 @@
+{
+  "lesson": {
+    "id": 1801,
+    "name": "Giới Thiệu",
+    "type": 0,
+    "mode": 1,
+    "videoID": "iCUV3iv9xOs",
+    "tags": null,
+    "quizzes": [
+      {
+        "id": 3500,
+        "number": 1,
+        "videoStart": 9.0,
+        "videoEnd": 96.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 71540,
+            "text": "Ngôn ngữ lập trình phía máy chủ",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 71541,
+            "text": "Ngôn ngữ đánh dấu",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 71542,
+            "text": "Trang chủ",
+            "isCorrect": false,
+            "properties": {}
+          },
+          {
+            "id": 71543,
+            "text": "Website",
+            "isCorrect": false,
+            "properties": {}
+          }
+        ],
+        "question": "PHP là...",
+        "textContent": "[h1]Chào mừng đến với PHP[/h1]\r\n\r\nPHP: Hypertext Preprocessor ([b]PHP[/b]) miễn phí, rất phổ biến, mã nguồn mở. PHP scripts được thực hiện trên [b]máy chủ[/b].\r\n\r\nDanh sách ngắn những việc mà PHP có thể thực hiện:\r\n- Tạo nội dung trang động\r\n- Tạo, mở, đọc, viết, xóa, và đóng các file trên máy chủ\r\n- Thu thập dữ liệu biểu mẫu\r\n- Thêm, xóa, và sửa thông tin trong cơ sở dữ liệu của bạn\r\n- Kiểm soát người dùng truy cập\r\n- Mã hóa dữ liệu\r\n- và nhiều hơn nữa!\r\n\r\nTrước khi bắt đầu khóa học này, bạn nên hiểu cơ bản về [b]HTML[/b].\r\n[note][b]WordPress[/b] được viết bởi PHP. Nó cũng là ngôn ngữ viết nên [b]Facebook[/b], mạng xã hội lớn nhất![/note]"
+      },
+      {
+        "id": 3464,
+        "number": 2,
+        "videoStart": 96.0,
+        "videoEnd": 192.0,
+        "linkedVideoID": null,
+        "type": 1,
+        "linkedQuizID": null,
+        "tip": null,
+        "hint": null,
+        "time": 0,
+        "answers": [
+          {
+            "id": 71538,
+            "text": "Đúng",
+            "isCorrect": true,
+            "properties": {}
+          },
+          {
+            "id": 71539,
+            "text": "Sai",
+            "isCorrect": false,
+            "properties": {}
+          }
+        ],
+        "question": "Bạn có thể sử dụng PHP trên Linux?",
+        "textContent": "[h1]Tại sao lại là PHP[/h1]\r\n\r\nPHP [b]chạy [/b]trên nhiều nền tảng, bao gồm Windows, Linux, Unix, Mac OS X,....\r\nPHP [b]tương thích [/b]với hầu hết các serverhiện tại, như là Apache, IIS, và nữa.\r\nPHP [b]hỗ trợ [/b]một loạt các cơ sở dữ liệu.\r\nPHP [b]miễn phí[/b]!\r\n[note]PHP dễ học và sử dụng hiệu quả ở phía máy chủ.[/note]"
+      }
+    ]
+  }
+}
