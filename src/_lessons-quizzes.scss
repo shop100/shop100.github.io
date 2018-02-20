@@ -82,6 +82,7 @@
   display: block;
 }
 #textContent{
+  word-break: break-word;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -133,7 +134,7 @@
   color:#1fbba6
 }
 #textView .textContentContainer {
-  width: 700px;
+  max-width: 776px;
   background-color: #fff;
   border-radius: 3px;
   margin: 15px auto 0;
@@ -168,4 +169,10 @@
   border: none;
   background: #0ad;
   cursor: pointer;
+}
+.codeBlock {
+  white-space: pre;
+}
+.ace_editor {
+  height: 200px;
 }

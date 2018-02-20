@@ -30,7 +30,7 @@
           }
         ],
         "question": "Điền vào chỗ trống.\r\n[!raw!]\r\n{0}\r\n  echo 'Hello';\r\n?>",
-        "textContent": "[h1]PHP Cú pháp[/h1]\r\n\r\nPHP script bắt đầu với [b]<?php[/b] và kết thúc với [b]?>[/b]: [code format=\"php\" ][b]<?php[/b]\r\n  // PHP code đến đây \r\n[b]?>[/b][/code]\r\nĐây là ví dụ đơn giản về một file PHP. PHP script sử dụng chức năng gọi là \"[b]echo[/b]\" để xuất ra văn bản \"Hello World!\" cho trang web.[code format=\"raw\" codeId=\"454\"]<html>\r\n  <head>\r\n    <title>My First PHP Page</title>\r\n  </head>\r\n  <body>\r\n[b]  <?php   \r\n    echo \"Hello World!\";\r\n  ?>[/b]\r\n  </body>\r\n</html>[/code]\r\n[note]Câu lệnh php kết thúc với [b]dấu chấm phẩy (;)[/b].[/note]"
+        "textContent": "[h1]PHP Cú pháp[/h1]\r\n\r\nPHP script bắt đầu với [b]<?php[/b] và kết thúc với [b]?>[/b]: [code format=\"php\" ][b]<?php[/b]\r\n  // PHP code đến đây \r\n[b]?>[/b][/code]\r\nĐây là ví dụ đơn giản về một file PHP. PHP script sử dụng chức năng gọi là \"[b]echo[/b]\" để xuất ra văn bản \"Hello World!\" cho trang web.[code format=\"php\" codeId=\"454\"]<html>\r\n  <head>\r\n    <title>My First PHP Page</title>\r\n  </head>\r\n  <body>\r\n[b]  <?php   \r\n    echo \"Hello World!\";\r\n  ?>[/b]\r\n  </body>\r\n</html>[/code]\r\n[note]Câu lệnh php kết thúc với [b]dấu chấm phẩy (;)[/b].[/note]"
       },
       {
         "id": 3448,

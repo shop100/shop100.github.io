@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/shop100/shop100.github.io#readme",
   "devDependencies": {
+    "angular-ui-ace": "git+https://github.com/angular-ui/ui-ace.git",
     "clean-webpack-plugin": "^0.1.17",
     "css-loader": "^0.28.7",
     "html-loader": "^0.5.1",
@@ -34,6 +35,7 @@
   "dependencies": {
     "@uirouter/angularjs": "^1.0.12",
     "angular": "^1.6.8",
+    "ui-ace": "git+https://github.com/angular-ui/ui-ace.git",
     "quiz-fill-in-blank": "git+https://github.com/haonx/quiz-fill-in-blank.git",
     "quiz-single-multiple-choice": "git+https://github.com/haonx/quiz-single-multiple-choice.git",
     "quiz-drag-drop": "git+https://github.com/haonx/quiz-drag-drop.git"

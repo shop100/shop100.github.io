@@ -72,7 +72,7 @@
         "videoStart": 343.0,
         "videoEnd": 377.0,
         "linkedVideoID": null,
-        "type": 8,
+        "type": 6,
         "linkedQuizID": null,
         "tip": null,
         "hint": null,
@@ -103,7 +103,7 @@
             "properties": {}
           }
         ],
-        "question": "Rearrange the code to write 12 to the file 'num.txt'.",
+        "question": "Drag and drop the code to write 12 to the file 'num.txt'.[!raw!]{0}\r\n{1}\r\n{2}\r\n{3}",
         "textContent": "[h1]fclose()[/h1]\r\n\r\nThe [b]fclose()[/b] function closes an open file and returns TRUE on success or FALSE on failure.\r\n[note]It's a good practice to close all files after you have finished working with them.[/note]"
       }
     ]

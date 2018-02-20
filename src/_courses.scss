@@ -1,10 +1,17 @@
+
 #courses {
+  column-count: 3;
+  @media screen and (max-width: 1063px) {
+    column-count: 2;
+  }
+  @media screen and (max-width: 656px) {
+    column-count: 1;
+  }
   .course-item{
-    width:33%;
-    float:left;
     height: 462px;
   }
   .course {
+    margin: 0 auto;
     height: 96%;
     width: 484px;
     max-width: 98%;

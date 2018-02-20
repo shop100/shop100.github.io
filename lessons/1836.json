@@ -13,7 +13,7 @@
         "videoStart": 96.0,
         "videoEnd": 232.5,
         "linkedVideoID": null,
-        "type": 8,
+        "type": 6,
         "linkedQuizID": null,
         "tip": null,
         "hint": null,
@@ -44,7 +44,7 @@
             "properties": {}
           }
         ],
-        "question": "Rearrange the code to create a function which returns the sum of its parameters, and call it for 5 and 6 as its parameters.",
+        "question": "Drag and drop the code to create a function which returns the sum of its parameters, and call it for 5 and 6 as its parameters.[!raw!]{0}\r\n    {1}\r\n    {2}\r\n{3}",
         "textContent": "[h1]Return[/h1]\r\n\r\nMột hàm thì dùng câu lệnh[b]return [/b] để trả về kết quả.\r\nReturn khiến hàm dừng lại, và trả về kết quả.\r\n[b]Ví duh: [/b][code format=\"php\" codeId=\"492\"]function mult($num1, $num2) {\r\n  $res = $num1 * $num2;\r\n  [b]return[/b] $res;\r\n}\r\n\r\necho mult(8, 3);\r\n// Outputs 24[/code]\r\n[note]Mẹo: Bạn có thể trả về nhiều kết quả trong một mảng.[/note]"
       }
     ]

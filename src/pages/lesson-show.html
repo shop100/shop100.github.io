@@ -1,7 +1,7 @@
 <div style="    background: #E9E9E9;">
 <div class="lessonViewInfo">
     <div class="lessonOutline text">
-    <span class="video" ng-class="{active:(quiz.selected && view=='text')}"  ng-repeat-start="quiz in lesson.quizzes" ng-click="selectLessonText(quiz)">
+    <span class="video" ng-show="quiz.textContent" ng-class="{active:(quiz.selected && view=='text')}"  ng-repeat-start="quiz in lesson.quizzes" ng-click="selectLessonText(quiz)">
         <img class="left" alt=" " src="https://www.sololearn.com/Play/arrow.png?r=54&g=171&b=203">
         <i></i>
         <img class="right" alt=" " src="https://www.sololearn.com/Play/arrow.png?r=54&g=171&b=203">
@@ -17,7 +17,12 @@
 <div id="textView" ng-show="view=='text'">
     <div class="textContentContainer">
         <div id="textContent" class="text">
-            <bb-decode content="quizSelected.textContent"></bb-decode>
+            <div ng-repeat="textContentSegment in textContentSegments">
+                <bb-decode ng-if="textContentSegment.type==='text'" content="textContentSegment.content"></bb-decode>
+                <div ng-if="textContentSegment.type==='code'">
+                    <div ui-ace="{onLoad:editorOnLoad,mode:textContentSegment.format,    theme:'chrome',require: ['ace/ext/language_tools'], advanced: { enableSnippets: true, enableBasicAutocompletion: true, enableLiveAutocompletion: true }}" ng-model="textContentSegment.content" style="font-size:18px"></div>
+                </div>
+            </div>
         </div>
     </div>
     <button class="actionButton skipTextButton" style="background-color: rgb(100, 221, 23);" ng-click="skipText()"></button>
@@ -28,14 +33,13 @@
         {{question}}
     </div>
     <div ng-if="quizSelected.type === 1">
-        <single-choice-quiz answers="quizSelected.answers" event-correct="done(quizSelected);view='text'"></single-choice-quiz>
+        <single-choice-quiz answers="quizSelected.answers" event-correct="done(quizSelected)"></single-choice-quiz>
     </div>
     <div ng-if="quizSelected.type === 2">
-        {{quizSelected.type}}
+        <fill-in-blank-quiz answers="quizSelected.answers" event-correct="done(quizSelected)" placeholder="quizSelected.properties.prefix + '{0}' + quizSelected.properties.postfix"></fill-in-blank-quiz>
     </div>
     <div ng-if="quizSelected.type === 3">
-        {{quizSelected.question.split('[!raw!]')[1]}}
-        <fill-in-blank-quiz answers="quizSelected.answers" event-correct="done(quizSelected);view='text'" placeholder="placeholder"></fill-in-blank-quiz>
+        <fill-in-blank-quiz answers="quizSelected.answers" event-correct="done(quizSelected)" placeholder="placeholder"></fill-in-blank-quiz>
     </div>
     <div ng-if="quizSelected.type === 4">
         {{quizSelected.type}}
@@ -44,7 +48,7 @@
         {{quizSelected.type}}
     </div>
     <div ng-if="quizSelected.type === 6">
-        {{quizSelected.type}}
+        <drag-drop-quiz answers="quizSelected.answers" placeholder="quizSelected.question.split('[!raw!]')[1]" event-correct="done(quizSelected)"></drag-drop-quiz>
     </div>
     <div ng-if="quizSelected.type === 7">
         {{quizSelected.type}}

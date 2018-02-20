@@ -72,7 +72,7 @@
         "videoStart": 0.0,
         "videoEnd": 0.0,
         "linkedVideoID": null,
-        "type": 8,
+        "type": 6,
         "linkedQuizID": null,
         "tip": null,
         "hint": null,
@@ -86,13 +86,13 @@
           },
           {
             "id": 67037,
-            "text": "  $test = 42;",
+            "text": "$test = 42;",
             "isCorrect": false,
             "properties": {}
           },
           {
             "id": 67038,
-            "text": "  echo $test;",
+            "text": "echo $test;",
             "isCorrect": false,
             "properties": {}
           },
@@ -103,7 +103,7 @@
             "properties": {}
           }
         ],
-        "question": "Sắp xếp các dòng code sau để khai báo biến và in ra giá trị của nó.",
+        "question": "Kéo và thả các dòng code sau để khai báo biến và in ra giá trị của nó.[!raw!]{0}\r\n    {1}\r\n    {2}\r\n{3}\r\n",
         "textContent": null
       }
     ]
