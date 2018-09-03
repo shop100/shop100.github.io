@@ -5,6 +5,9 @@ module.exports = [
     "CourseService",
     "$state",
     function (rootScope, scope, $stateParams, CourseService, state) {
+        scope.isDoneLesson = function (lesson) {
+            return CourseService.isDoneLesson(lesson)
+        };
         CourseService.get({slug:$stateParams.slug}).then(function (resp) {
             scope.course = resp.data.course;
             scope.module = scope.course.modules.filter(function (module) {

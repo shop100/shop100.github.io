@@ -12,12 +12,20 @@
   font-size: 12px;
   float: right;
 }
-.appLesson .info {
+.appLesson.wasDone .info {
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
   background: #8bc34a;
+  color: #fff;
+}
+.appLesson.readyToLearn .info {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #36ABCB;
   color: #fff;
 }
 .appLesson {
