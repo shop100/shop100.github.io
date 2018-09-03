@@ -4,6 +4,12 @@ const common = require('./webpack.common.js');
 
 module.exports = merge(common, {
     plugins: [
-        new UglifyJSPlugin()
+        new UglifyJSPlugin(),
+        new HtmlWebpackPlugin({
+            title: 'Shop100.vn',
+            hash: true,
+            template: 'src/index.html',
+            filename: '../index.html'
+        })
     ]
 });

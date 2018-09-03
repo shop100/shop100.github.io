@@ -24,13 +24,7 @@ module.exports = {
         app: './src/index.js'
     },
     plugins: [
-        new CleanWebpackPlugin(['dist']),
-        new HtmlWebpackPlugin({
-            title: 'Shop100.vn',
-            hash: true,
-            template: 'src/index.html',
-            filename: '../index.html'
-        })
+        new CleanWebpackPlugin(['dist'])
     ],
     output: {
         filename: '[name].bundle.js',
