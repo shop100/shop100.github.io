@@ -42,6 +42,9 @@
   transition: box-shadow ease-in 100ms;
   cursor: pointer;
 }
+.appLesson.readyToLearn .icon {
+  background-position: -40px 0;
+}
 .appLesson.active .icon {
   background-position: -40px 0;
 }
